@@ -1,0 +1,12 @@
+Note: Google Test filter = VLAH50.timing
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from VLAH50
+[ RUN      ] VLAH50.timing
+VLA_CYCLES 208 4096 2048 1352646 28793
+[       OK ] VLAH50.timing (139598 ms)
+[----------] 1 test from VLAH50 (139598 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (139598 ms total)
+[  PASSED  ] 1 test.

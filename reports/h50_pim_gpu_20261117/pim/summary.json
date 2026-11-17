@@ -1,0 +1,152 @@
+{
+  "cases": [
+    {
+      "vectors": 1,
+      "padded_output_dim": 4096,
+      "padded_input_dim": 256,
+      "compute_cycles": 1138,
+      "readback_cycles": 181,
+      "compute_ms": 0.001138,
+      "readback_ms": 0.000181,
+      "partial_output_bytes": 131072,
+      "padded_input_bytes": 512
+    },
+    {
+      "vectors": 1,
+      "padded_output_dim": 4096,
+      "padded_input_dim": 1536,
+      "compute_cycles": 5147,
+      "readback_cycles": 181,
+      "compute_ms": 0.005147,
+      "readback_ms": 0.000181,
+      "partial_output_bytes": 131072,
+      "padded_input_bytes": 3072
+    },
+    {
+      "vectors": 50,
+      "padded_output_dim": 4096,
+      "padded_input_dim": 256,
+      "compute_cycles": 44671,
+      "readback_cycles": 7206,
+      "compute_ms": 0.044671,
+      "readback_ms": 0.007206,
+      "partial_output_bytes": 6553600,
+      "padded_input_bytes": 25600
+    },
+    {
+      "vectors": 50,
+      "padded_output_dim": 4096,
+      "padded_input_dim": 1536,
+      "compute_cycles": 245713,
+      "readback_cycles": 7197,
+      "compute_ms": 0.245713,
+      "readback_ms": 0.007197,
+      "partial_output_bytes": 6553600,
+      "padded_input_bytes": 153600
+    },
+    {
+      "vectors": 50,
+      "padded_output_dim": 4096,
+      "padded_input_dim": 3072,
+      "compute_cycles": 486851,
+      "readback_cycles": 6925,
+      "compute_ms": 0.486851,
+      "readback_ms": 0.006925,
+      "partial_output_bytes": 6553600,
+      "padded_input_bytes": 307200
+    },
+    {
+      "vectors": 51,
+      "padded_output_dim": 4096,
+      "padded_input_dim": 1024,
+      "compute_cycles": 168571,
+      "readback_cycles": 7064,
+      "compute_ms": 0.168571,
+      "readback_ms": 0.007064,
+      "partial_output_bytes": 6684672,
+      "padded_input_bytes": 104448
+    },
+    {
+      "vectors": 51,
+      "padded_output_dim": 4096,
+      "padded_input_dim": 1536,
+      "compute_cycles": 250503,
+      "readback_cycles": 7096,
+      "compute_ms": 0.250503,
+      "readback_ms": 0.007096,
+      "partial_output_bytes": 6684672,
+      "padded_input_bytes": 156672
+    },
+    {
+      "vectors": 51,
+      "padded_output_dim": 4096,
+      "padded_input_dim": 6144,
+      "compute_cycles": 987939,
+      "readback_cycles": 7328,
+      "compute_ms": 0.987939,
+      "readback_ms": 0.007328,
+      "partial_output_bytes": 6684672,
+      "padded_input_bytes": 626688
+    },
+    {
+      "vectors": 51,
+      "padded_output_dim": 8192,
+      "padded_input_dim": 1536,
+      "compute_cycles": 500632,
+      "readback_cycles": 14345,
+      "compute_ms": 0.500632,
+      "readback_ms": 0.014345,
+      "partial_output_bytes": 13369344,
+      "padded_input_bytes": 156672
+    },
+    {
+      "vectors": 206,
+      "padded_output_dim": 4096,
+      "padded_input_dim": 2048,
+      "compute_cycles": 1339393,
+      "readback_cycles": 29153,
+      "compute_ms": 1.339393,
+      "readback_ms": 0.029153,
+      "partial_output_bytes": 27000832,
+      "padded_input_bytes": 843776
+    },
+    {
+      "vectors": 207,
+      "padded_output_dim": 4096,
+      "padded_input_dim": 2048,
+      "compute_cycles": 1346008,
+      "readback_cycles": 29312,
+      "compute_ms": 1.346008,
+      "readback_ms": 0.029312,
+      "partial_output_bytes": 27131904,
+      "padded_input_bytes": 847872
+    },
+    {
+      "vectors": 208,
+      "padded_output_dim": 4096,
+      "padded_input_dim": 2048,
+      "compute_cycles": 1352646,
+      "readback_cycles": 28793,
+      "compute_ms": 1.352646,
+      "readback_ms": 0.028793,
+      "partial_output_bytes": 27262976,
+      "padded_input_bytes": 851968
+    }
+  ],
+  "tck_ns": 1,
+  "channels": 64,
+  "blocks_per_channel": 8,
+  "upstream_revision": "3703d1f19c8f027360cc33a3243eb271e3bb6898",
+  "local_kernel_edit": {
+    "file": "src/tests/PIMKernel.cpp",
+    "old": "(j + b) * num_grfB_",
+    "new": "(b * num_output_tiles + j) * num_grfB_",
+    "sha256": "8ccd1313af73ef42875f875b7092636ff0be0af0f54514896a7e3ce985ee2372"
+  },
+  "dummy_batch_allocation": "Driver resizes input burst array to vectors * padded_input_dim / 16",
+  "functional_outputs": 24576,
+  "reference_single_vector_test_passed": true,
+  "trace_sha256": "f2900f8fb17b5d0950002ea83385f668bee36c228a802d7b93c3d0ba06800c73",
+  "scope": "Simulate the full token batches of dense projections from a native H50 trace.\n\nThis is a serialized GEMV mapping, NOT an optimized token-parallel PIM GEMM.\nNo attention/activation is executed on PIM. Readback contains 16 FP16 partial\nsums per padded output, which must be reduced externally. Model weights are\nresident and excluded from timing. A synthetic multi-tile functional test\nchecks batching/addressing before dummy-data timing probes are accepted.\n",
+  "source_sha256": "3ee2d5a289cf8587e72dda1b3e9a23ad1852a28b5c833478bd08456969f6500c"
+}

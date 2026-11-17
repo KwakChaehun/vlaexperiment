@@ -1,0 +1,12 @@
+{
+  "gpu_samples": 144,
+  "gpu_samples_per_N": 48,
+  "pim_batch_shapes": 12,
+  "synthetic_outputs_passed": 24576,
+  "official_gemv_outputs_passed": 4096,
+  "replay_parity_cases": 9,
+  "N_scaling_accounting_passed": true,
+  "python_tests": 45,
+  "python_subtests": 14,
+  "all_workers_finished": true
+}

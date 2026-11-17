@@ -1,5 +1,7 @@
 # 로컬 실제 모델 평가 결과
 
+**2026-11-17 H=50 / N=1·4·10 시간 비교:** [전체 보고서·원자료](../reports/h50_pim_gpu_20261117/RESULTS.md). RTX3090 expert p50은 **8.06/31.16/76.99ms**입니다. 현재 순차 GEMV PIM 매핑의 행렬 연산 합계만 **116.30/465.18/1162.96ms**이며, GPU 잔여 연산·부분합 처리·32GB/s 링크 가정을 더한 expert 추정은 **202.41/809.16/2023.05ms**입니다. 전체 PIM 모델 실행이나 하드웨어 실측이 아니며, 토큰 병렬 PIM의 성능을 판정한 결과도 아닙니다. GPU 144회, PIM full-batch shape12종, 기능 검사 및 replay parity를 검증했습니다.
+
 **2026-11-17 미래 VLM feature 직접 예측 완료:** [접근 구간 포함 재검증](../reports/direct_arrival_features_20261117/RESULTS.md), [첫 파일럿·실패 결과](../reports/direct_features_20261117/RESULTS.md), [설계](direct_feature_experiment.md). 같은 GR00T+future simulator를 실행 중 반복하지 않는49k predictor를 학습했습니다. 학습/검증/평가 초기 상태를 분리하고, 첫 결과를 본 뒤에는 접근→도착 pair를 추가한 동일 구조를 새 평가 상태12–15에서 확인했습니다. H50/K16 고정이며 Fresh1/2/4의 숫자는 flow 횟수입니다.
 
 최종12조건에서는 Fresh4 9/12(유지8), Fresh2 11/12(유지11), Fresh1 9/12(유지8), stale4/12(유지4), direct8/12(유지6), corrected7/12(유지6)였습니다. 0.8초 feature 예측 준비는 약0.326ms이고 stale 대비 feature 오차18.6%/action RMSE28.5% 감소였지만, 전체 full-VLM 갱신·준비 포함 계산은 direct3.377ms/action vs Fresh2 3.366ms/action으로 강한 기준선을 넘지 못했습니다. Corrector는 feature 오차를 조금 줄여도 action 오차와 성공률을 개선하지 못했습니다. 동기식 물리 평가로 실제 비동기 deadline 이득은 주장하지 않습니다.

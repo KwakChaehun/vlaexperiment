@@ -1,0 +1,26 @@
+Note: Google Test filter = VLAH50.functional_batch_tiles:PIMKernelFixture.gemv
+[==========] Running 2 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from PIMKernelFixture
+[ RUN      ] PIMKernelFixture.gemv
+>>PIM Kernel Accuraccy Test
+  Weight data dimension : 4096x1024
+  Input data dimension : 1024
+  Output data dimension : 4096
+
+> Test Result
+  simulated output comparison via pre-calculated values
+> passed : 4096
+> failed : 0
+[       OK ] PIMKernelFixture.gemv (1465 ms)
+[----------] 1 test from PIMKernelFixture (1465 ms total)
+
+[----------] 1 test from VLAH50
+[ RUN      ] VLAH50.functional_batch_tiles
+VLA_FUNCTIONAL 24576
+[       OK ] VLAH50.functional_batch_tiles (1119 ms)
+[----------] 1 test from VLAH50 (1119 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 2 test suites ran. (2584 ms total)
+[  PASSED  ] 2 tests.

@@ -1,0 +1,17 @@
+{
+  "H": 50,
+  "N": [
+    1,
+    4,
+    10
+  ],
+  "native_decoded_actions": 16,
+  "torch": "2.9.0+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "before": "name, driver_version, pstate, temperature.gpu, clocks.current.sm [MHz], clocks.current.memory [MHz], power.draw [W], memory.used [MiB], utilization.gpu [%]\nNVIDIA GeForce RTX 3090, 620.70.06, P2, 44.34, 1905 MHz, 9501 MHz, 132.33 W, 6650 MiB, 0 %\n",
+  "dtype": "bfloat16",
+  "batch": 1,
+  "source_sha256": "2501b565d8d6f45edcc6045bd82d7142563a7fc41c88052506813431bc0d2b56",
+  "after": "name, driver_version, pstate, temperature.gpu, clocks.current.sm [MHz], clocks.current.memory [MHz], power.draw [W], memory.used [MiB], utilization.gpu [%]\nNVIDIA GeForce RTX 3090, 620.70.06, P2, 56.97, 1950 MHz, 9501 MHz, 302.95 W, 7004 MiB, 67 %\n"
+}
