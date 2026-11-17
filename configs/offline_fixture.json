@@ -1,0 +1,16 @@
+{
+  "suite": "fixture_comparison",
+  "backend": "vla_eval.toy:make_bundle",
+  "dataset": "data/fixture.npz",
+  "small_checkpoint": "checkpoints/fixture_small.npz",
+  "split": "test",
+  "seeds": [0, 1],
+  "methods": ["A", "B", "C", "D", "prior_only", "shuffled_prior"],
+  "horizons": [16],
+  "execute": [1, 4, 16],
+  "flow_steps": [8],
+  "partial_fraction": 0.5,
+  "latency_mode": "wall",
+  "environment": {"reach_duration_s": 0.5},
+  "scenarios": [{"name": "paired_fixture_arrival"}]
+}

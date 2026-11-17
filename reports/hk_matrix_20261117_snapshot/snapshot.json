@@ -1,0 +1,24 @@
+{
+  "exported_utc": "2026-11-17T02:54:37.696861+00:00",
+  "source": "hk_matrix_20261117",
+  "frozen_snapshot": true,
+  "omitted": "model/input dataset/venv/runtime/GIFs/logs",
+  "files_sha256": {
+    "config.json": "0ca078ed19167fd0cbfa2d1e3419c75db49cf6c79e1617a0c1c3a34194e24581",
+    "manifest.first_start.json": "88d8a012192870789e35ffa9901ef48f7a681a293d681b4d8a918908c96fdfc7",
+    "manifest.json": "eeafd91b8e052d4ea2ffaa805eb789b9fb48b1a11f026ef52ccd90bb7d5a7914",
+    "matrix.png": "0216544bae14bc163d321b52b278971019ddb2d0dd707d264b512b6018ad04cd",
+    "matrix_plan.json": "80c4b80697422736424b1db3ca33731b2544ed335cb273788afcb2d619872369",
+    "matrix_summary.json": "da7822005fcaf4993d463976f052cc6c0d886ac2df62b3c746657bc95c694550",
+    "prior_diagnostics_by_phase.json": "33c4fceb89ef7fa0cbd065f96277a34368c2c1c6fedd5fda253328a9dcc158a9",
+    "prior_diagnostics_summary.json": "f42d05e385f23fd276bd0f35d5e6b1ca8413423486849048b5d8bdd1e6abae8c",
+    "prior_diagnostic_comparisons.json": "370ce5a6cd7a7260b6491391dc55e554bce63e22bbbf2c6e293fbe37bb239801",
+    "RESULTS.html": "0969a3a3d658a0e9e8b7ad395c18cb6632910e878d9b05a7604ca6417498c632",
+    "RESULTS.md": "dc731873b7fc5bc96927cf426ce841e43ceb44cf26da39ca67cfe07e54a8e134",
+    "status.json": "92e6c96259bdaac2529111bd24193191a6c65be1a01e5de66216848a51ef6c86",
+    "prior_diagnostics\\completed_cases.jsonl": "d6b7666fa069a2a3e03033f6710aa15b8320b22138f3089afe9dd43028c50ef7",
+    "prior_diagnostics\\plan.json": "e5dc851093921b5c688240cabb9092b934289b87cf6b3174b47bd7f5164132b2",
+    "prior_diagnostics\\trials.jsonl": "1a8b37cc00cb8c3a16ab2992c7e97e824f482e337c37f5adb0ca067730a18226"
+  },
+  "export_note": "HTML refresh disabled; exported report trailing whitespace normalized; source measurements unchanged."
+}

@@ -1,0 +1,73 @@
+{
+  "model": "HuggingFaceVLA/smolvla_libero",
+  "revision": "6721902bc4d61e50a3bfdb11dfb4cb626f05d102",
+  "lerobot": "0.4.4",
+  "native_horizon": 50,
+  "device": "cpu",
+  "threads": 4,
+  "short_horizon_status": "inference-only OOD; not retrained",
+  "native_sampler_max_abs_difference": 0.0,
+  "preparation_ms": 5.425699986517429,
+  "backbone_ms": 4858.797200024128,
+  "config": {
+    "experiment": "smolvla_hk_matrix_20261117",
+    "model": "HuggingFaceVLA/smolvla_libero",
+    "checkpoint": "checkpoints/smolvla_libero",
+    "vlm_config": "checkpoints/smolvlm_config",
+    "horizons": [
+      32,
+      16,
+      8,
+      4
+    ],
+    "execute": [
+      16,
+      8,
+      4,
+      2
+    ],
+    "invalid_pair_policy": "mark_not_applicable",
+    "flow_steps": 10,
+    "task_ids": [
+      0,
+      1,
+      2
+    ],
+    "initial_states": [
+      0,
+      1
+    ],
+    "flow_seed_offset": 0,
+    "max_actions": 220,
+    "threads": 4,
+    "latency_mode": "zero_inference_delay",
+    "prior_diagnostics": {
+      "enabled": true,
+      "split": "test",
+      "horizon": 50,
+      "total_steps": 10,
+      "refine_steps": [
+        2,
+        4,
+        8
+      ],
+      "max_cases": 12,
+      "old_noise_seed": 0,
+      "independent_renoise_seed": 12345
+    }
+  },
+  "created_utc": "2026-11-17T02:18:34.597852+00:00",
+  "source_archives": {
+    "lerobot.zip": "8fff0fde7c79f23a93d845d1a50e985de01f8b8a",
+    "LIBERO.zip": "8f1084e3132a39270c3a13ebe37270a43ece2a01"
+  },
+  "data_revision": "a4336d589d589045d1c56423ffdf3b88a0e19b1f",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "code_sha256": {
+    "scripts\\run_hk_matrix.py": "3f74da1d0423746309db37170225829faeb91462f3b4114575f03664f882884e",
+    "scripts\\research_pilot.py": "c635e7391b4355f10988797391d0049d25d69c54e461e8b06878f45960139627",
+    "vla_eval\\smolvla.py": "4767bdced25c94b7675d3d14606a5a8d85d33c8fd1a8f9f40e61804a2f5829c2",
+    "vla_eval\\prior_diagnostics.py": "306f0e664498a72c1ff3708b628938b9ff2bb620771a10d958dfbc3a2eb706d8",
+    "vla_eval\\hk_matrix.py": "addeddae12b633a75747a3deed829bbf2103c3e0d1e7dd2eaf573a65f53e79cf"
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "candidate": "C_ridge",
+    "reference": "B_ridge",
+    "matched_states": 3,
+    "success_rate_delta": 0.0
+  },
+  {
+    "candidate": "C_flow_refine",
+    "reference": "B_few_steps",
+    "matched_states": 3,
+    "success_rate_delta": 0.0
+  },
+  {
+    "candidate": "D_partial",
+    "reference": "A_fresh",
+    "matched_states": 3,
+    "success_rate_delta": 0.0
+  }
+]

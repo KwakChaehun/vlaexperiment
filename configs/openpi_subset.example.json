@@ -1,0 +1,24 @@
+{
+  "suite": "libero_native_horizon_subset_diagnostic",
+  "heavy_factory": "vla_eval.openpi:make_policy",
+  "heavy": {
+    "checkpoint": "checkpoints/pi05_libero",
+    "config_name": "pi05_libero",
+    "flow_steps": 10,
+    "device": "cuda:0"
+  },
+  "dataset": "data/libero_subset.npz",
+  "split": "train",
+  "allow_train_diagnostics": true,
+  "selection": {"max_episodes": 1, "max_samples_per_episode": 8},
+  "horizon_analysis": true,
+  "seeds": [0],
+  "methods": ["A"],
+  "horizons": [10],
+  "execute": [1, 2, 4, 8, 10],
+  "flow_steps": [10],
+  "partial_fraction": 0.5,
+  "latency_mode": "wall",
+  "environment": {"reach_duration_s": 0.0},
+  "scenarios": [{"name": "libero_recorded_observations"}]
+}

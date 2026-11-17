@@ -1,0 +1,74 @@
+[
+  {
+    "H": 50,
+    "K": 10,
+    "completed": 6,
+    "successes": 3,
+    "success_rate": 0.5,
+    "wilson_ci95": [
+      0.1876163064826506,
+      0.8123836935173494
+    ],
+    "censored_or_errors": 0
+  },
+  {
+    "H": 4,
+    "K": 4,
+    "completed": 6,
+    "successes": 4,
+    "success_rate": 0.6666666666666666,
+    "wilson_ci95": [
+      0.299993315138392,
+      0.9032285888942195
+    ],
+    "censored_or_errors": 0
+  },
+  {
+    "H": 50,
+    "K": 1,
+    "completed": 6,
+    "successes": 1,
+    "success_rate": 0.16666666666666666,
+    "wilson_ci95": [
+      0.030053369748306635,
+      0.5635028221864702
+    ],
+    "censored_or_errors": 0
+  },
+  {
+    "H": 4,
+    "K": 1,
+    "completed": 6,
+    "successes": 1,
+    "success_rate": 0.16666666666666666,
+    "wilson_ci95": [
+      0.030053369748306635,
+      0.5635028221864702
+    ],
+    "censored_or_errors": 0
+  },
+  {
+    "H": 16,
+    "K": 4,
+    "completed": 6,
+    "successes": 6,
+    "success_rate": 1.0,
+    "wilson_ci95": [
+      0.6096657120978346,
+      1.0
+    ],
+    "censored_or_errors": 0
+  },
+  {
+    "H": 50,
+    "K": 4,
+    "completed": 6,
+    "successes": 5,
+    "success_rate": 0.8333333333333334,
+    "wilson_ci95": [
+      0.43649717781352987,
+      0.9699466302516935
+    ],
+    "censored_or_errors": 0
+  }
+]

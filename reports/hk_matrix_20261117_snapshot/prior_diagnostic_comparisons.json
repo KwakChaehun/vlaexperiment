@@ -1,0 +1,156 @@
+[
+  {
+    "contrast": "replace_RGB_at_actual_state",
+    "metric": "expert_nmse",
+    "cases": 10,
+    "episodes": 3,
+    "mean_delta": -0.0005280193355348377,
+    "ci95": [
+      -0.0188530832529068,
+      0.009211848179499308
+    ]
+  },
+  {
+    "contrast": "replace_RGB_at_actual_state",
+    "metric": "teacher_nmse",
+    "cases": 10,
+    "episodes": 3,
+    "mean_delta": -0.1096177100100451,
+    "ci95": [
+      -0.17349276365712285,
+      -0.005434525354454915
+    ]
+  },
+  {
+    "contrast": "replace_RGB_at_predicted_state",
+    "metric": "expert_nmse",
+    "cases": 10,
+    "episodes": 3,
+    "mean_delta": 0.01717506887184249,
+    "ci95": [
+      0.013319611549377441,
+      0.020654987543821335
+    ]
+  },
+  {
+    "contrast": "replace_RGB_at_predicted_state",
+    "metric": "teacher_nmse",
+    "cases": 10,
+    "episodes": 3,
+    "mean_delta": -0.09579630644940255,
+    "ci95": [
+      -0.17806902093191943,
+      -0.0007979441434144974
+    ]
+  },
+  {
+    "contrast": "replace_state_at_stale_RGB",
+    "metric": "expert_nmse",
+    "cases": 10,
+    "episodes": 3,
+    "mean_delta": -0.02352592514620887,
+    "ci95": [
+      -0.0864240328470866,
+      0.048721954226493835
+    ]
+  },
+  {
+    "contrast": "replace_state_at_stale_RGB",
+    "metric": "teacher_nmse",
+    "cases": 10,
+    "episodes": 3,
+    "mean_delta": -0.002499149853570593,
+    "ci95": [
+      -0.04452419622490803,
+      0.03985512116923928
+    ]
+  },
+  {
+    "contrast": "independent_noise_same_observation",
+    "metric": "expert_nmse",
+    "cases": 10,
+    "episodes": 3,
+    "mean_delta": -0.024223616139756307,
+    "ci95": [
+      -0.05755409598350525,
+      0.002688039094209671
+    ]
+  },
+  {
+    "contrast": "independent_noise_same_observation",
+    "metric": "teacher_nmse",
+    "cases": 10,
+    "episodes": 3,
+    "mean_delta": 0.02697458123374316,
+    "ci95": [
+      0.025652822572737932,
+      0.027663896636416514
+    ]
+  },
+  {
+    "contrast": "self_renoise_vs_original_fresh",
+    "metric": "expert_nmse",
+    "cases": 10,
+    "episodes": 3,
+    "mean_delta": 0.07326708609859149,
+    "ci95": [
+      0.05227414891123772,
+      0.09509328007698059
+    ]
+  },
+  {
+    "contrast": "self_renoise_vs_original_fresh",
+    "metric": "teacher_nmse",
+    "cases": 10,
+    "episodes": 3,
+    "mean_delta": 0.010359261754072376,
+    "ci95": [
+      0.00785070052370429,
+      0.013127267205466827
+    ]
+  },
+  {
+    "contrast": "forecast_renoise_vs_fresh_2step",
+    "metric": "expert_nmse",
+    "cases": 10,
+    "episodes": 3,
+    "mean_delta": 0.23669159991873634,
+    "ci95": [
+      0.11276070028543472,
+      0.3247581322987874
+    ]
+  },
+  {
+    "contrast": "forecast_renoise_vs_fresh_2step",
+    "metric": "teacher_nmse",
+    "cases": 10,
+    "episodes": 3,
+    "mean_delta": 0.08198986233522494,
+    "ci95": [
+      -0.0282689252247413,
+      0.1902162985255321
+    ]
+  },
+  {
+    "contrast": "forecast_continue_vs_renoise",
+    "metric": "expert_nmse",
+    "cases": 10,
+    "episodes": 3,
+    "mean_delta": -0.07625093186895053,
+    "ci95": [
+      -0.10854463775952657,
+      -0.048078831285238266
+    ]
+  },
+  {
+    "contrast": "forecast_continue_vs_renoise",
+    "metric": "teacher_nmse",
+    "cases": 10,
+    "episodes": 3,
+    "mean_delta": -0.01574599786868526,
+    "ci95": [
+      -0.024289102603991825,
+      -0.009681789437308908
+    ]
+  }
+]

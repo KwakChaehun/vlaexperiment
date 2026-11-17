@@ -1,0 +1,152 @@
+[
+  {
+    "comparison": "C_ridge - B_ridge",
+    "metric": "normalized_action_mse",
+    "episodes": 3,
+    "mean_delta": -0.0016369434694449108,
+    "ci95": [
+      -0.07277742028236389,
+      0.05105418711900711
+    ]
+  },
+  {
+    "comparison": "C_ridge - B_ridge",
+    "metric": "teacher_nmse",
+    "episodes": 3,
+    "mean_delta": 0.010103262029588223,
+    "ci95": [
+      -0.07973518967628479,
+      0.1444637756794691
+    ]
+  },
+  {
+    "comparison": "C_ridge - B_ridge",
+    "metric": "gripper_accuracy",
+    "episodes": 3,
+    "mean_delta": -0.020833333333333332,
+    "ci95": [
+      -0.0625,
+      0.0625
+    ]
+  },
+  {
+    "comparison": "C_flow_refine - B_few_steps",
+    "metric": "normalized_action_mse",
+    "episodes": 3,
+    "mean_delta": 0.20003822011252245,
+    "ci95": [
+      0.11276070028543472,
+      0.2621923200786114
+    ]
+  },
+  {
+    "comparison": "C_flow_refine - B_few_steps",
+    "metric": "teacher_nmse",
+    "episodes": 3,
+    "mean_delta": 0.0660080670689543,
+    "ci95": [
+      -0.025828096317127347,
+      0.13983008381910622
+    ]
+  },
+  {
+    "comparison": "C_flow_refine - B_few_steps",
+    "metric": "gripper_accuracy",
+    "episodes": 3,
+    "mean_delta": -0.020833333333333332,
+    "ci95": [
+      -0.0625,
+      0.0
+    ]
+  },
+  {
+    "comparison": "D_partial - A_fresh",
+    "metric": "normalized_action_mse",
+    "episodes": 3,
+    "mean_delta": 0.00877792201936245,
+    "ci95": [
+      -0.025673553347587585,
+      0.04417455196380615
+    ]
+  },
+  {
+    "comparison": "D_partial - A_fresh",
+    "metric": "teacher_nmse",
+    "episodes": 3,
+    "mean_delta": 0.08968300911753128,
+    "ci95": [
+      0.0050091848243027925,
+      0.1558002115925774
+    ]
+  },
+  {
+    "comparison": "D_partial - A_fresh",
+    "metric": "gripper_accuracy",
+    "episodes": 3,
+    "mean_delta": -0.020833333333333332,
+    "ci95": [
+      -0.0625,
+      0.0
+    ]
+  },
+  {
+    "comparison": "forecast_prior - A_fresh",
+    "metric": "normalized_action_mse",
+    "episodes": 3,
+    "mean_delta": 0.011194424703717232,
+    "ci95": [
+      -0.02373071387410164,
+      0.05109039321541786
+    ]
+  },
+  {
+    "comparison": "forecast_prior - A_fresh",
+    "metric": "teacher_nmse",
+    "episodes": 3,
+    "mean_delta": 0.09601990488590673,
+    "ci95": [
+      0.005945899814832956,
+      0.1642896457342431
+    ]
+  },
+  {
+    "comparison": "forecast_prior - A_fresh",
+    "metric": "gripper_accuracy",
+    "episodes": 3,
+    "mean_delta": -0.020833333333333332,
+    "ci95": [
+      -0.0625,
+      0.0
+    ]
+  },
+  {
+    "comparison": "C_ridge - C_shuffled_ridge",
+    "metric": "normalized_action_mse",
+    "episodes": 3,
+    "mean_delta": -0.007676271100838979,
+    "ci95": [
+      -0.09749247506260872,
+      0.07307853549718857
+    ]
+  },
+  {
+    "comparison": "C_ridge - C_shuffled_ridge",
+    "metric": "teacher_nmse",
+    "episodes": 3,
+    "mean_delta": -0.028225341501335304,
+    "ci95": [
+      -0.15574456565082073,
+      0.11904038209468126
+    ]
+  },
+  {
+    "comparison": "C_ridge - C_shuffled_ridge",
+    "metric": "gripper_accuracy",
+    "episodes": 3,
+    "mean_delta": -0.020833333333333332,
+    "ci95": [
+      -0.125,
+      0.0625
+    ]
+  }
+]

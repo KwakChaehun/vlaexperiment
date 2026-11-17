@@ -1,0 +1,98 @@
+[
+  {
+    "H": 32,
+    "K": 16,
+    "applicable": true,
+    "reason": null
+  },
+  {
+    "H": 32,
+    "K": 8,
+    "applicable": true,
+    "reason": null
+  },
+  {
+    "H": 32,
+    "K": 4,
+    "applicable": true,
+    "reason": null
+  },
+  {
+    "H": 32,
+    "K": 2,
+    "applicable": true,
+    "reason": null
+  },
+  {
+    "H": 16,
+    "K": 16,
+    "applicable": true,
+    "reason": null
+  },
+  {
+    "H": 16,
+    "K": 8,
+    "applicable": true,
+    "reason": null
+  },
+  {
+    "H": 16,
+    "K": 4,
+    "applicable": true,
+    "reason": null
+  },
+  {
+    "H": 16,
+    "K": 2,
+    "applicable": true,
+    "reason": null
+  },
+  {
+    "H": 8,
+    "K": 16,
+    "applicable": false,
+    "reason": "K > H: insufficient actions in one generated chunk"
+  },
+  {
+    "H": 8,
+    "K": 8,
+    "applicable": true,
+    "reason": null
+  },
+  {
+    "H": 8,
+    "K": 4,
+    "applicable": true,
+    "reason": null
+  },
+  {
+    "H": 8,
+    "K": 2,
+    "applicable": true,
+    "reason": null
+  },
+  {
+    "H": 4,
+    "K": 16,
+    "applicable": false,
+    "reason": "K > H: insufficient actions in one generated chunk"
+  },
+  {
+    "H": 4,
+    "K": 8,
+    "applicable": false,
+    "reason": "K > H: insufficient actions in one generated chunk"
+  },
+  {
+    "H": 4,
+    "K": 4,
+    "applicable": true,
+    "reason": null
+  },
+  {
+    "H": 4,
+    "K": 2,
+    "applicable": true,
+    "reason": null
+  }
+]

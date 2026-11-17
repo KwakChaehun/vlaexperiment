@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vla-precision-eval"
+version = "0.1.0"
+description = "Paired precomputation and action-horizon experiments for VLA policies"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24"]
+
+[project.optional-dependencies]
+gpu = ["torch>=2.4"]
+plots = ["matplotlib>=3.8"]
+dev = ["pytest>=8"]
+data = ["huggingface-hub>=0.34", "pyarrow>=15", "pillow>=10"]
+
+[project.scripts]
+vla-eval = "vla_eval.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["vla_eval*"]

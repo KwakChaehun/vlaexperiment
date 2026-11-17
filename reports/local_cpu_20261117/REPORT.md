@@ -1,0 +1,86 @@
+# 로컬 실제 모델 평가 결과
+
+마지막 갱신(UTC): 2026-11-16T21:49:37.460976+00:00
+상태: **finished / done**
+모델: **HuggingFaceVLA/smolvla_libero**, 고정 revision `6721902bc4d61e50a3bfdb11dfb4cb626f05d102`. CPU float32, native H=50/N=10. RTX 3090 결과가 아닙니다.
+
+## 지금 판단할 수 있는 범위
+
+- 실제 flow 모델의 생성 길이별 action 오차와 CPU action-expert 비용을 측정합니다. 짧은 H는 재학습하지 않은 분포 밖 조건입니다.
+- 선행 계산은 4개 frame 전의 이미지와 past-only 등속 외삽 state를 사용합니다. 예상 좌표만으로 미래 카메라 feature를 정확히 만들 수 있다는 전제는 두지 않습니다.
+- `oracle_proprio`는 실제 미래 state를 사용한 진단 조건이며 배포 가능한 예측기가 아닙니다.
+- Offline expert action MSE와 teacher 일치는 실제 정밀 조작 성공률이 아닙니다. 데이터는 공개 train demonstration이고 pretrained 모델의 training overlap이 가능합니다.
+- `C_ridge`/`B_ridge`는 같은 소형 Ridge 가중치를 사용하는 제한적인 baseline입니다. 학습 target은 fresh SmolVLA teacher이며, 강한 small VLA를 대체하지 않습니다.
+- `C_flow_refine`/`D_partial`은 최신 관측 VLM 비용을 모두 포함합니다. Few-step refinement가 VLM까지 저렴하게 만드는 것은 아닙니다.
+- Closed-loop 표는 추론 중 simulator가 멈추는 **zero-inference-delay 품질 평가**입니다. CPU 실시간 성능이나 PIM speedup을 뜻하지 않습니다. Timeout/censored는 task 실패율에 섞지 않습니다.
+
+## 1. 선행 계산과 보정: test episode
+
+| method | samples | episodes | normalized_action_mse | teacher_nmse | gripper_accuracy | post_cpu_ms |
+|---|---|---|---|---|---|---|
+| A_fresh | 12 | 3 | 0.52729 | 0 | 0.79167 | 8323.6 |
+| B_few_steps | 12 | 3 | 0.40631 | 0.037038 | 0.79167 | 4918.8 |
+| D_partial | 12 | 3 | 0.53607 | 0.089683 | 0.77083 | 4881.3 |
+| C_flow_refine | 12 | 3 | 0.60635 | 0.10305 | 0.77083 | 4889.2 |
+| forecast_prior | 12 | 3 | 0.53849 | 0.09602 | 0.77083 | 0 |
+| stale_prior | 12 | 3 | 0.58722 | 0.13825 | 0.75 | 0 |
+| oracle_proprio_prior | 12 | 3 | 0.52873 | 0.10151 | 0.75 | 0 |
+| B_ridge | 12 | 3 | 0.67973 | 0.25414 | 0.77083 | 2.053 |
+| C_ridge | 12 | 3 | 0.67809 | 0.26424 | 0.75 | 2.0944 |
+| C_shuffled_ridge | 12 | 3 | 0.68577 | 0.29247 | 0.77083 |  |
+
+| comparison | metric | episodes | mean_delta | ci95 |
+|---|---|---|---|---|
+| C_ridge - B_ridge | normalized_action_mse | 3 | -0.0016369 | [-0.07277742028236389, 0.05105418711900711] |
+| C_ridge - B_ridge | teacher_nmse | 3 | 0.010103 | [-0.07973518967628479, 0.1444637756794691] |
+| C_ridge - B_ridge | gripper_accuracy | 3 | -0.020833 | [-0.0625, 0.0625] |
+| C_flow_refine - B_few_steps | normalized_action_mse | 3 | 0.20004 | [0.11276070028543472, 0.2621923200786114] |
+| C_flow_refine - B_few_steps | teacher_nmse | 3 | 0.066008 | [-0.025828096317127347, 0.13983008381910622] |
+| C_flow_refine - B_few_steps | gripper_accuracy | 3 | -0.020833 | [-0.0625, 0.0] |
+| D_partial - A_fresh | normalized_action_mse | 3 | 0.0087779 | [-0.025673553347587585, 0.04417455196380615] |
+| D_partial - A_fresh | teacher_nmse | 3 | 0.089683 | [0.0050091848243027925, 0.1558002115925774] |
+| D_partial - A_fresh | gripper_accuracy | 3 | -0.020833 | [-0.0625, 0.0] |
+| forecast_prior - A_fresh | normalized_action_mse | 3 | 0.011194 | [-0.02373071387410164, 0.05109039321541786] |
+| forecast_prior - A_fresh | teacher_nmse | 3 | 0.09602 | [0.005945899814832956, 0.1642896457342431] |
+| forecast_prior - A_fresh | gripper_accuracy | 3 | -0.020833 | [-0.0625, 0.0] |
+| C_ridge - C_shuffled_ridge | normalized_action_mse | 3 | -0.0076763 | [-0.09749247506260872, 0.07307853549718857] |
+| C_ridge - C_shuffled_ridge | teacher_nmse | 3 | -0.028225 | [-0.15574456565082073, 0.11904038209468126] |
+| C_ridge - C_shuffled_ridge | gripper_accuracy | 3 | -0.020833 | [-0.125, 0.0625] |
+
+오차 지표는 음수 차이가 앞 방식에 유리하고 gripper accuracy는 양수가 유리합니다. Episode 3개 수준의 pilot 구간이므로 확정적 일반화 근거가 아닙니다.
+
+## 2. 실제 생성 H: 공통 첫 action 비교
+
+| H | split | samples | episodes | first_action_nmse | ae_ms | backbone_ms |
+|---|---|---|---|---|---|---|
+| 1 | train | 12 | 3 | 0.21048 | 374.49 | 4242.8 |
+| 4 | train | 12 | 3 | 0.21055 | 647.93 | 4242.8 |
+| 16 | train | 12 | 3 | 0.21042 | 1667.7 | 4242.8 |
+| 50 | train | 12 | 3 | 0.21042 | 4586.9 | 4242.8 |
+| 1 | test | 12 | 3 | 0.37083 | 354.73 | 4014.6 |
+| 4 | test | 12 | 3 | 0.3711 | 614.84 | 4014.6 |
+| 16 | test | 12 | 3 | 0.37099 | 1576.3 | 4014.6 |
+| 50 | test | 12 | 3 | 0.37099 | 4305.6 | 4014.6 |
+
+같은 관측의 H별 예측을 여러 K prefix로 채점한 offline 표본은 독립적인 제어 rollout이 아닙니다. K 효과는 아래 closed-loop에서 확인합니다.
+
+## 3. Closed-loop H/K 품질
+
+| H | K | completed | successes | success_rate | wilson_ci95 | censored_or_errors |
+|---|---|---|---|---|---|---|
+| 50 | 10 | 6 | 3 | 0.5 | [0.1876163064826506, 0.8123836935173494] | 0 |
+| 4 | 4 | 6 | 4 | 0.66667 | [0.299993315138392, 0.9032285888942195] | 0 |
+| 50 | 1 | 6 | 1 | 0.16667 | [0.030053369748306635, 0.5635028221864702] | 0 |
+| 4 | 1 | 6 | 1 | 0.16667 | [0.030053369748306635, 0.5635028221864702] | 0 |
+| 16 | 4 | 6 | 6 | 1 | [0.6096657120978346, 1.0] | 0 |
+| 50 | 4 | 6 | 5 | 0.83333 | [0.43649717781352987, 0.9699466302516935] | 0 |
+
+## 추가 지표와 연구 결정 기준
+
+1. B–C 차이는 episode로 짝지어 확인합니다. 이득이 없는 경우 강한 Small, 학습량, 미래 영상 불일치를 분리하기 전에는 Heavy prior 전체를 기각하지 않습니다.
+2. `stale_prior` → `forecast_prior` → `oracle_proprio` → fresh A의 차이로 좌표 외삽 오차와 오래된 시각 조건의 영향을 나눕니다.
+3. First-action NMSE, translation/rotation command MSE, gripper sign accuracy, action saturation을 따로 봅니다. Command 오차는 말단 mm 정밀도와 다릅니다.
+4. H/K의 품질 이득이 확인되면 RTX 3090에서 stage p50/p95/p99, 실제 tensor shape, DRAM traffic, deadline miss, GPU concurrent 경합을 측정합니다.
+5. PIM은 실제 지원 연산과 전송/동기화 비용을 포함해 GPU-only concurrent, GPU+NPU와 비교해야 합니다.
+
+현재 원자료: `offline.jsonl`, `closed_loop.jsonl`, `offline_summary.json`, `closed_loop_summary.json`, `status.json`, `manifest.json`. 작업 오류는 `errors.jsonl`에 보존합니다. 결과가 적으면 결론은 미정입니다.

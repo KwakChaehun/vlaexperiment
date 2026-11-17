@@ -1,0 +1,18 @@
+{
+  "suite": "horizon_realtime",
+  "backend": "vla_eval.toy:make_bundle",
+  "horizon_analysis": true,
+  "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "methods": ["A"],
+  "horizons": [1, 2, 4, 8, 16],
+  "execute": [1, 2, 4, 8, 16],
+  "flow_steps": [8],
+  "partial_fraction": 0.5,
+  "latency_mode": "wall",
+  "environment": {"control_hz": 20, "max_actions": 80, "reach_duration_s": 0.5,
+                  "tolerance_mm": 0.5, "rotation_tolerance_deg": 1.0},
+  "scenarios": [
+    {"name": "static", "arrival_position_mm": 2, "arrival_rotation_deg": 3},
+    {"name": "moving_target", "arrival_position_mm": 2, "target_speed_mm_s": 1}
+  ]
+}

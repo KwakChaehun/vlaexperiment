@@ -1,0 +1,23 @@
+{
+  "suite": "comparison",
+  "heavy_factory": "vla_eval.gr00t:make_policy",
+  "heavy": {
+    "model_path": "checkpoints/CHOOSE_AFTER_PAPER_REVIEW",
+    "embodiment_tag": "CHOOSE_MATCHING_EMBODIMENT",
+    "device": "cuda:0",
+    "allow_short_horizon": false
+  },
+  "dataset": "data/paired_observations.npz",
+  "small_checkpoint": "checkpoints/small.npz",
+  "language_key": "task",
+  "split": "test",
+  "seeds": [0, 1, 2],
+  "methods": ["A", "B", "C", "D", "prior_only", "shuffled_prior"],
+  "horizons": [40],
+  "execute": [1, 4, 8, 16, 40],
+  "flow_steps": [4, 8],
+  "partial_fraction": 0.5,
+  "latency_mode": "wall",
+  "environment": {"reach_duration_s": 0.5},
+  "scenarios": [{"name": "paired_arrival"}]
+}

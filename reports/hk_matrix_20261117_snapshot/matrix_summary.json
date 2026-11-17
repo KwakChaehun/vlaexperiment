@@ -1,0 +1,338 @@
+[
+  {
+    "H": 32,
+    "K": 16,
+    "applicable": true,
+    "reason": null,
+    "completed": 0,
+    "planned": 6,
+    "successes": 0,
+    "success_rate": null,
+    "wilson_ci95": [
+      null,
+      null
+    ],
+    "errors_or_censored": 0,
+    "cpu_call_p50_ms": null,
+    "cpu_call_p95_ms": null,
+    "cpu_call_p99_ms": null,
+    "generation_utilization": null,
+    "command_second_difference_rms": null,
+    "eef_jerk_rms_m_s3": null
+  },
+  {
+    "H": 32,
+    "K": 8,
+    "applicable": true,
+    "reason": null,
+    "completed": 0,
+    "planned": 6,
+    "successes": 0,
+    "success_rate": null,
+    "wilson_ci95": [
+      null,
+      null
+    ],
+    "errors_or_censored": 0,
+    "cpu_call_p50_ms": null,
+    "cpu_call_p95_ms": null,
+    "cpu_call_p99_ms": null,
+    "generation_utilization": null,
+    "command_second_difference_rms": null,
+    "eef_jerk_rms_m_s3": null
+  },
+  {
+    "H": 32,
+    "K": 4,
+    "applicable": true,
+    "reason": null,
+    "completed": 0,
+    "planned": 6,
+    "successes": 0,
+    "success_rate": null,
+    "wilson_ci95": [
+      null,
+      null
+    ],
+    "errors_or_censored": 0,
+    "cpu_call_p50_ms": null,
+    "cpu_call_p95_ms": null,
+    "cpu_call_p99_ms": null,
+    "generation_utilization": null,
+    "command_second_difference_rms": null,
+    "eef_jerk_rms_m_s3": null
+  },
+  {
+    "H": 32,
+    "K": 2,
+    "applicable": true,
+    "reason": null,
+    "completed": 0,
+    "planned": 6,
+    "successes": 0,
+    "success_rate": null,
+    "wilson_ci95": [
+      null,
+      null
+    ],
+    "errors_or_censored": 0,
+    "cpu_call_p50_ms": null,
+    "cpu_call_p95_ms": null,
+    "cpu_call_p99_ms": null,
+    "generation_utilization": null,
+    "command_second_difference_rms": null,
+    "eef_jerk_rms_m_s3": null
+  },
+  {
+    "H": 16,
+    "K": 16,
+    "applicable": true,
+    "reason": null,
+    "completed": 0,
+    "planned": 6,
+    "successes": 0,
+    "success_rate": null,
+    "wilson_ci95": [
+      null,
+      null
+    ],
+    "errors_or_censored": 0,
+    "cpu_call_p50_ms": null,
+    "cpu_call_p95_ms": null,
+    "cpu_call_p99_ms": null,
+    "generation_utilization": null,
+    "command_second_difference_rms": null,
+    "eef_jerk_rms_m_s3": null
+  },
+  {
+    "H": 16,
+    "K": 8,
+    "applicable": true,
+    "reason": null,
+    "completed": 0,
+    "planned": 6,
+    "successes": 0,
+    "success_rate": null,
+    "wilson_ci95": [
+      null,
+      null
+    ],
+    "errors_or_censored": 0,
+    "cpu_call_p50_ms": null,
+    "cpu_call_p95_ms": null,
+    "cpu_call_p99_ms": null,
+    "generation_utilization": null,
+    "command_second_difference_rms": null,
+    "eef_jerk_rms_m_s3": null
+  },
+  {
+    "H": 16,
+    "K": 4,
+    "applicable": true,
+    "reason": null,
+    "completed": 0,
+    "planned": 6,
+    "successes": 0,
+    "success_rate": null,
+    "wilson_ci95": [
+      null,
+      null
+    ],
+    "errors_or_censored": 0,
+    "cpu_call_p50_ms": null,
+    "cpu_call_p95_ms": null,
+    "cpu_call_p99_ms": null,
+    "generation_utilization": null,
+    "command_second_difference_rms": null,
+    "eef_jerk_rms_m_s3": null
+  },
+  {
+    "H": 16,
+    "K": 2,
+    "applicable": true,
+    "reason": null,
+    "completed": 0,
+    "planned": 6,
+    "successes": 0,
+    "success_rate": null,
+    "wilson_ci95": [
+      null,
+      null
+    ],
+    "errors_or_censored": 0,
+    "cpu_call_p50_ms": null,
+    "cpu_call_p95_ms": null,
+    "cpu_call_p99_ms": null,
+    "generation_utilization": null,
+    "command_second_difference_rms": null,
+    "eef_jerk_rms_m_s3": null
+  },
+  {
+    "H": 8,
+    "K": 16,
+    "applicable": false,
+    "reason": "K > H: insufficient actions in one generated chunk",
+    "completed": 0,
+    "planned": 0,
+    "successes": 0,
+    "success_rate": null,
+    "wilson_ci95": [
+      null,
+      null
+    ],
+    "errors_or_censored": 0,
+    "cpu_call_p50_ms": null,
+    "cpu_call_p95_ms": null,
+    "cpu_call_p99_ms": null,
+    "generation_utilization": null,
+    "command_second_difference_rms": null,
+    "eef_jerk_rms_m_s3": null
+  },
+  {
+    "H": 8,
+    "K": 8,
+    "applicable": true,
+    "reason": null,
+    "completed": 0,
+    "planned": 6,
+    "successes": 0,
+    "success_rate": null,
+    "wilson_ci95": [
+      null,
+      null
+    ],
+    "errors_or_censored": 0,
+    "cpu_call_p50_ms": null,
+    "cpu_call_p95_ms": null,
+    "cpu_call_p99_ms": null,
+    "generation_utilization": null,
+    "command_second_difference_rms": null,
+    "eef_jerk_rms_m_s3": null
+  },
+  {
+    "H": 8,
+    "K": 4,
+    "applicable": true,
+    "reason": null,
+    "completed": 0,
+    "planned": 6,
+    "successes": 0,
+    "success_rate": null,
+    "wilson_ci95": [
+      null,
+      null
+    ],
+    "errors_or_censored": 0,
+    "cpu_call_p50_ms": null,
+    "cpu_call_p95_ms": null,
+    "cpu_call_p99_ms": null,
+    "generation_utilization": null,
+    "command_second_difference_rms": null,
+    "eef_jerk_rms_m_s3": null
+  },
+  {
+    "H": 8,
+    "K": 2,
+    "applicable": true,
+    "reason": null,
+    "completed": 0,
+    "planned": 6,
+    "successes": 0,
+    "success_rate": null,
+    "wilson_ci95": [
+      null,
+      null
+    ],
+    "errors_or_censored": 0,
+    "cpu_call_p50_ms": null,
+    "cpu_call_p95_ms": null,
+    "cpu_call_p99_ms": null,
+    "generation_utilization": null,
+    "command_second_difference_rms": null,
+    "eef_jerk_rms_m_s3": null
+  },
+  {
+    "H": 4,
+    "K": 16,
+    "applicable": false,
+    "reason": "K > H: insufficient actions in one generated chunk",
+    "completed": 0,
+    "planned": 0,
+    "successes": 0,
+    "success_rate": null,
+    "wilson_ci95": [
+      null,
+      null
+    ],
+    "errors_or_censored": 0,
+    "cpu_call_p50_ms": null,
+    "cpu_call_p95_ms": null,
+    "cpu_call_p99_ms": null,
+    "generation_utilization": null,
+    "command_second_difference_rms": null,
+    "eef_jerk_rms_m_s3": null
+  },
+  {
+    "H": 4,
+    "K": 8,
+    "applicable": false,
+    "reason": "K > H: insufficient actions in one generated chunk",
+    "completed": 0,
+    "planned": 0,
+    "successes": 0,
+    "success_rate": null,
+    "wilson_ci95": [
+      null,
+      null
+    ],
+    "errors_or_censored": 0,
+    "cpu_call_p50_ms": null,
+    "cpu_call_p95_ms": null,
+    "cpu_call_p99_ms": null,
+    "generation_utilization": null,
+    "command_second_difference_rms": null,
+    "eef_jerk_rms_m_s3": null
+  },
+  {
+    "H": 4,
+    "K": 4,
+    "applicable": true,
+    "reason": null,
+    "completed": 0,
+    "planned": 6,
+    "successes": 0,
+    "success_rate": null,
+    "wilson_ci95": [
+      null,
+      null
+    ],
+    "errors_or_censored": 0,
+    "cpu_call_p50_ms": null,
+    "cpu_call_p95_ms": null,
+    "cpu_call_p99_ms": null,
+    "generation_utilization": null,
+    "command_second_difference_rms": null,
+    "eef_jerk_rms_m_s3": null
+  },
+  {
+    "H": 4,
+    "K": 2,
+    "applicable": true,
+    "reason": null,
+    "completed": 0,
+    "planned": 6,
+    "successes": 0,
+    "success_rate": null,
+    "wilson_ci95": [
+      null,
+      null
+    ],
+    "errors_or_censored": 0,
+    "cpu_call_p50_ms": null,
+    "cpu_call_p95_ms": null,
+    "cpu_call_p99_ms": null,
+    "generation_utilization": null,
+    "command_second_difference_rms": null,
+    "eef_jerk_rms_m_s3": null
+  }
+]

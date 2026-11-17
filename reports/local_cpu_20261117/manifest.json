@@ -1,0 +1,28 @@
+{
+  "model": "HuggingFaceVLA/smolvla_libero",
+  "revision": "6721902bc4d61e50a3bfdb11dfb4cb626f05d102",
+  "lerobot": "0.4.4",
+  "native_horizon": 50,
+  "device": "cpu",
+  "threads": 4,
+  "short_horizon_status": "inference-only OOD; not retrained",
+  "native_sampler_max_abs_difference": 0.0,
+  "preparation_ms": 3.964700037613511,
+  "backbone_ms": 3375.784199917689,
+  "created_utc": "2026-11-16T14:53:22.582614+00:00",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "dataset_revision": "a4336d589d589045d1c56423ffdf3b88a0e19b1f",
+  "hardware": "GTX 1650 4GB available, inference on CPU; RTX3090 not connected",
+  "environment_patches": [
+    "disable eager unrelated policy registrations",
+    "Windows MuJoCo DLL path and GLFW rendering",
+    "workspace-local robosuite log path",
+    "official initial-state torch.load weights_only=False"
+  ],
+  "checkpoint_config_sha256": "e346a63094732ea28e05b08302a218306cf6541960b663a3cb4b6948e4efe6e0",
+  "code_sha256": {
+    "scripts\\research_pilot.py": "e9a5044cffba6ea8d2c7ada5a3240ebbe567150f7a38ffa925bbec524fe6fbdd",
+    "vla_eval\\smolvla.py": "4767bdced25c94b7675d3d14606a5a8d85d33c8fd1a8f9f40e61804a2f5829c2",
+    "vla_eval\\arrival_rollouts.py": "e7deb8760a1190dfd7794a81a8b8ab1b89c1a8199945039841710e3c9e5d9be0"
+  }
+}

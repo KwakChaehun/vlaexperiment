@@ -1,0 +1,29 @@
+{
+  "cases": [
+    "1269:32",
+    "1274:47",
+    "1285:56",
+    "1269:123",
+    "1274:105",
+    "1285:112",
+    "1269:8",
+    "1274:8",
+    "1285:8",
+    "1269:26",
+    "1274:22",
+    "1285:24"
+  ],
+  "horizon": 50,
+  "total_steps": 10,
+  "refine_steps": [
+    2,
+    4,
+    8
+  ],
+  "old_noise_seed": 0,
+  "independent_renoise_seed": 12345,
+  "score_prefix": 4,
+  "diagnostic_only": true,
+  "privileged_input": "arrival images/states in oracle prior conditions",
+  "meaning": "teacher agreement and expert action error; not closed-loop success or grasp precision"
+}

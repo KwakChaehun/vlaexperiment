@@ -1,0 +1,16 @@
+{
+  "suite": "heavy_reuse_probe",
+  "backend": "vla_eval.toy:make_bundle",
+  "seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "methods": ["A", "resume_only", "D"],
+  "horizons": [16],
+  "execute": [1, 4],
+  "flow_steps": [4, 8],
+  "partial_fraction": 0.5,
+  "latency_mode": "wall",
+  "environment": {"control_hz": 20, "max_actions": 80, "reach_duration_s": 0.5},
+  "scenarios": [
+    {"name": "matched", "arrival_position_mm": 0, "arrival_rotation_deg": 0},
+    {"name": "mismatch_large", "arrival_position_mm": 5, "arrival_rotation_deg": 8}
+  ]
+}

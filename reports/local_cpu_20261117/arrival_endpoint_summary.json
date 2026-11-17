@@ -1,0 +1,110 @@
+[
+  {
+    "forecast": "past_calibrated_command",
+    "method": "A_fresh",
+    "tasks": 3,
+    "teacher_position_error_mm": 0.0,
+    "teacher_rotation_error_deg": 0.0,
+    "within_2mm": 1.0,
+    "within_5mm": 1.0
+  },
+  {
+    "forecast": "past_calibrated_command",
+    "method": "B_few_steps",
+    "tasks": 3,
+    "teacher_position_error_mm": 1.3609019636755513,
+    "teacher_rotation_error_deg": 0.397285394706491,
+    "within_2mm": 1.0,
+    "within_5mm": 1.0
+  },
+  {
+    "forecast": "past_calibrated_command",
+    "method": "B_ridge",
+    "tasks": 3,
+    "teacher_position_error_mm": 19.273976769904678,
+    "teacher_rotation_error_deg": 1.3322486795459672,
+    "within_2mm": 0.0,
+    "within_5mm": 0.0
+  },
+  {
+    "forecast": "past_calibrated_command",
+    "method": "C_flow_refine",
+    "tasks": 3,
+    "teacher_position_error_mm": 4.897315180065983,
+    "teacher_rotation_error_deg": 0.5381783667716262,
+    "within_2mm": 0.0,
+    "within_5mm": 0.6666666666666666
+  },
+  {
+    "forecast": "past_calibrated_command",
+    "method": "C_ridge",
+    "tasks": 3,
+    "teacher_position_error_mm": 22.530584801904382,
+    "teacher_rotation_error_deg": 1.8547840337625454,
+    "within_2mm": 0.0,
+    "within_5mm": 0.0
+  },
+  {
+    "forecast": "past_calibrated_command",
+    "method": "D_partial",
+    "tasks": 3,
+    "teacher_position_error_mm": 4.400985798933233,
+    "teacher_rotation_error_deg": 0.4320508206625953,
+    "within_2mm": 0.3333333333333333,
+    "within_5mm": 0.6666666666666666
+  },
+  {
+    "forecast": "target_sum",
+    "method": "A_fresh",
+    "tasks": 3,
+    "teacher_position_error_mm": 0.0,
+    "teacher_rotation_error_deg": 0.0,
+    "within_2mm": 1.0,
+    "within_5mm": 1.0
+  },
+  {
+    "forecast": "target_sum",
+    "method": "B_few_steps",
+    "tasks": 3,
+    "teacher_position_error_mm": 1.3609019636755513,
+    "teacher_rotation_error_deg": 0.397285394706491,
+    "within_2mm": 1.0,
+    "within_5mm": 1.0
+  },
+  {
+    "forecast": "target_sum",
+    "method": "B_ridge",
+    "tasks": 3,
+    "teacher_position_error_mm": 19.273976769904678,
+    "teacher_rotation_error_deg": 1.3322486795459672,
+    "within_2mm": 0.0,
+    "within_5mm": 0.0
+  },
+  {
+    "forecast": "target_sum",
+    "method": "C_flow_refine",
+    "tasks": 3,
+    "teacher_position_error_mm": 3.123701266316194,
+    "teacher_rotation_error_deg": 0.7259730545184286,
+    "within_2mm": 0.6666666666666666,
+    "within_5mm": 0.6666666666666666
+  },
+  {
+    "forecast": "target_sum",
+    "method": "C_ridge",
+    "tasks": 3,
+    "teacher_position_error_mm": 23.548226012165184,
+    "teacher_rotation_error_deg": 1.7217392126144275,
+    "within_2mm": 0.0,
+    "within_5mm": 0.0
+  },
+  {
+    "forecast": "target_sum",
+    "method": "D_partial",
+    "tasks": 3,
+    "teacher_position_error_mm": 2.804871835394548,
+    "teacher_rotation_error_deg": 0.5499777735490704,
+    "within_2mm": 0.3333333333333333,
+    "within_5mm": 0.6666666666666666
+  }
+]

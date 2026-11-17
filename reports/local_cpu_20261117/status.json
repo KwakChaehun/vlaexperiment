@@ -1,0 +1,19 @@
+{
+  "status": "finished",
+  "phase": "done",
+  "started_utc": "2026-11-16T14:52:39.582017+00:00",
+  "pid": 19584,
+  "updated_utc": "2026-11-16T21:49:37.446971+00:00",
+  "deadline_utc": "2026-11-16T21:52:39.582017+00:00",
+  "offline_finished": true,
+  "completed_cases": 24,
+  "total_cases": 24,
+  "task_id": 2,
+  "method": "C_ridge",
+  "arrival_forecast_variant": "past_calibrated_command",
+  "task": "pick up the black bowl from table center and place it on the plate",
+  "H": 50,
+  "K": 4,
+  "initial_state": 1,
+  "wall_seconds": 25017.563000000082
+}

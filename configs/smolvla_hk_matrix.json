@@ -1,0 +1,26 @@
+{
+  "experiment": "smolvla_hk_matrix_20261117",
+  "model": "HuggingFaceVLA/smolvla_libero",
+  "checkpoint": "checkpoints/smolvla_libero",
+  "vlm_config": "checkpoints/smolvlm_config",
+  "horizons": [32, 16, 8, 4],
+  "execute": [16, 8, 4, 2],
+  "invalid_pair_policy": "mark_not_applicable",
+  "flow_steps": 10,
+  "task_ids": [0, 1, 2],
+  "initial_states": [0, 1],
+  "flow_seed_offset": 0,
+  "max_actions": 220,
+  "threads": 4,
+  "latency_mode": "zero_inference_delay",
+  "prior_diagnostics": {
+    "enabled": true,
+    "split": "test",
+    "horizon": 50,
+    "total_steps": 10,
+    "refine_steps": [2, 4, 8],
+    "max_cases": 12,
+    "old_noise_seed": 0,
+    "independent_renoise_seed": 12345
+  }
+}

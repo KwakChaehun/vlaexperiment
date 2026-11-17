@@ -1,0 +1,34 @@
+[
+  {
+    "method": "constant_velocity",
+    "tasks": 3,
+    "overlapping_windows": 67,
+    "mean_mm": 8.143968546448809,
+    "p95_mm": 16.514031719004585,
+    "selected_arrival_mean_mm": 11.822632777718772
+  },
+  {
+    "method": "controller_target_sum",
+    "tasks": 3,
+    "overlapping_windows": 67,
+    "mean_mm": 123.9901260679711,
+    "p95_mm": 151.47466440496376,
+    "selected_arrival_mean_mm": 121.35519549547105
+  },
+  {
+    "method": "past_calibrated_command",
+    "tasks": 3,
+    "overlapping_windows": 67,
+    "mean_mm": 5.707494257296372,
+    "p95_mm": 12.699395804848654,
+    "selected_arrival_mean_mm": 8.529095367325121
+  },
+  {
+    "method": "stale_pose",
+    "tasks": 3,
+    "overlapping_windows": 67,
+    "mean_mm": 42.31225252143912,
+    "p95_mm": 50.984675219418534,
+    "selected_arrival_mean_mm": 40.76076177877963
+  }
+]

@@ -1,0 +1,2163 @@
+{
+  "tasks": [
+    {
+      "task_id": 0,
+      "records": [
+        {
+          "task_id": 0,
+          "frame": 4,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 42.60540232181731,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 4,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 143.5212709931916,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 4,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 10.729109062294837,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 4,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 11.011603807550868,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 5,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 44.73247110577187,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 5,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 149.48132429110095,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 5,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 7.329324035654303,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 5,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 8.81155680366299,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 6,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 46.53614173350001,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 6,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 151.3798365327981,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 6,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 7.380915452157974,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 6,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 7.08789104953601,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 7,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 47.79509974633277,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 7,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 152.72656725126018,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 7,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 6.1861048962990495,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 7,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 5.015828091630069,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 8,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 48.915835246637485,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 8,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 155.58865501288292,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 8,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 5.1612572969886426,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 8,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 2.749547854822759,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 9,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 49.77549653059572,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 9,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 152.52158522099776,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 9,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 7.658665249465981,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 9,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 3.5371695736353583,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 10,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 50.25107326504659,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 10,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 150.05212132161185,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 10,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 8.524630127970829,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 10,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 4.215853977599397,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 11,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 50.660354089997064,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 11,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 148.6344599952544,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 11,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 8.401734991536463,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 11,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 4.855637178402808,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 12,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 50.93457308617646,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 12,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 145.93765953922778,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 12,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 8.523097284913412,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 12,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 5.690190585326925,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 13,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 50.99190406190976,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 13,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 144.83534155298364,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 13,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 7.712418128818505,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 13,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 5.702346784632306,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 14,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 50.76604406873867,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 14,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 145.38354773430873,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 14,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 5.865827325262461,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 14,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 5.061533129532561,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 15,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 50.96780792027236,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 15,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 147.49390910781537,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 15,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 7.514224009776662,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 15,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 2.580172215932079,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 16,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 51.67593884038895,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 16,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 148.59729506066677,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 16,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 10.48923575003188,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 16,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 2.287842988231101,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 17,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 52.50766198860477,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 17,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 151.51530492160617,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 17,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 9.370035503850133,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 17,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 1.5805881588657131,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 18,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 51.91471874640195,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 18,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 139.37848968571308,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 18,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 14.039397962065735,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 18,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 10.114383595228485,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 19,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 49.808030157756924,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 19,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 130.59802157795184,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 19,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 16.38647489550344,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 19,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 11.498073090903452,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 0,
+          "frame": 20,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 46.781905217898796,
+          "is_selected_arrival": true
+        },
+        {
+          "task_id": 0,
+          "frame": 20,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 131.5962326903338,
+          "is_selected_arrival": true
+        },
+        {
+          "task_id": 0,
+          "frame": 20,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 18.18487827480926,
+          "is_selected_arrival": true
+        },
+        {
+          "task_id": 0,
+          "frame": 20,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 14.868521275782504,
+          "is_selected_arrival": true
+        }
+      ]
+    },
+    {
+      "task_id": 1,
+      "records": [
+        {
+          "task_id": 1,
+          "frame": 4,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 42.627903540094195,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 4,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 126.41044436654828,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 4,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 7.228769180263451,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 4,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 7.822498278215116,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 5,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 43.792595977710775,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 5,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 127.6432268756775,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 5,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 4.280827192918396,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 5,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 5.286638943147888,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 6,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 44.44242381380601,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 6,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 127.76900422765833,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 6,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 2.607543192968154,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 6,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 3.8477633675028295,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 7,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 44.7912680383897,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 7,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 128.4752153735804,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 7,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 1.136060034445441,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 7,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 2.3803923269120473,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 8,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 45.1553497336988,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 8,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 130.68212120387648,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 8,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 2.025976290951026,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 8,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 1.097629016329021,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 9,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 45.27431985763149,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 9,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 129.06935976606943,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 9,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 3.4692073836496946,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 9,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 1.050197078051643,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 10,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 45.19706323557178,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 10,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 128.8110979274978,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 10,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 3.927356201672329,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 10,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 1.6733590460086838,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 11,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 45.23857551814118,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 11,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 128.97178208153687,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 11,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 3.2520390854973154,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 11,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 2.2459174288640935,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 12,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 45.34279469006721,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 12,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 128.94892125575737,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 12,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 1.6189391378554678,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 12,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 2.302381184224664,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 13,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 45.24881253483849,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 13,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 128.14346330638116,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 13,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 2.3805483574226645,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 13,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 1.3536365409533344,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 14,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 45.01385506384799,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 14,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 128.1259432326728,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 14,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 2.6365145060773485,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 14,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 1.959346970186019,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 15,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 44.71365342745837,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 15,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 128.1567977620924,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 15,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 1.614657548525376,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 15,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 2.10961177001042,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 16,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 44.35235314133675,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 16,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 127.64141554243535,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 16,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 4.584940153883391,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 16,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 2.9110832741561534,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 17,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 44.19394723839362,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 17,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 130.34162839764096,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 17,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 1.818372584944584,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 17,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 3.0706423028227587,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 18,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 44.11288168249166,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 18,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 130.3650124954106,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 18,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 3.3927468394497886,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 18,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 2.5632554124124214,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 19,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 44.109178133424635,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 19,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 130.31835277580603,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 19,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 3.883137010931888,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 19,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 2.782526552144877,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 20,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 44.124722896251946,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 20,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 129.87460760688128,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 20,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 3.414091576823966,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 20,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 4.79975168076505,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 21,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 43.59695037106596,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 21,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 128.411362458654,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 21,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 3.0089073284109706,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 21,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 1.201912240027553,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 22,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 43.77701449470359,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 22,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 130.87502360351718,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 22,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 3.6457256350149616,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 22,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 12.947896779848229,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 23,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 44.284139961695985,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 23,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 133.33400119293097,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 23,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 6.393068765240768,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 23,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 12.119560196516327,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 24,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 45.00077836625834,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 24,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 136.4621487614504,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 24,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 9.34969309619835,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 24,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 10.785061454328913,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 25,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 44.359911051408886,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 25,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 128.98876869010897,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 25,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 9.376884725960622,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 25,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 3.866423262488508,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 26,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 42.09535358219746,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 26,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 119.05078409431793,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 26,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 14.138456875717264,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 26,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 4.297215053102892,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 27,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 40.519113528467756,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 27,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 114.29388234010842,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 27,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 20.35478684727366,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 27,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 5.143791830582665,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 28,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 39.440820945982814,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 28,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 107.51805845591427,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 28,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 24.32321515840677,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 28,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 7.209947960908932,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 29,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 38.29960575296102,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 29,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 100.46749742260882,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 29,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 12.892760546884027,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 29,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 8.428862100931134,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 30,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 37.384823321045886,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 30,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 99.07442139290104,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 30,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 5.964166641586134,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 30,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 4.991588512790134,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 31,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 37.301821399805455,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 31,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 100.35608533693836,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 31,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 11.35810006187064,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 31,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 4.401738853818244,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 32,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 37.99171865009375,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 32,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 106.165897443862,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 32,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 13.666491449323841,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 32,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 5.294156156600418,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 33,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 38.8863447379083,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 33,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 110.68599969476726,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 33,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 7.509889904160825,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 33,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 7.6723374397336,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 34,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 39.6215521082104,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 34,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 115.60484345937968,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 34,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 7.61505958261267,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 34,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 6.498194794356455,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 35,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 40.07746046187032,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 35,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 120.7305102319705,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 35,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 6.370346769800941,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 35,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 4.269894902548606,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 1,
+          "frame": 36,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 40.29310385214629,
+          "is_selected_arrival": true
+        },
+        {
+          "task_id": 1,
+          "frame": 36,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 124.70660457894613,
+          "is_selected_arrival": true
+        },
+        {
+          "task_id": 1,
+          "frame": 36,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 4.576373290940678,
+          "is_selected_arrival": true
+        },
+        {
+          "task_id": 1,
+          "frame": 36,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 3.317521775892848,
+          "is_selected_arrival": true
+        }
+      ]
+    },
+    {
+      "task_id": 2,
+      "records": [
+        {
+          "task_id": 2,
+          "frame": 4,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 22.41597329176685,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 4,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 79.66585383081242,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 4,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 8.116344183436254,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 4,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 7.559968753784017,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 5,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 25.25541281531577,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 5,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 96.31476604222244,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 5,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 10.493028621730534,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 5,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 7.065427365081661,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 6,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 28.906562675405134,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 6,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 105.3983490693321,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 6,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 10.590388388559067,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 6,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 5.923171724586235,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 7,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 32.144944870926714,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 7,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 113.19368506254003,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 7,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 8.509283821190808,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 7,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 4.825481284990928,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 8,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 35.42602037338744,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 8,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 123.0674937386662,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 8,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 8.915540778555672,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 8,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 3.5497061470096054,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 9,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 37.95534289310194,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 9,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 118.20694223634415,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 9,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 11.605509789377415,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 9,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 9.804208127077004,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 10,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 39.216514581941894,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 10,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 111.57988033505866,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 10,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 12.752226768463192,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 10,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 13.346974444663818,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 11,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 39.54091665564674,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 11,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 107.57402411173324,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 11,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 13.208622133146314,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 11,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 13.303565712812462,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 12,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 39.3139727499485,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 12,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 106.46199891113436,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 12,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 16.568698929076508,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 12,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 11.603789308731702,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 13,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 38.42295632312858,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 13,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 100.06566143449422,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 13,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 14.233039142019692,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 13,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 9.308473923853285,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 14,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 36.73781208005287,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 14,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 94.68590757424447,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 14,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 7.980960910995782,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 14,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 7.722373766738702,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 15,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 35.59333602997475,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 15,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 95.02626606381061,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 15,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 5.281259926439371,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 15,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 5.11338506982377,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 16,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 35.091914874504255,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 16,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 94.31594639731831,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 16,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 7.701554974356931,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 16,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 4.934602570604983,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 17,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 35.06181045803668,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 17,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 98.36638980528896,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 17,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 1.9313536850034596,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 17,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 4.8216440997116665,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 18,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 35.18469406493888,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 18,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 98.48026967487095,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 18,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 9.635298633280993,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 18,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 2.295028816422957,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 19,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 35.16278869522625,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 19,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 101.45635720345727,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 19,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 12.143151953948822,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 19,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 5.451596424206195,
+          "is_selected_arrival": false
+        },
+        {
+          "task_id": 2,
+          "frame": 20,
+          "lag": 4,
+          "method": "stale_pose",
+          "position_error_mm": 35.20727626629381,
+          "is_selected_arrival": true
+        },
+        {
+          "task_id": 2,
+          "frame": 20,
+          "lag": 4,
+          "method": "controller_target_sum",
+          "position_error_mm": 107.76274921713318,
+          "is_selected_arrival": true
+        },
+        {
+          "task_id": 2,
+          "frame": 20,
+          "lag": 4,
+          "method": "constant_velocity",
+          "position_error_mm": 12.706646767406378,
+          "is_selected_arrival": true
+        },
+        {
+          "task_id": 2,
+          "frame": 20,
+          "lag": 4,
+          "method": "past_calibrated_command",
+          "position_error_mm": 7.40124305030001,
+          "is_selected_arrival": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.ps1 text eol=crlf
+# Frozen snapshot hashes describe exported bytes, including original line endings.
+reports/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
