@@ -1,5 +1,7 @@
 # VLA–PIM 정밀 조작 평가 준비
 
+**GPU 실행 전 최신 논의:** [카메라별 feature 재사용 계획](docs/camera_feature_reuse.md). 외부 영상 재사용 + 최신 손목 영상/state 가설, 현재 SmolVLA의 attention 제약, 우선 비교할 네 조건을 기록했습니다. 이 카메라별 평가는 아직 미구현이며 기존 H/K runner와 구분합니다.
+
 **처음 읽을 문서:** [지금까지의 대화·연구 결정·전체 결과·후속 작업 인수인계](docs/RESEARCH_HANDOFF.md). SSH GPU 서버에서 이어 실행하는 방법은 [GPU runbook](docs/SSH_GPU_RUNBOOK.md), Git에 포함된 결과 스냅샷은 [reports/](reports/)를 참고하세요.
 
 **11/17 후속 평가:** H={32,16,8,4}, K={16,8,4,2}의 유효 13개 조합(나머지 3칸 N/A)과 prior의 이미지·state·재보정 방식 진단을 실행합니다. [새 결과 보고서](results/hk_matrix_20261117/RESULTS.html), [설정](configs/smolvla_hk_matrix.json), [실험 설계](docs/horizon_experiment.md)를 확인하세요. CPU 실제 모델 평가이며 이전 batch와 별도 보관합니다.

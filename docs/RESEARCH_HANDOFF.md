@@ -4,6 +4,7 @@
 
 ## 빠른 시작과 현재 상태
 
+- **최신 논의 추가:** [카메라별 feature 재사용과 GPU 후속 평가](camera_feature_reuse.md). 입력 구성, state와 카메라의 예측 한계, attention 의존성, 손목만 갱신하는 두 수준의 구현, 네 카메라 조건의 실험과 연구 진행 기준을 정리했습니다. 해당 카메라별 실험은 아직 미구현·미실행입니다.
 - 사용자 목표 GPU: **RTX 3090 24GB**. 로컬에서 실제 확인한 GPU는 GTX 1650 4GB이며, 지금까지 보고한 모델 추론은 **CPU float32**입니다.
 - 실제 실행 모델/환경: **HuggingFaceVLA/smolvla_libero + LIBERO Spatial + MuJoCo/robosuite**.
 - 첫 batch: 2026-11-17 06:49 KST 정상 종료. Offline 24관측, 도착 후 개입 27회, H/K 36회 = live rollout 63회.
