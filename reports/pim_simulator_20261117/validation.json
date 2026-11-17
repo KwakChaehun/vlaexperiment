@@ -1,0 +1,20 @@
+{
+  "upstream_revision": "3703d1f19c8f027360cc33a3243eb271e3bb6898",
+  "smoke_exit_code": 0,
+  "official_tests_passed": 2,
+  "official_gemv_outputs_passed": 4096,
+  "shape_probe_exit_code": 0,
+  "shape_tests_completed": 4,
+  "hardware_files_sha256": {
+    "system_hbm_64ch.ini": "d969b82501925fb5c26297feefb22a1aaa5986b87edefeee35ef8068aaff79be",
+    "ini/HBM2_samsung_2M_16B_x64.ini": "a770f3d6e1347eef0396d438859e84b7b32001dab5513e662f9bb24e4e6a3ecd",
+    "Sconstruct": "7523b0c69bd0b2f5bae341b1336e4c5b542f16483889b3f9d8bfb46e74e722e0"
+  },
+  "artifact_sha256": {
+    "VLAShapeProbe.cpp": "b32e44cfea946bd37d0b60e7eaa9bec39b766163edf171282a9bbcfabe4ad88a",
+    "shape_build.log": "cf506736a0449ef544eb2bff13b9beaa88eab7065f15f561ad6105f2abb61444",
+    "shape_run.log": "8a7440b1502e3c9884df310c7b64a6f4adfd3b29bbdc95f17823610efae413ba",
+    "shape_summary.json": "54f48ab6c139ceebfc052cce373865845ff4893596608a3a36a070681552055a",
+    "smoke.log": "ecf0f869f9994d6d202a1b30fc259fd723524edd255684713488a4e85f862bd5"
+  }
+}

@@ -1,3 +1,9 @@
+# 2026-11-17: actual PIM simulator startup and shape probe
+
+User requested push, results summary and whether PIM can be simulated. Prior results/code committed as `4f8346e`, origin/main verified after user reauthentication. Samsung PIMSimulator pinned at `3703d1f19c8f027360cc33a3243eb271e3bb6898` built in `.runtime/` with local GoogleTest v1.14.0, scons4.11.1, cmake4.4.5; no system installs. Official GEMV functional comparison passed4096/4096. Timing fixture4096x4096=13166cycles at1ns. Its non-PIM baseline is memory traffic only, NOT GPU compute; don't apply the printed2.74x to RTX3090 AE latency.
+
+`scripts/run_pim_shape_probe.py` reads checkpoint header shapes for block0 Q/K/FFN up/down and emits its own C++ driver into the local simulator. Four timing-only dummy-data, single-vector probes completed: padded4096x1536=5147cycles,4096x2048=6970,8192x1536=10277,4096x6144=19699. Explicit output4096/input256 padding; 64channels,8blocks/channel. No real model tensors, H50/H16 sequences, flow loops, preload, host link/readback, nonlinear ops or BF16/FP16 validation. This is NOT full-action-expert PIM timing. See [PIM report and reproducibility](pim_simulation.md) and `reports/pim_simulator_20261117/`.
+
 # 2026-11-17: K16 / real-time / hypothetical PIM follow-up
 
 User asked for ~one hour of honest gain investigation starting 08:48 UTC, challenged K4, and added action-expert PIM breakdown. [Report](../reports/k_pim_followup_20261117/RESULTS.html), [raw aggregate](../reports/k_pim_followup_20261117/aggregate.json). All H=50; this is K4/K16, NOT a new H16/H50 comparison.

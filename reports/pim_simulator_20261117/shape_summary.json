@@ -1,0 +1,91 @@
+{
+  "upstream": "https://github.com/SAITPublic/PIMSimulator",
+  "revision": "3703d1f19c8f027360cc33a3243eb271e3bb6898",
+  "channels": 64,
+  "pim_blocks_per_channel": 8,
+  "tck_ns": 1.0,
+  "scope": "Timing-only FP16 single-vector GEMV shape probes; dummy data; no model inference",
+  "exclusions": [
+    "weight preload",
+    "host/device link",
+    "explicit host output readback",
+    "attention softmax",
+    "normalization and activation",
+    "full H50 or H16 sequence",
+    "flow steps",
+    "functional checks on model tensors",
+    "BF16/FP16 accuracy"
+  ],
+  "baseline": "Upstream non-PIM fixture counts memory traffic only; NOT RTX3090 compute",
+  "cases": [
+    {
+      "name": "query",
+      "tensor": "action_head.model.transformer_blocks.0.attn1.to_q.weight",
+      "checkpoint_dtype": "F32",
+      "shape": [
+        1536,
+        1536
+      ],
+      "padded_shape": [
+        4096,
+        1536
+      ],
+      "vectors": 1,
+      "memory_traffic_only_baseline_cycles": 13521,
+      "pim_cycles": 5147,
+      "pim_us": 5.147
+    },
+    {
+      "name": "key",
+      "tensor": "action_head.model.transformer_blocks.0.attn1.to_k.weight",
+      "checkpoint_dtype": "F32",
+      "shape": [
+        1536,
+        2048
+      ],
+      "padded_shape": [
+        4096,
+        2048
+      ],
+      "vectors": 1,
+      "memory_traffic_only_baseline_cycles": 18379,
+      "pim_cycles": 6970,
+      "pim_us": 6.97
+    },
+    {
+      "name": "ff_up",
+      "tensor": "action_head.model.transformer_blocks.0.ff.net.0.proj.weight",
+      "checkpoint_dtype": "F32",
+      "shape": [
+        6144,
+        1536
+      ],
+      "padded_shape": [
+        8192,
+        1536
+      ],
+      "vectors": 1,
+      "memory_traffic_only_baseline_cycles": 27125,
+      "pim_cycles": 10277,
+      "pim_us": 10.277
+    },
+    {
+      "name": "ff_down",
+      "tensor": "action_head.model.transformer_blocks.0.ff.net.2.weight",
+      "checkpoint_dtype": "F32",
+      "shape": [
+        1536,
+        6144
+      ],
+      "padded_shape": [
+        4096,
+        6144
+      ],
+      "vectors": 1,
+      "memory_traffic_only_baseline_cycles": 54133,
+      "pim_cycles": 19699,
+      "pim_us": 19.699
+    }
+  ],
+  "source_sha256": "16c0d5a738ef87fdd74bb6d9b6d0d455659ec3fd0b1072179939bdd46b682701"
+}
