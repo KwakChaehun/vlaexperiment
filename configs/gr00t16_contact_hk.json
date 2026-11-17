@@ -1,0 +1,28 @@
+{
+  "checkpoint": "checkpoints/gr00t_n16_libero",
+  "device": "cuda:0",
+  "seed": 20261117,
+  "flow_steps": 4,
+  "cells": [[50,16],[50,4],[16,4]],
+  "initial_states": [0,1,2,3,4,5,6,7,8,9,10,11],
+  "tasks": [
+    {"suite":"libero_goal","name":"put_the_cream_cheese_in_the_bowl","max_steps":280},
+    {"suite":"libero_goal","name":"open_the_top_drawer_and_put_the_bowl_inside","max_steps":280},
+    {"suite":"libero_goal","name":"put_the_wine_bottle_on_the_rack","max_steps":280},
+    {"suite":"libero_goal","name":"push_the_plate_to_the_front_of_the_stove","max_steps":280},
+    {"suite":"libero_10","name":"KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it","max_steps":520}
+  ],
+  "stress": {
+    "suite":"libero_goal",
+    "name":"put_the_bowl_on_the_plate",
+    "max_steps":280,
+    "initial_states":[0,1,2,3,4,5],
+    "target_object":"plate_1",
+    "shift_x_m":[0.0,-0.02,0.02],
+    "trigger_steps":[41,45,49,53,57,61]
+  },
+  "primary_metric":"official LIBERO task success within fixed control-step budget",
+  "secondary_metric":"success maintained for 10 additional zero-motion, unchanged-gripper control steps",
+  "scope":"contact and containment tasks, not tight-tolerance peg insertion",
+  "latency_mode":"simulator paused during inference; no real-time or PIM hardware claim"
+}

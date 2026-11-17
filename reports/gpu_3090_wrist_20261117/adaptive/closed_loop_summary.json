@@ -1,0 +1,70 @@
+[
+  {
+    "mode": "both_fresh",
+    "H": 16,
+    "K": 4,
+    "N": 4,
+    "completed": 6,
+    "successes": 6,
+    "wilson95": [
+      0.6096657120978346,
+      1.0
+    ],
+    "censored": 0,
+    "p50_ms": 64.47033100039334,
+    "p95_ms": 65.00634255016848,
+    "p99_ms": 65.27421501979916,
+    "amortized_ms_per_action": 16.36486817495949
+  },
+  {
+    "mode": "external_stale_cached",
+    "H": 16,
+    "K": 4,
+    "N": 4,
+    "completed": 6,
+    "successes": 6,
+    "wilson95": [
+      0.6096657120978346,
+      1.0
+    ],
+    "censored": 0,
+    "p50_ms": 64.36941100037075,
+    "p95_ms": 65.25703489987791,
+    "p99_ms": 65.58239918014806,
+    "amortized_ms_per_action": 15.862426913934682
+  },
+  {
+    "mode": "external_stale",
+    "H": 16,
+    "K": 4,
+    "N": 4,
+    "completed": 6,
+    "successes": 6,
+    "wilson95": [
+      0.6096657120978346,
+      1.0
+    ],
+    "censored": 0,
+    "p50_ms": 64.45427950029625,
+    "p95_ms": 65.04092870077329,
+    "p99_ms": 65.60333656020701,
+    "amortized_ms_per_action": 16.320914561630033
+  },
+  {
+    "mode": "wrist_stale",
+    "H": 16,
+    "K": 4,
+    "N": 4,
+    "completed": 6,
+    "successes": 6,
+    "wilson95": [
+      0.6096657120978346,
+      1.0
+    ],
+    "censored": 0,
+    "p50_ms": 64.56297099975927,
+    "p95_ms": 65.13049400018645,
+    "p99_ms": 65.38086919990747,
+    "amortized_ms_per_action": 16.42205234269583
+  }
+]

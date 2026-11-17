@@ -1,0 +1,39 @@
+{
+  "checkpoint": "checkpoints/gr00t_n16_libero",
+  "device": "cuda:0",
+  "seed": 20261117,
+  "H": 50,
+  "N": 4,
+  "initial_states": [
+    0
+  ],
+  "lookahead_steps": 4,
+  "intervention_steps": 16,
+  "continuation_K": 16,
+  "tasks": [
+    {
+      "suite": "libero_goal",
+      "name": "put_the_cream_cheese_in_the_bowl",
+      "arrival_step": 96,
+      "max_steps": 112
+    }
+  ],
+  "methods": [
+    "fresh4",
+    "fresh1",
+    "oracle_resume3_1",
+    "forecast_resume3_1",
+    "oracle_rgb_resume3_1",
+    "forecast_replay",
+    "stale_replay"
+  ],
+  "scope": "Terminal 16-action diagnostic only, no recovery controller. First successful native reference per task selected using evaluation-only completion annotations.",
+  "latency_mode": "sequential CUDA measurements with analytical 200ms overlap only; no concurrent or PIM measurement",
+  "oracle_scope": "actual arrival RGB/state available only to explicitly privileged diagnostic arms",
+  "terminal_selection": {
+    "reference_case": "libero_goal:put_the_cream_cheese_in_the_bowl:0",
+    "reference_success_step": 110,
+    "arrival_step": 96,
+    "selection_bias": "native reference successes only; not an unbiased task-success estimate"
+  }
+}

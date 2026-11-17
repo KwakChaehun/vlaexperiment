@@ -1,0 +1,39 @@
+{
+  "checkpoint": "checkpoints/gr00t_n16_libero",
+  "device": "cuda:0",
+  "seed": 20261117,
+  "H": 50,
+  "N": 4,
+  "initial_states": [
+    4
+  ],
+  "lookahead_steps": 4,
+  "intervention_steps": 16,
+  "continuation_K": 16,
+  "tasks": [
+    {
+      "suite": "libero_10",
+      "name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "arrival_step": 208,
+      "max_steps": 224
+    }
+  ],
+  "methods": [
+    "fresh4",
+    "fresh1",
+    "oracle_resume3_1",
+    "forecast_resume3_1",
+    "oracle_rgb_resume3_1",
+    "forecast_replay",
+    "stale_replay"
+  ],
+  "scope": "Terminal 16-action diagnostic only, no recovery controller. First successful native reference per task selected using evaluation-only completion annotations.",
+  "latency_mode": "sequential CUDA measurements with analytical 200ms overlap only; no concurrent or PIM measurement",
+  "oracle_scope": "actual arrival RGB/state available only to explicitly privileged diagnostic arms",
+  "terminal_selection": {
+    "reference_case": "libero_10:KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it:4",
+    "reference_success_step": 215,
+    "arrival_step": 208,
+    "selection_bias": "native reference successes only; not an unbiased task-success estimate"
+  }
+}

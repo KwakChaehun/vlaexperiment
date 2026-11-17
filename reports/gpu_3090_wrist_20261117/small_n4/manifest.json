@@ -1,0 +1,22 @@
+{
+  "model": {
+    "model": "HuggingFaceVLA/smolvla_libero",
+    "revision": "6721902bc4d61e50a3bfdb11dfb4cb626f05d102",
+    "lerobot": "0.4.4",
+    "native_horizon": 50,
+    "device": "cuda",
+    "dtype": "float32",
+    "threads": 4,
+    "torch_version": "2.9.0+cu128",
+    "cuda_runtime": "12.8",
+    "gpu_name": "NVIDIA GeForce RTX 3090",
+    "matmul_allow_tf32": false,
+    "short_horizon_status": "inference-only OOD; not retrained"
+  },
+  "sanity": {
+    "native_sampler_max_abs_difference": 0.0,
+    "preparation_ms": 10.68772100006754,
+    "backbone_ms": 222.45198099972185
+  },
+  "compute_precision": "BF16 autocast, FP32 stored weights"
+}

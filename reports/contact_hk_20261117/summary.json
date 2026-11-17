@@ -1,0 +1,834 @@
+{
+  "summary": [
+    {
+      "scenario": "contact",
+      "H": 16,
+      "K": 4,
+      "n": 60,
+      "successes": 47,
+      "sustained": 41,
+      "ci95": [
+        0.6637997242680521,
+        0.868769559518097
+      ],
+      "p50_ms": 64.69509799990192,
+      "p95_ms": 65.27449090017399,
+      "amortized_ms": 16.274188255033685,
+      "median_steps": 223.0,
+      "perturbations_applied": 0
+    },
+    {
+      "scenario": "contact",
+      "H": 50,
+      "K": 4,
+      "n": 60,
+      "successes": 50,
+      "sustained": 42,
+      "ci95": [
+        0.7196838683638547,
+        0.9068682302080855
+      ],
+      "p50_ms": 65.17651800004387,
+      "p95_ms": 65.73809079964121,
+      "amortized_ms": 16.40949478584086,
+      "median_steps": 171.0,
+      "perturbations_applied": 0
+    },
+    {
+      "scenario": "contact",
+      "H": 50,
+      "K": 16,
+      "n": 60,
+      "successes": 53,
+      "sustained": 43,
+      "ci95": [
+        0.7782121197582914,
+        0.9423227935994396
+      ],
+      "p50_ms": 65.51071099966066,
+      "p95_ms": 71.39335679985379,
+      "amortized_ms": 4.337829833585617,
+      "median_steps": 170.5,
+      "perturbations_applied": 0
+    },
+    {
+      "scenario": "plate_shift_+0.000m",
+      "H": 16,
+      "K": 4,
+      "n": 6,
+      "successes": 6,
+      "sustained": 0,
+      "ci95": [
+        0.6096657120978346,
+        1.0
+      ],
+      "p50_ms": 64.55648049995943,
+      "p95_ms": 65.12601755002834,
+      "amortized_ms": 16.430520350288006,
+      "median_steps": 85.0,
+      "perturbations_applied": 6
+    },
+    {
+      "scenario": "plate_shift_+0.000m",
+      "H": 50,
+      "K": 4,
+      "n": 6,
+      "successes": 6,
+      "sustained": 0,
+      "ci95": [
+        0.6096657120978346,
+        1.0
+      ],
+      "p50_ms": 64.99300200039215,
+      "p95_ms": 65.82140524983515,
+      "amortized_ms": 16.591262671067454,
+      "median_steps": 74.5,
+      "perturbations_applied": 6
+    },
+    {
+      "scenario": "plate_shift_+0.000m",
+      "H": 50,
+      "K": 16,
+      "n": 6,
+      "successes": 6,
+      "sustained": 2,
+      "ci95": [
+        0.6096657120978346,
+        1.0
+      ],
+      "p50_ms": 65.36107100055233,
+      "p95_ms": 68.87215999995533,
+      "amortized_ms": 4.428259558701187,
+      "median_steps": 76.5,
+      "perturbations_applied": 6
+    },
+    {
+      "scenario": "plate_shift_+0.020m",
+      "H": 16,
+      "K": 4,
+      "n": 6,
+      "successes": 6,
+      "sustained": 0,
+      "ci95": [
+        0.6096657120978346,
+        1.0
+      ],
+      "p50_ms": 64.51183999979548,
+      "p95_ms": 65.08869559966115,
+      "amortized_ms": 16.543556225741018,
+      "median_steps": 87.0,
+      "perturbations_applied": 6
+    },
+    {
+      "scenario": "plate_shift_+0.020m",
+      "H": 50,
+      "K": 4,
+      "n": 6,
+      "successes": 6,
+      "sustained": 0,
+      "ci95": [
+        0.6096657120978346,
+        1.0
+      ],
+      "p50_ms": 64.92771900002481,
+      "p95_ms": 66.07059665020643,
+      "amortized_ms": 16.548112004226724,
+      "median_steps": 77.5,
+      "perturbations_applied": 6
+    },
+    {
+      "scenario": "plate_shift_+0.020m",
+      "H": 50,
+      "K": 16,
+      "n": 6,
+      "successes": 6,
+      "sustained": 1,
+      "ci95": [
+        0.6096657120978346,
+        1.0
+      ],
+      "p50_ms": 65.16723799995816,
+      "p95_ms": 70.627505000175,
+      "amortized_ms": 4.396288631459481,
+      "median_steps": 76.5,
+      "perturbations_applied": 6
+    },
+    {
+      "scenario": "plate_shift_-0.020m",
+      "H": 16,
+      "K": 4,
+      "n": 6,
+      "successes": 6,
+      "sustained": 2,
+      "ci95": [
+        0.6096657120978346,
+        1.0
+      ],
+      "p50_ms": 64.4886680001946,
+      "p95_ms": 65.07011280027655,
+      "amortized_ms": 16.355085417652326,
+      "median_steps": 85.0,
+      "perturbations_applied": 6
+    },
+    {
+      "scenario": "plate_shift_-0.020m",
+      "H": 50,
+      "K": 4,
+      "n": 6,
+      "successes": 6,
+      "sustained": 2,
+      "ci95": [
+        0.6096657120978346,
+        1.0
+      ],
+      "p50_ms": 64.98643200029619,
+      "p95_ms": 65.5298165998829,
+      "amortized_ms": 16.6631125723795,
+      "median_steps": 74.5,
+      "perturbations_applied": 6
+    },
+    {
+      "scenario": "plate_shift_-0.020m",
+      "H": 50,
+      "K": 16,
+      "n": 6,
+      "successes": 6,
+      "sustained": 3,
+      "ci95": [
+        0.6096657120978346,
+        1.0
+      ],
+      "p50_ms": 65.23483199998736,
+      "p95_ms": 67.95678949993089,
+      "amortized_ms": 4.425888015256273,
+      "median_steps": 76.5,
+      "perturbations_applied": 6
+    }
+  ],
+  "per_task": [
+    {
+      "scenario": "contact",
+      "H": 16,
+      "K": 4,
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "n": 12,
+      "successes": 10
+    },
+    {
+      "scenario": "contact",
+      "H": 16,
+      "K": 4,
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "n": 12,
+      "successes": 7
+    },
+    {
+      "scenario": "contact",
+      "H": 16,
+      "K": 4,
+      "task": "push_the_plate_to_the_front_of_the_stove",
+      "n": 12,
+      "successes": 9
+    },
+    {
+      "scenario": "contact",
+      "H": 16,
+      "K": 4,
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "n": 12,
+      "successes": 12
+    },
+    {
+      "scenario": "contact",
+      "H": 16,
+      "K": 4,
+      "task": "put_the_wine_bottle_on_the_rack",
+      "n": 12,
+      "successes": 9
+    },
+    {
+      "scenario": "contact",
+      "H": 50,
+      "K": 4,
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "n": 12,
+      "successes": 8
+    },
+    {
+      "scenario": "contact",
+      "H": 50,
+      "K": 4,
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "n": 12,
+      "successes": 10
+    },
+    {
+      "scenario": "contact",
+      "H": 50,
+      "K": 4,
+      "task": "push_the_plate_to_the_front_of_the_stove",
+      "n": 12,
+      "successes": 9
+    },
+    {
+      "scenario": "contact",
+      "H": 50,
+      "K": 4,
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "n": 12,
+      "successes": 12
+    },
+    {
+      "scenario": "contact",
+      "H": 50,
+      "K": 4,
+      "task": "put_the_wine_bottle_on_the_rack",
+      "n": 12,
+      "successes": 11
+    },
+    {
+      "scenario": "contact",
+      "H": 50,
+      "K": 16,
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "n": 12,
+      "successes": 8
+    },
+    {
+      "scenario": "contact",
+      "H": 50,
+      "K": 16,
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "n": 12,
+      "successes": 11
+    },
+    {
+      "scenario": "contact",
+      "H": 50,
+      "K": 16,
+      "task": "push_the_plate_to_the_front_of_the_stove",
+      "n": 12,
+      "successes": 11
+    },
+    {
+      "scenario": "contact",
+      "H": 50,
+      "K": 16,
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "n": 12,
+      "successes": 11
+    },
+    {
+      "scenario": "contact",
+      "H": 50,
+      "K": 16,
+      "task": "put_the_wine_bottle_on_the_rack",
+      "n": 12,
+      "successes": 12
+    },
+    {
+      "scenario": "plate_shift_+0.000m",
+      "H": 16,
+      "K": 4,
+      "task": "put_the_bowl_on_the_plate",
+      "n": 6,
+      "successes": 6
+    },
+    {
+      "scenario": "plate_shift_+0.000m",
+      "H": 50,
+      "K": 4,
+      "task": "put_the_bowl_on_the_plate",
+      "n": 6,
+      "successes": 6
+    },
+    {
+      "scenario": "plate_shift_+0.000m",
+      "H": 50,
+      "K": 16,
+      "task": "put_the_bowl_on_the_plate",
+      "n": 6,
+      "successes": 6
+    },
+    {
+      "scenario": "plate_shift_+0.020m",
+      "H": 16,
+      "K": 4,
+      "task": "put_the_bowl_on_the_plate",
+      "n": 6,
+      "successes": 6
+    },
+    {
+      "scenario": "plate_shift_+0.020m",
+      "H": 50,
+      "K": 4,
+      "task": "put_the_bowl_on_the_plate",
+      "n": 6,
+      "successes": 6
+    },
+    {
+      "scenario": "plate_shift_+0.020m",
+      "H": 50,
+      "K": 16,
+      "task": "put_the_bowl_on_the_plate",
+      "n": 6,
+      "successes": 6
+    },
+    {
+      "scenario": "plate_shift_-0.020m",
+      "H": 16,
+      "K": 4,
+      "task": "put_the_bowl_on_the_plate",
+      "n": 6,
+      "successes": 6
+    },
+    {
+      "scenario": "plate_shift_-0.020m",
+      "H": 50,
+      "K": 4,
+      "task": "put_the_bowl_on_the_plate",
+      "n": 6,
+      "successes": 6
+    },
+    {
+      "scenario": "plate_shift_-0.020m",
+      "H": 50,
+      "K": 16,
+      "task": "put_the_bowl_on_the_plate",
+      "n": 6,
+      "successes": 6
+    }
+  ],
+  "paired": [
+    {
+      "scenario": "contact",
+      "comparison": "16/4 - 50/16",
+      "metric": "success",
+      "pairs": 60,
+      "wins": 6,
+      "losses": 12,
+      "ties": 42,
+      "delta_pp": -10.0,
+      "bootstrap_ci95_pp": [
+        -23.333333333333332,
+        3.3333333333333326
+      ],
+      "exact_mcnemar_p": 0.237884521484375,
+      "ci_scope": "initial states within these fixed tasks; not task-generalization CI",
+      "caveat": "exploratory, unadjusted multiple comparisons; all-zero bootstrap is not equivalence evidence",
+      "holm_p_primary_two": 0.47576904296875
+    },
+    {
+      "scenario": "contact",
+      "comparison": "16/4 - 50/16",
+      "metric": "sustained_success",
+      "pairs": 60,
+      "wins": 8,
+      "losses": 10,
+      "ties": 42,
+      "delta_pp": -3.3333333333333335,
+      "bootstrap_ci95_pp": [
+        -16.666666666666664,
+        10.0
+      ],
+      "exact_mcnemar_p": 0.8145294189453125,
+      "ci_scope": "initial states within these fixed tasks; not task-generalization CI",
+      "caveat": "exploratory, unadjusted multiple comparisons; all-zero bootstrap is not equivalence evidence"
+    },
+    {
+      "scenario": "contact",
+      "comparison": "16/4 - 50/4",
+      "metric": "success",
+      "pairs": 60,
+      "wins": 6,
+      "losses": 9,
+      "ties": 45,
+      "delta_pp": -5.0,
+      "bootstrap_ci95_pp": [
+        -16.666666666666668,
+        6.666666666666668
+      ],
+      "exact_mcnemar_p": 0.60723876953125,
+      "ci_scope": "initial states within these fixed tasks; not task-generalization CI",
+      "caveat": "exploratory, unadjusted multiple comparisons; all-zero bootstrap is not equivalence evidence",
+      "holm_p_primary_two": 0.60723876953125
+    },
+    {
+      "scenario": "contact",
+      "comparison": "16/4 - 50/4",
+      "metric": "sustained_success",
+      "pairs": 60,
+      "wins": 9,
+      "losses": 10,
+      "ties": 41,
+      "delta_pp": -1.6666666666666667,
+      "bootstrap_ci95_pp": [
+        -15.000000000000002,
+        11.666666666666666
+      ],
+      "exact_mcnemar_p": 1.0,
+      "ci_scope": "initial states within these fixed tasks; not task-generalization CI",
+      "caveat": "exploratory, unadjusted multiple comparisons; all-zero bootstrap is not equivalence evidence"
+    },
+    {
+      "scenario": "contact",
+      "comparison": "50/4 - 50/16",
+      "metric": "success",
+      "pairs": 60,
+      "wins": 4,
+      "losses": 7,
+      "ties": 49,
+      "delta_pp": -5.0,
+      "bootstrap_ci95_pp": [
+        -15.000000000000002,
+        5.000000000000002
+      ],
+      "exact_mcnemar_p": 0.548828125,
+      "ci_scope": "initial states within these fixed tasks; not task-generalization CI",
+      "caveat": "exploratory, unadjusted multiple comparisons; all-zero bootstrap is not equivalence evidence"
+    },
+    {
+      "scenario": "contact",
+      "comparison": "50/4 - 50/16",
+      "metric": "sustained_success",
+      "pairs": 60,
+      "wins": 8,
+      "losses": 9,
+      "ties": 43,
+      "delta_pp": -1.6666666666666667,
+      "bootstrap_ci95_pp": [
+        -15.0,
+        11.666666666666666
+      ],
+      "exact_mcnemar_p": 1.0,
+      "ci_scope": "initial states within these fixed tasks; not task-generalization CI",
+      "caveat": "exploratory, unadjusted multiple comparisons; all-zero bootstrap is not equivalence evidence"
+    },
+    {
+      "scenario": "plate_shift_+0.000m",
+      "comparison": "16/4 - 50/16",
+      "metric": "success",
+      "pairs": 6,
+      "wins": 0,
+      "losses": 0,
+      "ties": 6,
+      "delta_pp": 0.0,
+      "bootstrap_ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "exact_mcnemar_p": 1.0,
+      "ci_scope": "initial states within these fixed tasks; not task-generalization CI",
+      "caveat": "exploratory, unadjusted multiple comparisons; all-zero bootstrap is not equivalence evidence"
+    },
+    {
+      "scenario": "plate_shift_+0.000m",
+      "comparison": "16/4 - 50/16",
+      "metric": "sustained_success",
+      "pairs": 6,
+      "wins": 0,
+      "losses": 2,
+      "ties": 4,
+      "delta_pp": -33.33333333333333,
+      "bootstrap_ci95_pp": [
+        -66.66666666666666,
+        0.0
+      ],
+      "exact_mcnemar_p": 0.5,
+      "ci_scope": "initial states within these fixed tasks; not task-generalization CI",
+      "caveat": "exploratory, unadjusted multiple comparisons; all-zero bootstrap is not equivalence evidence"
+    },
+    {
+      "scenario": "plate_shift_+0.000m",
+      "comparison": "16/4 - 50/4",
+      "metric": "success",
+      "pairs": 6,
+      "wins": 0,
+      "losses": 0,
+      "ties": 6,
+      "delta_pp": 0.0,
+      "bootstrap_ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "exact_mcnemar_p": 1.0,
+      "ci_scope": "initial states within these fixed tasks; not task-generalization CI",
+      "caveat": "exploratory, unadjusted multiple comparisons; all-zero bootstrap is not equivalence evidence"
+    },
+    {
+      "scenario": "plate_shift_+0.000m",
+      "comparison": "16/4 - 50/4",
+      "metric": "sustained_success",
+      "pairs": 6,
+      "wins": 0,
+      "losses": 0,
+      "ties": 6,
+      "delta_pp": 0.0,
+      "bootstrap_ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "exact_mcnemar_p": 1.0,
+      "ci_scope": "initial states within these fixed tasks; not task-generalization CI",
+      "caveat": "exploratory, unadjusted multiple comparisons; all-zero bootstrap is not equivalence evidence"
+    },
+    {
+      "scenario": "plate_shift_+0.000m",
+      "comparison": "50/4 - 50/16",
+      "metric": "success",
+      "pairs": 6,
+      "wins": 0,
+      "losses": 0,
+      "ties": 6,
+      "delta_pp": 0.0,
+      "bootstrap_ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "exact_mcnemar_p": 1.0,
+      "ci_scope": "initial states within these fixed tasks; not task-generalization CI",
+      "caveat": "exploratory, unadjusted multiple comparisons; all-zero bootstrap is not equivalence evidence"
+    },
+    {
+      "scenario": "plate_shift_+0.000m",
+      "comparison": "50/4 - 50/16",
+      "metric": "sustained_success",
+      "pairs": 6,
+      "wins": 0,
+      "losses": 2,
+      "ties": 4,
+      "delta_pp": -33.33333333333333,
+      "bootstrap_ci95_pp": [
+        -66.66666666666666,
+        0.0
+      ],
+      "exact_mcnemar_p": 0.5,
+      "ci_scope": "initial states within these fixed tasks; not task-generalization CI",
+      "caveat": "exploratory, unadjusted multiple comparisons; all-zero bootstrap is not equivalence evidence"
+    },
+    {
+      "scenario": "plate_shift_+0.020m",
+      "comparison": "16/4 - 50/16",
+      "metric": "success",
+      "pairs": 6,
+      "wins": 0,
+      "losses": 0,
+      "ties": 6,
+      "delta_pp": 0.0,
+      "bootstrap_ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "exact_mcnemar_p": 1.0,
+      "ci_scope": "initial states within these fixed tasks; not task-generalization CI",
+      "caveat": "exploratory, unadjusted multiple comparisons; all-zero bootstrap is not equivalence evidence"
+    },
+    {
+      "scenario": "plate_shift_+0.020m",
+      "comparison": "16/4 - 50/16",
+      "metric": "sustained_success",
+      "pairs": 6,
+      "wins": 0,
+      "losses": 1,
+      "ties": 5,
+      "delta_pp": -16.666666666666664,
+      "bootstrap_ci95_pp": [
+        -50.0,
+        0.0
+      ],
+      "exact_mcnemar_p": 1.0,
+      "ci_scope": "initial states within these fixed tasks; not task-generalization CI",
+      "caveat": "exploratory, unadjusted multiple comparisons; all-zero bootstrap is not equivalence evidence"
+    },
+    {
+      "scenario": "plate_shift_+0.020m",
+      "comparison": "16/4 - 50/4",
+      "metric": "success",
+      "pairs": 6,
+      "wins": 0,
+      "losses": 0,
+      "ties": 6,
+      "delta_pp": 0.0,
+      "bootstrap_ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "exact_mcnemar_p": 1.0,
+      "ci_scope": "initial states within these fixed tasks; not task-generalization CI",
+      "caveat": "exploratory, unadjusted multiple comparisons; all-zero bootstrap is not equivalence evidence"
+    },
+    {
+      "scenario": "plate_shift_+0.020m",
+      "comparison": "16/4 - 50/4",
+      "metric": "sustained_success",
+      "pairs": 6,
+      "wins": 0,
+      "losses": 0,
+      "ties": 6,
+      "delta_pp": 0.0,
+      "bootstrap_ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "exact_mcnemar_p": 1.0,
+      "ci_scope": "initial states within these fixed tasks; not task-generalization CI",
+      "caveat": "exploratory, unadjusted multiple comparisons; all-zero bootstrap is not equivalence evidence"
+    },
+    {
+      "scenario": "plate_shift_+0.020m",
+      "comparison": "50/4 - 50/16",
+      "metric": "success",
+      "pairs": 6,
+      "wins": 0,
+      "losses": 0,
+      "ties": 6,
+      "delta_pp": 0.0,
+      "bootstrap_ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "exact_mcnemar_p": 1.0,
+      "ci_scope": "initial states within these fixed tasks; not task-generalization CI",
+      "caveat": "exploratory, unadjusted multiple comparisons; all-zero bootstrap is not equivalence evidence"
+    },
+    {
+      "scenario": "plate_shift_+0.020m",
+      "comparison": "50/4 - 50/16",
+      "metric": "sustained_success",
+      "pairs": 6,
+      "wins": 0,
+      "losses": 1,
+      "ties": 5,
+      "delta_pp": -16.666666666666664,
+      "bootstrap_ci95_pp": [
+        -50.0,
+        0.0
+      ],
+      "exact_mcnemar_p": 1.0,
+      "ci_scope": "initial states within these fixed tasks; not task-generalization CI",
+      "caveat": "exploratory, unadjusted multiple comparisons; all-zero bootstrap is not equivalence evidence"
+    },
+    {
+      "scenario": "plate_shift_-0.020m",
+      "comparison": "16/4 - 50/16",
+      "metric": "success",
+      "pairs": 6,
+      "wins": 0,
+      "losses": 0,
+      "ties": 6,
+      "delta_pp": 0.0,
+      "bootstrap_ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "exact_mcnemar_p": 1.0,
+      "ci_scope": "initial states within these fixed tasks; not task-generalization CI",
+      "caveat": "exploratory, unadjusted multiple comparisons; all-zero bootstrap is not equivalence evidence"
+    },
+    {
+      "scenario": "plate_shift_-0.020m",
+      "comparison": "16/4 - 50/16",
+      "metric": "sustained_success",
+      "pairs": 6,
+      "wins": 2,
+      "losses": 3,
+      "ties": 1,
+      "delta_pp": -16.666666666666664,
+      "bootstrap_ci95_pp": [
+        -83.33333333333334,
+        50.0
+      ],
+      "exact_mcnemar_p": 1.0,
+      "ci_scope": "initial states within these fixed tasks; not task-generalization CI",
+      "caveat": "exploratory, unadjusted multiple comparisons; all-zero bootstrap is not equivalence evidence"
+    },
+    {
+      "scenario": "plate_shift_-0.020m",
+      "comparison": "16/4 - 50/4",
+      "metric": "success",
+      "pairs": 6,
+      "wins": 0,
+      "losses": 0,
+      "ties": 6,
+      "delta_pp": 0.0,
+      "bootstrap_ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "exact_mcnemar_p": 1.0,
+      "ci_scope": "initial states within these fixed tasks; not task-generalization CI",
+      "caveat": "exploratory, unadjusted multiple comparisons; all-zero bootstrap is not equivalence evidence"
+    },
+    {
+      "scenario": "plate_shift_-0.020m",
+      "comparison": "16/4 - 50/4",
+      "metric": "sustained_success",
+      "pairs": 6,
+      "wins": 1,
+      "losses": 1,
+      "ties": 4,
+      "delta_pp": 0.0,
+      "bootstrap_ci95_pp": [
+        -50.0,
+        50.0
+      ],
+      "exact_mcnemar_p": 1.0,
+      "ci_scope": "initial states within these fixed tasks; not task-generalization CI",
+      "caveat": "exploratory, unadjusted multiple comparisons; all-zero bootstrap is not equivalence evidence"
+    },
+    {
+      "scenario": "plate_shift_-0.020m",
+      "comparison": "50/4 - 50/16",
+      "metric": "success",
+      "pairs": 6,
+      "wins": 0,
+      "losses": 0,
+      "ties": 6,
+      "delta_pp": 0.0,
+      "bootstrap_ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "exact_mcnemar_p": 1.0,
+      "ci_scope": "initial states within these fixed tasks; not task-generalization CI",
+      "caveat": "exploratory, unadjusted multiple comparisons; all-zero bootstrap is not equivalence evidence"
+    },
+    {
+      "scenario": "plate_shift_-0.020m",
+      "comparison": "50/4 - 50/16",
+      "metric": "sustained_success",
+      "pairs": 6,
+      "wins": 1,
+      "losses": 2,
+      "ties": 3,
+      "delta_pp": -16.666666666666664,
+      "bootstrap_ci95_pp": [
+        -66.66666666666666,
+        33.33333333333333
+      ],
+      "exact_mcnemar_p": 1.0,
+      "ci_scope": "initial states within these fixed tasks; not task-generalization CI",
+      "caveat": "exploratory, unadjusted multiple comparisons; all-zero bootstrap is not equivalence evidence"
+    }
+  ],
+  "status": {
+    "status": "completed",
+    "updated_utc": "2026-11-17T07:09:10.462216+00:00",
+    "completed": 234,
+    "errors": 0,
+    "censored": 0
+  },
+  "source_directory": "/home/kwak3006/vlaexperiment/results/contact_hk_20261117",
+  "as_of_kst": "2026-11-17T16:10:19+09:00",
+  "hashes": {
+    "config.json": "0baf8cddcbcbc81d9cff797199a605191eee6fe9369514c9ea9223609a4f50c9",
+    "manifest.json": "47288b5ec20c626dae53639208453065e286cb418d97e50005a1d0617e4581f5",
+    "status.json": "78f5880c43f7aba47743fbf66c3815d0919fba70b7b4677458e7ae67dee13f19",
+    "trials.jsonl": "6a239257dcd82330bfa3133e341b3f336363167eaf4942da58acbeecb2f08a5f",
+    "calls.jsonl": "56c4fb1e1ebe1898832ea720be2418e886bf2c8090ca4982ec0262c987f454e8",
+    "source/run_contact_hk.py": "5f1ce270a87c345daf87ba9491de4f6c70b6aa1685c10e187f48b1b01dc12ed1",
+    "source/summarize_contact_hk.py": "917e329b9960970f77aa40eb4a2d6b11942e912b3e23bd078a545cf21389be4a",
+    "source/run_gr00t_wrist_pilot.py": "4326254826317c936f7aa1d7bb3dbc4e02d67ec26d91b2dcbb95e8b14fdb7df6",
+    "source/gr00t16_pilot.py": "b0333068fb3f37fab28f887e3d62ef6758e458a2cdd94fe733e51f4920e82e25"
+  }
+}

@@ -1,0 +1,1543 @@
+{
+  "as_of_kst": "2026-11-17T16:44:19.578667+09:00",
+  "status": {
+    "status": "completed",
+    "updated_utc": "2026-11-17T07:38:02.511094+00:00",
+    "diagnostics": 117,
+    "rollouts": 117,
+    "errors": 0
+  },
+  "matched_cases": 9,
+  "summary": [
+    {
+      "method": "fresh4",
+      "success": "7/9",
+      "immediate_goal": "0/9",
+      "precompute_ms": 0.0,
+      "post_p50_ms": 64.44679299966083,
+      "total_model_plus_forecast_ms": 64.26267633327774,
+      "analytical_delay_ms": 64.26267633327774,
+      "teacher_nmse16": 0.0,
+      "teacher_endpoint_mm": 0.0,
+      "privileged": false
+    },
+    {
+      "method": "fresh2",
+      "success": "8/9",
+      "immediate_goal": "0/9",
+      "precompute_ms": 0.0,
+      "post_p50_ms": 48.82053999972413,
+      "total_model_plus_forecast_ms": 48.72453577748578,
+      "analytical_delay_ms": 48.72453577748578,
+      "teacher_nmse16": 0.016154199929118974,
+      "teacher_endpoint_mm": 6.553202453827323,
+      "privileged": false
+    },
+    {
+      "method": "fresh1",
+      "success": "8/9",
+      "immediate_goal": "0/9",
+      "precompute_ms": 0.0,
+      "post_p50_ms": 41.14630200092506,
+      "total_model_plus_forecast_ms": 40.89713044433867,
+      "analytical_delay_ms": 40.89713044433867,
+      "teacher_nmse16": 0.09007889852469177,
+      "teacher_endpoint_mm": 16.864077967232323,
+      "privileged": false
+    },
+    {
+      "method": "oracle_resume3_1",
+      "success": "7/9",
+      "immediate_goal": "0/9",
+      "precompute_ms": 59.99621655529255,
+      "post_p50_ms": 41.08310099945811,
+      "total_model_plus_forecast_ms": 100.90386655550294,
+      "analytical_delay_ms": 40.907650000210396,
+      "teacher_nmse16": 0.0,
+      "teacher_endpoint_mm": 0.0,
+      "privileged": true
+    },
+    {
+      "method": "stale_resume3_1",
+      "success": "7/9",
+      "immediate_goal": "0/9",
+      "precompute_ms": 58.9628127779886,
+      "post_p50_ms": 41.02893200069957,
+      "total_model_plus_forecast_ms": 99.85011022197594,
+      "analytical_delay_ms": 40.887297443987336,
+      "teacher_nmse16": 0.05106143318427391,
+      "teacher_endpoint_mm": 22.554622775623482,
+      "privileged": false
+    },
+    {
+      "method": "forecast_resume3_1",
+      "success": "8/9",
+      "immediate_goal": "0/9",
+      "precompute_ms": 58.474145888996844,
+      "post_p50_ms": 40.9392259989545,
+      "total_model_plus_forecast_ms": 99.30957333310491,
+      "analytical_delay_ms": 40.83542744410806,
+      "teacher_nmse16": 0.050944702987592495,
+      "teacher_endpoint_mm": 22.533179049693334,
+      "privileged": false
+    },
+    {
+      "method": "oracle_state_resume3_1",
+      "success": "8/9",
+      "immediate_goal": "0/9",
+      "precompute_ms": 57.713648222286594,
+      "post_p50_ms": 40.9328320001805,
+      "total_model_plus_forecast_ms": 98.62876311126456,
+      "analytical_delay_ms": 40.91511488897797,
+      "teacher_nmse16": 0.05091042501356018,
+      "teacher_endpoint_mm": 22.548080873431033,
+      "privileged": true
+    },
+    {
+      "method": "oracle_rgb_resume3_1",
+      "success": "8/9",
+      "immediate_goal": "0/9",
+      "precompute_ms": 56.34204122250392,
+      "post_p50_ms": 40.928364998762845,
+      "total_model_plus_forecast_ms": 97.19990977757536,
+      "analytical_delay_ms": 40.85786855507144,
+      "teacher_nmse16": 1.300621986999021e-05,
+      "teacher_endpoint_mm": 0.05926016825812037,
+      "privileged": true
+    },
+    {
+      "method": "bias5mm_resume3_1",
+      "success": "7/9",
+      "immediate_goal": "0/9",
+      "precompute_ms": 56.139945333496954,
+      "post_p50_ms": 41.02497799976845,
+      "total_model_plus_forecast_ms": 96.99605311127218,
+      "analytical_delay_ms": 40.85610777777523,
+      "teacher_nmse16": 1.2152105069109956e-05,
+      "teacher_endpoint_mm": 0.06537285571817847,
+      "privileged": true
+    },
+    {
+      "method": "bias20mm_resume3_1",
+      "success": "9/9",
+      "immediate_goal": "0/9",
+      "precompute_ms": 56.23996933294014,
+      "post_p50_ms": 40.90677400017739,
+      "total_model_plus_forecast_ms": 97.04631922229763,
+      "analytical_delay_ms": 40.806349889357485,
+      "teacher_nmse16": 1.1339947123330245e-05,
+      "teacher_endpoint_mm": 0.07711684705086344,
+      "privileged": true
+    },
+    {
+      "method": "forecast_full_refine1",
+      "success": "7/9",
+      "immediate_goal": "0/9",
+      "precompute_ms": 66.96397399991838,
+      "post_p50_ms": 41.00792499957606,
+      "total_model_plus_forecast_ms": 107.88783099966774,
+      "analytical_delay_ms": 40.923856999749354,
+      "teacher_nmse16": 0.0671488325586681,
+      "teacher_endpoint_mm": 24.914911566829023,
+      "privileged": false
+    },
+    {
+      "method": "forecast_replay",
+      "success": "9/9",
+      "immediate_goal": "0/9",
+      "precompute_ms": 66.96397399991838,
+      "post_p50_ms": 0.0011930005712201819,
+      "total_model_plus_forecast_ms": 66.96515977788901,
+      "analytical_delay_ms": 0.0011857779706285025,
+      "teacher_nmse16": 0.09419887860106299,
+      "teacher_endpoint_mm": 32.02012123972177,
+      "privileged": false
+    },
+    {
+      "method": "oracle_replay",
+      "success": "7/9",
+      "immediate_goal": "0/9",
+      "precompute_ms": 68.60389233325905,
+      "post_p50_ms": 0.0012109994713682681,
+      "total_model_plus_forecast_ms": 68.60512677728063,
+      "analytical_delay_ms": 0.0012344440215707032,
+      "teacher_nmse16": 0.0,
+      "teacher_endpoint_mm": 0.0,
+      "privileged": true
+    },
+    {
+      "method": "stale_replay",
+      "success": "9/9",
+      "immediate_goal": "0/9",
+      "precompute_ms": 69.010524888856,
+      "post_p50_ms": 0.0008419992809649557,
+      "total_model_plus_forecast_ms": 69.01169266671383,
+      "analytical_delay_ms": 0.0011677778578208138,
+      "teacher_nmse16": 0.09424823239593833,
+      "teacher_endpoint_mm": 31.975619459631577,
+      "privileged": false
+    }
+  ],
+  "paired": [
+    {
+      "comparison": "forecast_resume3_1 - fresh1",
+      "pairs": 9,
+      "wins": 1,
+      "losses": 1,
+      "win_cases": [
+        "libero_goal:put_the_cream_cheese_in_the_bowl:0"
+      ],
+      "loss_cases": [
+        "libero_goal:put_the_cream_cheese_in_the_bowl:4"
+      ]
+    },
+    {
+      "comparison": "forecast_resume3_1 - fresh2",
+      "pairs": 9,
+      "wins": 0,
+      "losses": 0,
+      "win_cases": [],
+      "loss_cases": []
+    },
+    {
+      "comparison": "forecast_resume3_1 - fresh4",
+      "pairs": 9,
+      "wins": 1,
+      "losses": 0,
+      "win_cases": [
+        "libero_10:KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it:0"
+      ],
+      "loss_cases": []
+    },
+    {
+      "comparison": "oracle_rgb_resume3_1 - forecast_resume3_1",
+      "pairs": 9,
+      "wins": 0,
+      "losses": 0,
+      "win_cases": [],
+      "loss_cases": []
+    },
+    {
+      "comparison": "forecast_full_refine1 - fresh1",
+      "pairs": 9,
+      "wins": 1,
+      "losses": 2,
+      "win_cases": [
+        "libero_goal:put_the_cream_cheese_in_the_bowl:0"
+      ],
+      "loss_cases": [
+        "libero_goal:put_the_cream_cheese_in_the_bowl:4",
+        "libero_10:KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it:0"
+      ]
+    },
+    {
+      "comparison": "forecast_replay - fresh4",
+      "pairs": 9,
+      "wins": 2,
+      "losses": 0,
+      "win_cases": [
+        "libero_goal:put_the_cream_cheese_in_the_bowl:4",
+        "libero_10:KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it:0"
+      ],
+      "loss_cases": []
+    },
+    {
+      "comparison": "forecast_replay - stale_replay",
+      "pairs": 9,
+      "wins": 0,
+      "losses": 0,
+      "win_cases": [],
+      "loss_cases": []
+    }
+  ],
+  "per_case": [
+    {
+      "method": "fresh4",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 0,
+      "success": false,
+      "immediate_goal": false,
+      "steps": 520
+    },
+    {
+      "method": "fresh4",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 215
+    },
+    {
+      "method": "fresh4",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 234
+    },
+    {
+      "method": "fresh4",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 201
+    },
+    {
+      "method": "fresh4",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 186
+    },
+    {
+      "method": "fresh4",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 174
+    },
+    {
+      "method": "fresh4",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 110
+    },
+    {
+      "method": "fresh4",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 4,
+      "success": false,
+      "immediate_goal": false,
+      "steps": 280
+    },
+    {
+      "method": "fresh4",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 91
+    },
+    {
+      "method": "fresh2",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 345
+    },
+    {
+      "method": "fresh2",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 215
+    },
+    {
+      "method": "fresh2",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 233
+    },
+    {
+      "method": "fresh2",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 201
+    },
+    {
+      "method": "fresh2",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 187
+    },
+    {
+      "method": "fresh2",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 174
+    },
+    {
+      "method": "fresh2",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 109
+    },
+    {
+      "method": "fresh2",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 4,
+      "success": false,
+      "immediate_goal": false,
+      "steps": 280
+    },
+    {
+      "method": "fresh2",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 91
+    },
+    {
+      "method": "fresh1",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 346
+    },
+    {
+      "method": "fresh1",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 214
+    },
+    {
+      "method": "fresh1",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 231
+    },
+    {
+      "method": "fresh1",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 206
+    },
+    {
+      "method": "fresh1",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 186
+    },
+    {
+      "method": "fresh1",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 181
+    },
+    {
+      "method": "fresh1",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 0,
+      "success": false,
+      "immediate_goal": false,
+      "steps": 280
+    },
+    {
+      "method": "fresh1",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 152
+    },
+    {
+      "method": "fresh1",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 91
+    },
+    {
+      "method": "oracle_resume3_1",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 0,
+      "success": false,
+      "immediate_goal": false,
+      "steps": 520
+    },
+    {
+      "method": "oracle_resume3_1",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 215
+    },
+    {
+      "method": "oracle_resume3_1",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 234
+    },
+    {
+      "method": "oracle_resume3_1",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 201
+    },
+    {
+      "method": "oracle_resume3_1",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 186
+    },
+    {
+      "method": "oracle_resume3_1",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 174
+    },
+    {
+      "method": "oracle_resume3_1",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 110
+    },
+    {
+      "method": "oracle_resume3_1",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 4,
+      "success": false,
+      "immediate_goal": false,
+      "steps": 280
+    },
+    {
+      "method": "oracle_resume3_1",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 91
+    },
+    {
+      "method": "stale_resume3_1",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 0,
+      "success": false,
+      "immediate_goal": false,
+      "steps": 520
+    },
+    {
+      "method": "stale_resume3_1",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 216
+    },
+    {
+      "method": "stale_resume3_1",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 232
+    },
+    {
+      "method": "stale_resume3_1",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 191
+    },
+    {
+      "method": "stale_resume3_1",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 186
+    },
+    {
+      "method": "stale_resume3_1",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 180
+    },
+    {
+      "method": "stale_resume3_1",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 105
+    },
+    {
+      "method": "stale_resume3_1",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 4,
+      "success": false,
+      "immediate_goal": false,
+      "steps": 280
+    },
+    {
+      "method": "stale_resume3_1",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 96
+    },
+    {
+      "method": "forecast_resume3_1",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 333
+    },
+    {
+      "method": "forecast_resume3_1",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 216
+    },
+    {
+      "method": "forecast_resume3_1",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 232
+    },
+    {
+      "method": "forecast_resume3_1",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 201
+    },
+    {
+      "method": "forecast_resume3_1",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 188
+    },
+    {
+      "method": "forecast_resume3_1",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 174
+    },
+    {
+      "method": "forecast_resume3_1",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 108
+    },
+    {
+      "method": "forecast_resume3_1",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 4,
+      "success": false,
+      "immediate_goal": false,
+      "steps": 280
+    },
+    {
+      "method": "forecast_resume3_1",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 96
+    },
+    {
+      "method": "oracle_state_resume3_1",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 342
+    },
+    {
+      "method": "oracle_state_resume3_1",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 217
+    },
+    {
+      "method": "oracle_state_resume3_1",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 233
+    },
+    {
+      "method": "oracle_state_resume3_1",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 191
+    },
+    {
+      "method": "oracle_state_resume3_1",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 186
+    },
+    {
+      "method": "oracle_state_resume3_1",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 181
+    },
+    {
+      "method": "oracle_state_resume3_1",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 107
+    },
+    {
+      "method": "oracle_state_resume3_1",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 4,
+      "success": false,
+      "immediate_goal": false,
+      "steps": 280
+    },
+    {
+      "method": "oracle_state_resume3_1",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 96
+    },
+    {
+      "method": "oracle_rgb_resume3_1",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 343
+    },
+    {
+      "method": "oracle_rgb_resume3_1",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 215
+    },
+    {
+      "method": "oracle_rgb_resume3_1",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 232
+    },
+    {
+      "method": "oracle_rgb_resume3_1",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 200
+    },
+    {
+      "method": "oracle_rgb_resume3_1",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 186
+    },
+    {
+      "method": "oracle_rgb_resume3_1",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 172
+    },
+    {
+      "method": "oracle_rgb_resume3_1",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 110
+    },
+    {
+      "method": "oracle_rgb_resume3_1",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 4,
+      "success": false,
+      "immediate_goal": false,
+      "steps": 280
+    },
+    {
+      "method": "oracle_rgb_resume3_1",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 91
+    },
+    {
+      "method": "bias5mm_resume3_1",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 0,
+      "success": false,
+      "immediate_goal": false,
+      "steps": 520
+    },
+    {
+      "method": "bias5mm_resume3_1",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 215
+    },
+    {
+      "method": "bias5mm_resume3_1",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 234
+    },
+    {
+      "method": "bias5mm_resume3_1",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 200
+    },
+    {
+      "method": "bias5mm_resume3_1",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 186
+    },
+    {
+      "method": "bias5mm_resume3_1",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 173
+    },
+    {
+      "method": "bias5mm_resume3_1",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 110
+    },
+    {
+      "method": "bias5mm_resume3_1",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 4,
+      "success": false,
+      "immediate_goal": false,
+      "steps": 280
+    },
+    {
+      "method": "bias5mm_resume3_1",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 91
+    },
+    {
+      "method": "bias20mm_resume3_1",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 333
+    },
+    {
+      "method": "bias20mm_resume3_1",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 215
+    },
+    {
+      "method": "bias20mm_resume3_1",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 232
+    },
+    {
+      "method": "bias20mm_resume3_1",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 201
+    },
+    {
+      "method": "bias20mm_resume3_1",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 186
+    },
+    {
+      "method": "bias20mm_resume3_1",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 177
+    },
+    {
+      "method": "bias20mm_resume3_1",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 110
+    },
+    {
+      "method": "bias20mm_resume3_1",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 130
+    },
+    {
+      "method": "bias20mm_resume3_1",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 91
+    },
+    {
+      "method": "forecast_full_refine1",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 0,
+      "success": false,
+      "immediate_goal": false,
+      "steps": 520
+    },
+    {
+      "method": "forecast_full_refine1",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 218
+    },
+    {
+      "method": "forecast_full_refine1",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 232
+    },
+    {
+      "method": "forecast_full_refine1",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 200
+    },
+    {
+      "method": "forecast_full_refine1",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 186
+    },
+    {
+      "method": "forecast_full_refine1",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 175
+    },
+    {
+      "method": "forecast_full_refine1",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 108
+    },
+    {
+      "method": "forecast_full_refine1",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 4,
+      "success": false,
+      "immediate_goal": false,
+      "steps": 280
+    },
+    {
+      "method": "forecast_full_refine1",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 96
+    },
+    {
+      "method": "forecast_replay",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 336
+    },
+    {
+      "method": "forecast_replay",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 217
+    },
+    {
+      "method": "forecast_replay",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 235
+    },
+    {
+      "method": "forecast_replay",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 201
+    },
+    {
+      "method": "forecast_replay",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 187
+    },
+    {
+      "method": "forecast_replay",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 180
+    },
+    {
+      "method": "forecast_replay",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 108
+    },
+    {
+      "method": "forecast_replay",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 107
+    },
+    {
+      "method": "forecast_replay",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 98
+    },
+    {
+      "method": "oracle_replay",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 0,
+      "success": false,
+      "immediate_goal": false,
+      "steps": 520
+    },
+    {
+      "method": "oracle_replay",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 215
+    },
+    {
+      "method": "oracle_replay",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 234
+    },
+    {
+      "method": "oracle_replay",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 201
+    },
+    {
+      "method": "oracle_replay",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 186
+    },
+    {
+      "method": "oracle_replay",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 174
+    },
+    {
+      "method": "oracle_replay",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 110
+    },
+    {
+      "method": "oracle_replay",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 4,
+      "success": false,
+      "immediate_goal": false,
+      "steps": 280
+    },
+    {
+      "method": "oracle_replay",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 91
+    },
+    {
+      "method": "stale_replay",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 341
+    },
+    {
+      "method": "stale_replay",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 217
+    },
+    {
+      "method": "stale_replay",
+      "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 236
+    },
+    {
+      "method": "stale_replay",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 201
+    },
+    {
+      "method": "stale_replay",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 187
+    },
+    {
+      "method": "stale_replay",
+      "task": "open_the_top_drawer_and_put_the_bowl_inside",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 183
+    },
+    {
+      "method": "stale_replay",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 0,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 109
+    },
+    {
+      "method": "stale_replay",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 4,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 111
+    },
+    {
+      "method": "stale_replay",
+      "task": "put_the_cream_cheese_in_the_bowl",
+      "initial_state": 8,
+      "success": true,
+      "immediate_goal": false,
+      "steps": 98
+    }
+  ],
+  "hashes": {
+    "config.json": "8cbd1b7c85c539305b80d004e7746024aea1e0129825b7dda2b76f9286d75e19",
+    "manifest.json": "4ed3bef1419963e857f70e3e48fe0016e35f283f6d570d3c1e1011b3c9356dca",
+    "status.json": "2aa21fe477db1202dc96ad805aa766cdf419a7c083afd75dd4558867b72062ab",
+    "diagnostics.jsonl": "3851949bc98b754e3b45064f158ebf8515cf8edc529a2081ceecd3e0071aa629",
+    "rollouts.jsonl": "3c6ac9e0f885ac81f8e847b0615529ae5446f097413e4fc05764b9351c7b818b",
+    "forecast_cpu_timings.json": "1d1ef47de36c703fee4d7c8aa474c5f52f07aeda58cae87e5e22419c34568fbc",
+    "stale_control/config.json": "19b3e792559259af96f1ce7244891e75ba2453d71851d917a4c3612ed8902928",
+    "stale_control/manifest.json": "7f64d540776b0a2d410fe44710a2ece1914a377d6a0e9a442469c21fbcfefcce",
+    "stale_control/status.json": "4aa945e91207caffb6c1a423f2f0afdfbec4e04167f6fd8d3b1ca79fb81c5301",
+    "stale_control/diagnostics.jsonl": "b6dfcdc13cd630ab6333652c83aba2607add03473809c842120e300d8133c598",
+    "stale_control/rollouts.jsonl": "44744e5efcc413461757d7bb0a00ed1e70c55d2088a081792bc2e7cb09f715cb",
+    "terminal_0/config.json": "67105f93aadb08a2d70092ea857075a48edf8208f970018b927b8c8ba740e669",
+    "terminal_0/manifest.json": "2c84573bf0f7a9fe07ca08f97024aa2406c09913677ec1b2fe9d9d64ce3a8603",
+    "terminal_0/status.json": "6093b8cd0bdd73b954cbd893ea04522f97a11d9ff6f1f80e2750866be7e4d640",
+    "terminal_0/diagnostics.jsonl": "2199e4d06e86c7e9754e4ed620dc8fdf21a25c68f5fc92ecfe325ccb981616f7",
+    "terminal_0/rollouts.jsonl": "bb01519530243bda06c59dc6fe7024df5d7c7fe016bd107c8afa987303bbe976",
+    "terminal_1/config.json": "3079be78a31570049ce45da25f4fe86b5d1a0476f6e9ded0fcd16b699f91fa50",
+    "terminal_1/manifest.json": "e68b834d0365c5a5f9b2ff2be876ab76e7f3cd349cb14443e66f006d32281615",
+    "terminal_1/status.json": "7ec65c485058d5a5f09539a2f1f2834605cdd53c30f2182e8c4d1608435165a0",
+    "terminal_1/diagnostics.jsonl": "c0756231d9121daebb4e14375d3b61cdeada3256179de2d353caab95bee74191",
+    "terminal_1/rollouts.jsonl": "c4c5c4d58f1bc2490440f03bd30e6de0c5be2bea4b257711930e036003168e88",
+    "terminal_2/config.json": "664846cd3f1becf0754b4605f84fdbf46b9ae03ac5f6af187ab4f9154d6e4507",
+    "terminal_2/manifest.json": "b0cc4040b8397ba3dc186d573d732c86291eb932ad8f1cc238f3cf7c3c087fc2",
+    "terminal_2/status.json": "6c94ae24640b40aedaee2040590bb7042e1bde418c59ec3ba029b97f78ccaf31",
+    "terminal_2/diagnostics.jsonl": "a0ae69fcacbf02267fc56758e5c10415bf4c4da8feef63d207f76bca750b6386",
+    "terminal_2/rollouts.jsonl": "8c4af1a6e7c6d749a25d44c1e04e2c2f3e19fb49d5ec6cb9f1a1ea9a949d6da6"
+  },
+  "control_status": {
+    "status": "completed",
+    "updated_utc": "2026-11-17T07:39:25.456756+00:00",
+    "diagnostics": 9,
+    "rollouts": 9,
+    "errors": 0
+  },
+  "total_rollouts": 126,
+  "source_directory": "/home/kwak3006/vlaexperiment/results/arrival_gr00t_20261117",
+  "forecast_cpu_mean_ms": 0.02983888902639996,
+  "forecast_position_mean_mm": 18.469750725974638,
+  "terminal_diagnostic": {
+    "statuses": [
+      {
+        "status": "completed",
+        "updated_utc": "2026-11-17T07:42:33.293463+00:00",
+        "diagnostics": 7,
+        "rollouts": 7,
+        "errors": 0
+      },
+      {
+        "status": "completed",
+        "updated_utc": "2026-11-17T07:43:10.126713+00:00",
+        "diagnostics": 7,
+        "rollouts": 7,
+        "errors": 0
+      },
+      {
+        "status": "completed",
+        "updated_utc": "2026-11-17T07:43:45.139946+00:00",
+        "diagnostics": 7,
+        "rollouts": 7,
+        "errors": 0
+      }
+    ],
+    "total_rollouts": 21,
+    "summary": [
+      {
+        "method": "forecast_replay",
+        "completed": 3,
+        "successes": 2,
+        "goal_at_end": 2
+      },
+      {
+        "method": "forecast_resume3_1",
+        "completed": 3,
+        "successes": 2,
+        "goal_at_end": 2
+      },
+      {
+        "method": "fresh1",
+        "completed": 3,
+        "successes": 3,
+        "goal_at_end": 3
+      },
+      {
+        "method": "fresh4",
+        "completed": 3,
+        "successes": 3,
+        "goal_at_end": 3
+      },
+      {
+        "method": "oracle_resume3_1",
+        "completed": 3,
+        "successes": 3,
+        "goal_at_end": 3
+      },
+      {
+        "method": "oracle_rgb_resume3_1",
+        "completed": 3,
+        "successes": 3,
+        "goal_at_end": 3
+      },
+      {
+        "method": "stale_replay",
+        "completed": 3,
+        "successes": 2,
+        "goal_at_end": 2
+      }
+    ],
+    "per_case": [
+      {
+        "task": "put_the_cream_cheese_in_the_bowl",
+        "initial_state": 0,
+        "method": "oracle_resume3_1",
+        "success": true,
+        "goal_after_intervention": true,
+        "steps": 112
+      },
+      {
+        "task": "put_the_cream_cheese_in_the_bowl",
+        "initial_state": 0,
+        "method": "fresh4",
+        "success": true,
+        "goal_after_intervention": true,
+        "steps": 112
+      },
+      {
+        "task": "put_the_cream_cheese_in_the_bowl",
+        "initial_state": 0,
+        "method": "oracle_rgb_resume3_1",
+        "success": true,
+        "goal_after_intervention": true,
+        "steps": 112
+      },
+      {
+        "task": "put_the_cream_cheese_in_the_bowl",
+        "initial_state": 0,
+        "method": "fresh1",
+        "success": true,
+        "goal_after_intervention": true,
+        "steps": 112
+      },
+      {
+        "task": "put_the_cream_cheese_in_the_bowl",
+        "initial_state": 0,
+        "method": "forecast_resume3_1",
+        "success": false,
+        "goal_after_intervention": false,
+        "steps": 112
+      },
+      {
+        "task": "put_the_cream_cheese_in_the_bowl",
+        "initial_state": 0,
+        "method": "forecast_replay",
+        "success": false,
+        "goal_after_intervention": false,
+        "steps": 112
+      },
+      {
+        "task": "put_the_cream_cheese_in_the_bowl",
+        "initial_state": 0,
+        "method": "stale_replay",
+        "success": false,
+        "goal_after_intervention": false,
+        "steps": 112
+      },
+      {
+        "task": "open_the_top_drawer_and_put_the_bowl_inside",
+        "initial_state": 0,
+        "method": "forecast_resume3_1",
+        "success": true,
+        "goal_after_intervention": true,
+        "steps": 208
+      },
+      {
+        "task": "open_the_top_drawer_and_put_the_bowl_inside",
+        "initial_state": 0,
+        "method": "oracle_resume3_1",
+        "success": true,
+        "goal_after_intervention": true,
+        "steps": 208
+      },
+      {
+        "task": "open_the_top_drawer_and_put_the_bowl_inside",
+        "initial_state": 0,
+        "method": "fresh1",
+        "success": true,
+        "goal_after_intervention": true,
+        "steps": 208
+      },
+      {
+        "task": "open_the_top_drawer_and_put_the_bowl_inside",
+        "initial_state": 0,
+        "method": "stale_replay",
+        "success": true,
+        "goal_after_intervention": true,
+        "steps": 208
+      },
+      {
+        "task": "open_the_top_drawer_and_put_the_bowl_inside",
+        "initial_state": 0,
+        "method": "forecast_replay",
+        "success": true,
+        "goal_after_intervention": true,
+        "steps": 208
+      },
+      {
+        "task": "open_the_top_drawer_and_put_the_bowl_inside",
+        "initial_state": 0,
+        "method": "fresh4",
+        "success": true,
+        "goal_after_intervention": true,
+        "steps": 208
+      },
+      {
+        "task": "open_the_top_drawer_and_put_the_bowl_inside",
+        "initial_state": 0,
+        "method": "oracle_rgb_resume3_1",
+        "success": true,
+        "goal_after_intervention": true,
+        "steps": 208
+      },
+      {
+        "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+        "initial_state": 4,
+        "method": "forecast_resume3_1",
+        "success": true,
+        "goal_after_intervention": true,
+        "steps": 224
+      },
+      {
+        "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+        "initial_state": 4,
+        "method": "fresh1",
+        "success": true,
+        "goal_after_intervention": true,
+        "steps": 224
+      },
+      {
+        "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+        "initial_state": 4,
+        "method": "oracle_rgb_resume3_1",
+        "success": true,
+        "goal_after_intervention": true,
+        "steps": 224
+      },
+      {
+        "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+        "initial_state": 4,
+        "method": "fresh4",
+        "success": true,
+        "goal_after_intervention": true,
+        "steps": 224
+      },
+      {
+        "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+        "initial_state": 4,
+        "method": "forecast_replay",
+        "success": true,
+        "goal_after_intervention": true,
+        "steps": 224
+      },
+      {
+        "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+        "initial_state": 4,
+        "method": "oracle_resume3_1",
+        "success": true,
+        "goal_after_intervention": true,
+        "steps": 224
+      },
+      {
+        "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+        "initial_state": 4,
+        "method": "stale_replay",
+        "success": true,
+        "goal_after_intervention": true,
+        "steps": 224
+      }
+    ],
+    "selection": "First successful native reference per task; its last native chunk start. No recovery beyond the next 16 actions. Exploratory selection, not unbiased success-rate estimate."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "status": "running",
+  "phase": "closed_loop",
+  "last_trial": "5:1:both_fresh:16:4:2",
+  "updated_utc": "2026-11-17T06:40:30.899566+00:00",
+  "offline_rows": 0,
+  "rollouts": 6
+}

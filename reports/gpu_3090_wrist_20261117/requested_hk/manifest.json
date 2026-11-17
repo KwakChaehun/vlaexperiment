@@ -1,0 +1,97 @@
+{
+  "started_utc": "2026-11-17T06:37:08.591510+00:00",
+  "device": "NVIDIA GeForce RTX 3090",
+  "torch": "2.9.0+cu128",
+  "cuda": "12.8",
+  "parity": {
+    "official_sampler_max_abs": 2.9976945370435715e-09,
+    "split_vision_max_abs": 0.0054931640625,
+    "one_camera_recompute_max_abs": 0.0054931640625,
+    "cache_cold_batch": false,
+    "cache_hit_max_abs": 0.0,
+    "native_generated_H": 50,
+    "native_decoded_H": 16,
+    "native_N": 4
+  },
+  "upstream_revision": "9b37aa1ce69c73c6d165233fa88128283bba4508",
+  "config": {
+    "checkpoint": "checkpoints/gr00t_n16_libero",
+    "checkpoint_repo": "0xAnkitSingh/GR00T-N1.6-LIBERO",
+    "checkpoint_revision": "d690a226ad06e81736786f56cf879d2ed1dd3f0f",
+    "device": "cuda:0",
+    "episodes": [
+      1274,
+      1269,
+      1285
+    ],
+    "samples_per_episode": 4,
+    "lags": [
+      4,
+      8,
+      16
+    ],
+    "horizons": [
+      50,
+      16,
+      8,
+      4
+    ],
+    "execute": [
+      4,
+      8,
+      16
+    ],
+    "flow_steps": 4,
+    "tasks": [
+      0,
+      1,
+      2
+    ],
+    "initial_states": [
+      0,
+      1
+    ],
+    "max_control_steps": 220,
+    "external_refresh_steps": 16,
+    "seed": 20261117,
+    "closed_cells": [
+      [
+        "both_fresh",
+        50,
+        16,
+        4
+      ],
+      [
+        "both_fresh",
+        50,
+        4,
+        4
+      ],
+      [
+        "both_fresh",
+        16,
+        4,
+        4
+      ]
+    ]
+  },
+  "expert_std": [
+    0.397309809923172,
+    0.3505784571170807,
+    0.4607504904270172,
+    0.05000000074505806,
+    0.057779036462306976,
+    0.05000000074505806,
+    0.996161162853241
+  ],
+  "data_repo": "physical-intelligence/libero",
+  "data_revision": "a4336d589d589045d1c56423ffdf3b88a0e19b1f",
+  "libero_revision": "8f1084e3132a39270c3a13ebe37270a43ece2a01",
+  "source_split": "train; checkpoint overlap possible",
+  "runtime_patch": "Gr00tPolicy AutoModel.from_pretrained: torch_dtype=bfloat16, low_cpu_mem_usage=True (16GB host RAM)",
+  "peak_allocated_gib": 6.338991165161133,
+  "code_sha256": {
+    "vla_eval/gr00t16_pilot.py": "b0333068fb3f37fab28f887e3d62ef6758e458a2cdd94fe733e51f4920e82e25",
+    "scripts/run_gr00t_wrist_pilot.py": "4326254826317c936f7aa1d7bb3dbc4e02d67ec26d91b2dcbb95e8b14fdb7df6"
+  }
+}

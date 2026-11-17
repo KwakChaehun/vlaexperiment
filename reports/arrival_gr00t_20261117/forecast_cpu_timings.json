@@ -1,0 +1,74 @@
+[
+  {
+    "case": "libero_goal:put_the_cream_cheese_in_the_bowl:0",
+    "cpu_p50_ms": 0.029100000574544538,
+    "cpu_p95_ms": 0.03489500004434376,
+    "repeats": 100,
+    "input_replay_verified": true,
+    "scope": "warm standalone CPU timing on original causal inputs; not concurrent measurement"
+  },
+  {
+    "case": "libero_goal:open_the_top_drawer_and_put_the_bowl_inside:0",
+    "cpu_p50_ms": 0.03053799991903361,
+    "cpu_p95_ms": 0.034406450231472256,
+    "repeats": 100,
+    "input_replay_verified": true,
+    "scope": "warm standalone CPU timing on original causal inputs; not concurrent measurement"
+  },
+  {
+    "case": "libero_10:KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it:0",
+    "cpu_p50_ms": 0.030038499971851707,
+    "cpu_p95_ms": 0.033709749186527915,
+    "repeats": 100,
+    "input_replay_verified": true,
+    "scope": "warm standalone CPU timing on original causal inputs; not concurrent measurement"
+  },
+  {
+    "case": "libero_goal:put_the_cream_cheese_in_the_bowl:4",
+    "cpu_p50_ms": 0.029464500585163478,
+    "cpu_p95_ms": 0.034537800183898064,
+    "repeats": 100,
+    "input_replay_verified": true,
+    "scope": "warm standalone CPU timing on original causal inputs; not concurrent measurement"
+  },
+  {
+    "case": "libero_goal:open_the_top_drawer_and_put_the_bowl_inside:4",
+    "cpu_p50_ms": 0.029261999770824332,
+    "cpu_p95_ms": 0.03315100102554424,
+    "repeats": 100,
+    "input_replay_verified": true,
+    "scope": "warm standalone CPU timing on original causal inputs; not concurrent measurement"
+  },
+  {
+    "case": "libero_10:KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it:4",
+    "cpu_p50_ms": 0.02928950016212184,
+    "cpu_p95_ms": 0.03350489960212144,
+    "repeats": 100,
+    "input_replay_verified": true,
+    "scope": "warm standalone CPU timing on original causal inputs; not concurrent measurement"
+  },
+  {
+    "case": "libero_goal:put_the_cream_cheese_in_the_bowl:8",
+    "cpu_p50_ms": 0.030891000278643332,
+    "cpu_p95_ms": 0.03413124995859106,
+    "repeats": 100,
+    "input_replay_verified": true,
+    "scope": "warm standalone CPU timing on original causal inputs; not concurrent measurement"
+  },
+  {
+    "case": "libero_goal:open_the_top_drawer_and_put_the_bowl_inside:8",
+    "cpu_p50_ms": 0.02986900017276639,
+    "cpu_p95_ms": 0.03417525085751549,
+    "repeats": 100,
+    "input_replay_verified": true,
+    "scope": "warm standalone CPU timing on original causal inputs; not concurrent measurement"
+  },
+  {
+    "case": "libero_10:KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it:8",
+    "cpu_p50_ms": 0.030097499802650418,
+    "cpu_p95_ms": 0.03407335143492673,
+    "repeats": 100,
+    "input_replay_verified": true,
+    "scope": "warm standalone CPU timing on original causal inputs; not concurrent measurement"
+  }
+]

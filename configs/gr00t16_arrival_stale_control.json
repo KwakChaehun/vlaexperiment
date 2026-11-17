@@ -1,0 +1,42 @@
+{
+  "checkpoint": "checkpoints/gr00t_n16_libero",
+  "device": "cuda:0",
+  "seed": 20261117,
+  "H": 50,
+  "N": 4,
+  "initial_states": [
+    0,
+    4,
+    8
+  ],
+  "lookahead_steps": 4,
+  "intervention_steps": 16,
+  "continuation_K": 16,
+  "tasks": [
+    {
+      "suite": "libero_goal",
+      "name": "put_the_cream_cheese_in_the_bowl",
+      "arrival_step": 64,
+      "max_steps": 280
+    },
+    {
+      "suite": "libero_goal",
+      "name": "open_the_top_drawer_and_put_the_bowl_inside",
+      "arrival_step": 64,
+      "max_steps": 280
+    },
+    {
+      "suite": "libero_10",
+      "name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "arrival_step": 160,
+      "max_steps": 520
+    }
+  ],
+  "methods": [
+    "stale_replay"
+  ],
+  "scope": "first 16 actions after a fixed shared arrival; identical fresh H50/N4/K16 control afterwards",
+  "latency_mode": "sequential CUDA measurements with analytical 200ms overlap only; no concurrent or PIM measurement",
+  "oracle_scope": "actual arrival RGB/state available only to explicitly privileged diagnostic arms",
+  "control_note": "Added after initial seven matched cases to isolate whether forecast_replay benefits from state forecasting; exploratory additional control."
+}

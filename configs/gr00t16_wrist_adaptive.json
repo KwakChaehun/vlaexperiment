@@ -1,0 +1,73 @@
+{
+  "checkpoint": "checkpoints/gr00t_n16_libero",
+  "checkpoint_repo": "0xAnkitSingh/GR00T-N1.6-LIBERO",
+  "checkpoint_revision": "d690a226ad06e81736786f56cf879d2ed1dd3f0f",
+  "device": "cuda:0",
+  "episodes": [
+    1274,
+    1269,
+    1285
+  ],
+  "samples_per_episode": 4,
+  "lags": [
+    4,
+    8,
+    16
+  ],
+  "horizons": [
+    50,
+    16,
+    8,
+    4
+  ],
+  "execute": [
+    4,
+    8,
+    16
+  ],
+  "flow_steps": 4,
+  "tasks": [
+    0,
+    1,
+    2
+  ],
+  "initial_states": [
+    0,
+    1
+  ],
+  "max_control_steps": 220,
+  "external_refresh_steps": 16,
+  "seed": 20261117,
+  "cache_cold_batch": true,
+  "extra_fresh_steps": [
+    2,
+    8
+  ],
+  "closed_cells": [
+    [
+      "both_fresh",
+      16,
+      4,
+      4
+    ],
+    [
+      "external_stale_cached",
+      16,
+      4,
+      4
+    ],
+    [
+      "external_stale",
+      16,
+      4,
+      4
+    ],
+    [
+      "wrist_stale",
+      16,
+      4,
+      4
+    ]
+  ],
+  "external_pixel_threshold": 5.0
+}
