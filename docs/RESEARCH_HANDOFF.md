@@ -1,3 +1,9 @@
+# 2026-11-17: measured GPU microkernel comparison to PIM
+
+User requested direct PIM/GPU timing comparison and raised RTX3090 as a weak-baseline concern. Added `scripts/compare_pim_gpu_kernels.py`, ran 48 variants (4 projection shapes × logical/padded × FP16/BF16 ×1/16/50 vectors),3 shuffled passes,40samples/pass/mode. `reports/pim_gpu_comparison_20261117/RESULTS.md` has full details and artifact hashes. GPU timings separately include repeated-weight CUDA Graph(32 matmuls/replay, divided by32), eager device/host-sync, and64MiB flush before each device-timed matmul (flush excluded). 144 case runs,120samples/variant/mode; no model weights or numerical PIM/GPU parity.
+
+Logical single-vector FP16 Q/K/FFNup/down: PIM5.147/6.970/10.277/19.699µs; GPU Graph5.749/7.839/24.000/29.664; GPU flushed11.264/13.424/30.720/35.840. PIM includes required padding; GPU logical baseline avoids unnecessary padding. Matched padded GPU results also recorded. GPU FFNup 1/16/50vectors=24.000/24.556/31.744µs TOTAL, showing strong multi-vector reuse. Synthetic vector count sweep is NOT actual H16/H50 expert trace (state and cross-attention lengths differ). No full-PIM speedup, no H100 measurements, no equal-resource/energy comparison. Source links support3090 936GB/s and H100SXM3.35TB/s context only; never scale measured inference by FLOPS/bandwidth ratio.
+
 # 2026-11-17: actual PIM simulator startup and shape probe
 
 User requested push, results summary and whether PIM can be simulated. Prior results/code committed as `4f8346e`, origin/main verified after user reauthentication. Samsung PIMSimulator pinned at `3703d1f19c8f027360cc33a3243eb271e3bb6898` built in `.runtime/` with local GoogleTest v1.14.0, scons4.11.1, cmake4.4.5; no system installs. Official GEMV functional comparison passed4096/4096. Timing fixture4096x4096=13166cycles at1ns. Its non-PIM baseline is memory traffic only, NOT GPU compute; don't apply the printed2.74x to RTX3090 AE latency.

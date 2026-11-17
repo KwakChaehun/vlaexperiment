@@ -1,5 +1,7 @@
 # PIM 시뮬레이터 실행 결과와 다음 평가 범위
 
+후속: [동일 projection에 대한 RTX 3090 직접 비교](../reports/pim_gpu_comparison_20261117/RESULTS.md)를 추가했습니다. 단일 벡터와 다중 벡터, GPU cache/launch 조건을 구분했으며 전체 action expert의 PIM 가속률은 여전히 미검증입니다.
+
 2026-11-17 KST. RTX 3090은 기존 VLA 실행 장치입니다. 이번에는 CPU에서 Samsung의 공개 [PIMSimulator](https://github.com/SAITPublic/PIMSimulator)를 빌드하고 실제 사이클 시뮬레이션을 실행했습니다. 실제 PIM 보드에서 측정한 결과는 아닙니다.
 
 ## 실행한 것

@@ -1,0 +1,9 @@
+{
+  "case_runs": 144,
+  "unique_variants": 48,
+  "repeat_orders": 3,
+  "samples_per_variant_per_timing_mode": 120,
+  "source_hash_matches": true,
+  "all_timing_samples_positive": true,
+  "note": "Kernel timing only. torch.isfinite checked; no PIM/GPU numerical equivalence tested."
+}

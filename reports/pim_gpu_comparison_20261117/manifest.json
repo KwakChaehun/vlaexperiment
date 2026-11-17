@@ -1,0 +1,17 @@
+{
+  "torch": "2.9.0+cu128",
+  "cuda": "12.8",
+  "device": "NVIDIA GeForce RTX 3090",
+  "sm_count": 82,
+  "memory_bytes": 25314721792,
+  "samples_per_run": 40,
+  "repeats": 3,
+  "seed": 917,
+  "cache_flush_bytes": 67108864,
+  "graph_matmuls": 32,
+  "source_sha256": "785bd40646f71260e1a08280e5415e4f34490fb3a08da733b9c36725a0eaa8ce",
+  "pim_source_sha256": "54f48ab6c139ceebfc052cce373865845ff4893596608a3a36a070681552055a",
+  "telemetry_before": "name, uuid, driver_version, pstate, temperature.gpu, clocks.current.sm [MHz], clocks.current.memory [MHz], power.draw [W], power.limit [W], memory.used [MiB], utilization.gpu [%]\nNVIDIA GeForce RTX 3090, GPU-7923e41c-ce48-a120-dd68-57ef8157da72, 620.70.06, P5, 39.12, 210 MHz, 810 MHz, 28.59 W, 350.00 W, 12 MiB, 0 %\n",
+  "scope": "Projection kernels only; resident random GPU tensors; PIM dummy inputs",
+  "telemetry_after": "name, uuid, driver_version, pstate, temperature.gpu, clocks.current.sm [MHz], clocks.current.memory [MHz], power.draw [W], power.limit [W], memory.used [MiB], utilization.gpu [%]\nNVIDIA GeForce RTX 3090, GPU-7923e41c-ce48-a120-dd68-57ef8157da72, 620.70.06, P2, 55.31, 1860 MHz, 9501 MHz, 346.25 W, 350.00 W, 1150 MiB, 97 %\n"
+}
