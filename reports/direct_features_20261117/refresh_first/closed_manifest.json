@@ -1,0 +1,18 @@
+{
+  "started_utc": "2026-11-17T10:55:23.101310+00:00",
+  "source_hashes": {
+    "scripts/evaluate_direct_features.py": "1d8f5bae664f7fbf23d034e0e38bd1a3738778ab7a38fdedbe65a6937044ca13",
+    "vla_eval/direct_feature_prediction.py": "cd5fa1d79d8c6463964dc9c76e27ac42281f8f534556c063da45d14f46d61fc2"
+  },
+  "predictor_sha256": "315c4d988150d310b5738e440565ae6127a251fb24cdbb61a3bb8faaf6758a71",
+  "corrector_sha256": "0936391a3a27903a354390735bd161f2c1d85f774d122751bfc8fb93cede497f",
+  "H": 50,
+  "K": 16,
+  "scope": "Synchronous physics; prediction/arrival costs both charged. No asynchronous speedup claim. Every-other-chunk full VLM refresh in forecast arms.",
+  "test_initial_states": [
+    3,
+    7,
+    9,
+    11
+  ]
+}

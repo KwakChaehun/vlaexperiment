@@ -1,0 +1,21 @@
+{
+  "source_hashes_verified": {
+    "dataset": 4,
+    "predictor": 2,
+    "corrector": 2,
+    "evaluation": 4
+  },
+  "completed_rollouts": 72,
+  "unique_test_conditions": 12,
+  "test_states_disjoint_from_first_pilot": true,
+  "all_controller_anchors_exact": true,
+  "all_initial_plans_reproduced": true,
+  "no_oracle_controller": true,
+  "all_service_costs_accounted": true,
+  "train_validation_shared_features_unchanged": true,
+  "offline_rows": 1992,
+  "unique_observation_pairs": 249,
+  "raw_episode_hashes_verified": 36,
+  "native_fresh4_teacher_trace_matches": 12,
+  "pytest": "43 passed, 14 subtests passed"
+}

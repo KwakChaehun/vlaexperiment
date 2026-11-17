@@ -1,0 +1,26 @@
+{
+  "parameters": 148032,
+  "alpha": 0.5,
+  "best_epoch": 20,
+  "validation_energy_relative_to_uncorrected": {
+    "0.0": 1.0,
+    "0.25": 0.9969587476879858,
+    "0.5": 0.99589848028979,
+    "1.0": 0.9997210680783551
+  },
+  "train_pairs": 324,
+  "validation_pairs": 114,
+  "test_initial_states_never_loaded": [
+    12,
+    13,
+    14,
+    15
+  ],
+  "wall_s": 3.756157429997984,
+  "predictor_sha256": "60b15fcea496c1f73608be62f8135388c17d2af9cb1330f2c7f06c648860f15f",
+  "corrector_sha256": "39b3b09b79e335f489d37301b80bd6e507646df1c8619de5eadd800577298f66",
+  "source_hashes": {
+    "scripts/train_feature_corrector.py": "01c6a9509c191e136629a215d8af8f2e7ce9cd09f7875a05b7cd0cd598a68e67",
+    "vla_eval/direct_feature_prediction.py": "cd5fa1d79d8c6463964dc9c76e27ac42281f8f534556c063da45d14f46d61fc2"
+  }
+}

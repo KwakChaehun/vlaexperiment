@@ -1,5 +1,11 @@
 # 로컬 실제 모델 평가 결과
 
+**2026-11-17 미래 VLM feature 직접 예측 완료:** [접근 구간 포함 재검증](../reports/direct_arrival_features_20261117/RESULTS.md), [첫 파일럿·실패 결과](../reports/direct_features_20261117/RESULTS.md), [설계](direct_feature_experiment.md). 같은 GR00T+future simulator를 실행 중 반복하지 않는49k predictor를 학습했습니다. 학습/검증/평가 초기 상태를 분리하고, 첫 결과를 본 뒤에는 접근→도착 pair를 추가한 동일 구조를 새 평가 상태12–15에서 확인했습니다. H50/K16 고정이며 Fresh1/2/4의 숫자는 flow 횟수입니다.
+
+최종12조건에서는 Fresh4 9/12(유지8), Fresh2 11/12(유지11), Fresh1 9/12(유지8), stale4/12(유지4), direct8/12(유지6), corrected7/12(유지6)였습니다. 0.8초 feature 예측 준비는 약0.326ms이고 stale 대비 feature 오차18.6%/action RMSE28.5% 감소였지만, 전체 full-VLM 갱신·준비 포함 계산은 direct3.377ms/action vs Fresh2 3.366ms/action으로 강한 기준선을 넘지 못했습니다. Corrector는 feature 오차를 조금 줄여도 action 오차와 성공률을 개선하지 못했습니다. 동기식 물리 평가로 실제 비동기 deadline 이득은 주장하지 않습니다.
+
+총closed216회(첫144회 + 새조건72회), 고유 평가 초기조건24개입니다. 첫144회 안의 Fresh36회는 동일조건 반복이며 전action trace가 일치했습니다. 새 평가249관측 쌍에 추가한 oracle_rank32는 미래 정답을 쓰는 offline 진단이고 controller가 아닙니다. 정답 변화의 rank32 투영도 Fresh1보다 action 오차가 컸으므로 낮은feature MSE만으로 접촉 품질을 보장할 수 없음을 보여줍니다. 다음 검증은 action에 민감한 예측/학습 목표이며, Whole-bank 최적화나 PIM 속도 주장으로 바로 넘어갈 근거는 없습니다.
+
 **2026-11-17 PIM–3090 직접 비교:** [커널 실측 보고서](../reports/pim_gpu_comparison_20261117/RESULTS.md). 48조건 × 3순서로 GPU FP16/BF16·논리/패딩 shape·1/16/50벡터를 측정했습니다. 단일 벡터 Q는 PIM 5.147µs, GPU 반복 가중치 Graph 5.749µs, 캐시 비운 뒤 11.264µs입니다. GPU FFN up은 1벡터 24.000µs에서 50벡터 31.744µs로 증가하므로 단일 GEMV 이득을 전체 H50 expert로 외삽할 수 없습니다. 실제 PIM 보드, 전체 expert PIM 추론 또는 상위 GPU 결과는 아닙니다.
 
 **2026-11-17 PIM 시뮬레이터 실행:** [실행 결과·한계·재현 절차](pim_simulation.md). Samsung PIMSimulator 공식 GEMV 출력 비교 4096개 통과. GR00T 실제 Q/K/FFN shape의 단일 벡터 타이밍도 실행했으며 패딩 포함 5.147/6.970/10.277/19.699µs였습니다. 모델 tensor의 수치 실행이나 전체 action expert 추론은 아니며, 로그의 non-PIM 대비 비율을 RTX 3090 가속률로 해석하지 않습니다.

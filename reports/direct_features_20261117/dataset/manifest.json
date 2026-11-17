@@ -1,0 +1,13 @@
+{
+  "started_utc": "2026-11-17T10:46:13.277302+00:00",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "torch": "2.9.0+cu128",
+  "source_hashes": {
+    "scripts/collect_direct_features.py": "3100ca966a78bf6d2423562d4e4055173bd1cab53bb8ba4d2d045164a485c412",
+    "vla_eval/direct_feature_prediction.py": "b45605338017dfed0e812ca70657306e1741faafb5d1f489fbf24e9712248b18",
+    "vla_eval/gr00t16_pilot.py": "b0333068fb3f37fab28f887e3d62ef6758e458a2cdd94fe733e51f4920e82e25",
+    "vla_eval/gr00t16_arrival.py": "1970bacc9636a2c5dd9d7ef5a540eba820135834bff9b5f24af929e49bc05fb4"
+  },
+  "inputs": "Origin/past observed features and state; known fresh-controller action prefix. Future features are labels only.",
+  "teacher": "Frozen GR00T N1.6 H50/N4/K16; post-vlln feature target; current full simulator state never a predictor input"
+}

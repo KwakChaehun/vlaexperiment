@@ -1,0 +1,46 @@
+{
+  "parameters": 49216,
+  "rank": 32,
+  "train_pairs": 270,
+  "validation_pairs": 96,
+  "training_initial_states": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10
+  ],
+  "validation_initial_states": [
+    1,
+    5
+  ],
+  "test_initial_states_never_loaded": [
+    3,
+    7,
+    9,
+    11
+  ],
+  "pca_training_image_residual_energy_fraction": 0.3981143832206726,
+  "best_epoch": 60,
+  "blend_alpha": 1.0,
+  "temporal_alpha": 0.0,
+  "validation_residual_energy_relative_to_stale": {
+    "0.0": 1.0,
+    "0.25": 0.9358400734554153,
+    "0.5": 0.8930227418994995,
+    "1.0": 0.8714158637536746
+  },
+  "validation_temporal_energy_relative_to_stale": {
+    "0.0": 1.0,
+    "0.25": 1.1536529020123045,
+    "0.5": 1.3856535766824183,
+    "1.0": 2.084697854126029
+  },
+  "training_wall_s": 3.48950154799968,
+  "checkpoint_sha256": "315c4d988150d310b5738e440565ae6127a251fb24cdbb61a3bb8faaf6758a71",
+  "source_hashes": {
+    "scripts/train_direct_features.py": "fc5a07b724376ee6b1d1d4934beffaaf5ae8928e62c8f00b1c9f838ffc536b3a",
+    "vla_eval/direct_feature_prediction.py": "544e3e02e7032090b335056c0f6b8de5222054c980efb0986b35365d1829c190"
+  }
+}

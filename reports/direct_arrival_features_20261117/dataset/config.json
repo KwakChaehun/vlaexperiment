@@ -1,0 +1,54 @@
+{
+  "checkpoint": "checkpoints/gr00t_n16_libero",
+  "seed": 20261117,
+  "splits": {
+    "train": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "validation": [
+      1,
+      5
+    ],
+    "test": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "horizons": [
+    4,
+    8,
+    16
+  ],
+  "gain": 0.98,
+  "rank": 32,
+  "epochs": 120,
+  "tasks": [
+    {
+      "suite": "libero_goal",
+      "name": "put_the_cream_cheese_in_the_bowl",
+      "start": 64,
+      "end": 192
+    },
+    {
+      "suite": "libero_goal",
+      "name": "open_the_top_drawer_and_put_the_bowl_inside",
+      "start": 128,
+      "end": 256
+    },
+    {
+      "suite": "libero_10",
+      "name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "start": 160,
+      "end": 352
+    }
+  ],
+  "scope": "Predictor-specific episode/initial-state splits; not held out from GR00T pretraining or earlier experiments. Full current VLM refresh every two K16 chunks in forecast arms; predict only the next arrival. All primary action experts H50/N4. No future simulator or observation is a predictor input. Follow-up: include the approach-to-arrival transition in TRAIN/VALIDATION; freeze architecture; use new test states12-15 after diagnosing first pilot. Original states3/7/9/11 not reused as a final test.",
+  "collect_lead_steps": 16
+}

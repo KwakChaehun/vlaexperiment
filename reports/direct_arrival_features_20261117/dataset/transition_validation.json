@@ -1,0 +1,149 @@
+{
+  "episodes": [
+    {
+      "file": "episodes/train_task0_init0.pt",
+      "action_trace_equal": true,
+      "shared_features_equal": true,
+      "added_pairs": 3
+    },
+    {
+      "file": "episodes/train_task1_init0.pt",
+      "action_trace_equal": true,
+      "shared_features_equal": true,
+      "added_pairs": 3
+    },
+    {
+      "file": "episodes/train_task2_init0.pt",
+      "action_trace_equal": true,
+      "shared_features_equal": true,
+      "added_pairs": 3
+    },
+    {
+      "file": "episodes/train_task0_init2.pt",
+      "action_trace_equal": true,
+      "shared_features_equal": true,
+      "added_pairs": 3
+    },
+    {
+      "file": "episodes/train_task1_init2.pt",
+      "action_trace_equal": true,
+      "shared_features_equal": true,
+      "added_pairs": 3
+    },
+    {
+      "file": "episodes/train_task2_init2.pt",
+      "action_trace_equal": true,
+      "shared_features_equal": true,
+      "added_pairs": 3
+    },
+    {
+      "file": "episodes/train_task0_init4.pt",
+      "action_trace_equal": true,
+      "shared_features_equal": true,
+      "added_pairs": 3
+    },
+    {
+      "file": "episodes/train_task1_init4.pt",
+      "action_trace_equal": true,
+      "shared_features_equal": true,
+      "added_pairs": 3
+    },
+    {
+      "file": "episodes/train_task2_init4.pt",
+      "action_trace_equal": true,
+      "shared_features_equal": true,
+      "added_pairs": 3
+    },
+    {
+      "file": "episodes/train_task0_init6.pt",
+      "action_trace_equal": true,
+      "shared_features_equal": true,
+      "added_pairs": 3
+    },
+    {
+      "file": "episodes/train_task1_init6.pt",
+      "action_trace_equal": true,
+      "shared_features_equal": true,
+      "added_pairs": 3
+    },
+    {
+      "file": "episodes/train_task2_init6.pt",
+      "action_trace_equal": true,
+      "shared_features_equal": true,
+      "added_pairs": 3
+    },
+    {
+      "file": "episodes/train_task0_init8.pt",
+      "action_trace_equal": true,
+      "shared_features_equal": true,
+      "added_pairs": 3
+    },
+    {
+      "file": "episodes/train_task1_init8.pt",
+      "action_trace_equal": true,
+      "shared_features_equal": true,
+      "added_pairs": 3
+    },
+    {
+      "file": "episodes/train_task2_init8.pt",
+      "action_trace_equal": true,
+      "shared_features_equal": true,
+      "added_pairs": 3
+    },
+    {
+      "file": "episodes/train_task0_init10.pt",
+      "action_trace_equal": true,
+      "shared_features_equal": true,
+      "added_pairs": 3
+    },
+    {
+      "file": "episodes/train_task1_init10.pt",
+      "action_trace_equal": true,
+      "shared_features_equal": true,
+      "added_pairs": 3
+    },
+    {
+      "file": "episodes/train_task2_init10.pt",
+      "action_trace_equal": true,
+      "shared_features_equal": true,
+      "added_pairs": 3
+    },
+    {
+      "file": "episodes/validation_task0_init1.pt",
+      "action_trace_equal": true,
+      "shared_features_equal": true,
+      "added_pairs": 3
+    },
+    {
+      "file": "episodes/validation_task1_init1.pt",
+      "action_trace_equal": true,
+      "shared_features_equal": true,
+      "added_pairs": 3
+    },
+    {
+      "file": "episodes/validation_task2_init1.pt",
+      "action_trace_equal": true,
+      "shared_features_equal": true,
+      "added_pairs": 3
+    },
+    {
+      "file": "episodes/validation_task0_init5.pt",
+      "action_trace_equal": true,
+      "shared_features_equal": true,
+      "added_pairs": 3
+    },
+    {
+      "file": "episodes/validation_task1_init5.pt",
+      "action_trace_equal": true,
+      "shared_features_equal": true,
+      "added_pairs": 3
+    },
+    {
+      "file": "episodes/validation_task2_init5.pt",
+      "action_trace_equal": true,
+      "shared_features_equal": true,
+      "added_pairs": 3
+    }
+  ],
+  "scope": "Same train/validation trajectories and shared features; only the missing approach transition was added."
+}

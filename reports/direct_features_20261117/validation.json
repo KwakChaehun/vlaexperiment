@@ -1,0 +1,59 @@
+{
+  "dataset": {
+    "source_hashes_verified": 4
+  },
+  "predictor": {
+    "source_hashes_verified": 2
+  },
+  "corrector": {
+    "source_hashes_verified": 2
+  },
+  "refresh_first": {
+    "source_hashes_verified": 4,
+    "completed": 72,
+    "paired_state_RGB": true,
+    "service_accounting": true
+  },
+  "arrival_first": {
+    "source_hashes_verified": 2,
+    "completed": 72,
+    "paired_state_RGB": true,
+    "service_accounting": true
+  },
+  "split": {
+    "train": {
+      "episodes": 18,
+      "pairs": 270,
+      "initial_states": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10
+      ]
+    },
+    "validation": {
+      "episodes": 6,
+      "pairs": 96,
+      "initial_states": [
+        1,
+        5
+      ]
+    },
+    "test": {
+      "episodes": 12,
+      "pairs": 165,
+      "initial_states": [
+        3,
+        7,
+        9,
+        11
+      ]
+    }
+  },
+  "fresh_repeated_baselines": {
+    "exact_trace_and_success_matches": 36,
+    "independent_extra_conditions": 0
+  }
+}

@@ -1,0 +1,25 @@
+{"epoch": 0, "val_projected_mse": 111.81908127022636}
+{"epoch": 5, "train_projected_mse": 108.0655254787869, "val_projected_mse": 89.08495524110833, "best_epoch": 5}
+{"epoch": 10, "train_projected_mse": 95.4072151184082, "val_projected_mse": 82.0217030529562, "best_epoch": 10}
+{"epoch": 15, "train_projected_mse": 88.51152759128146, "val_projected_mse": 79.18891891576506, "best_epoch": 15}
+{"epoch": 20, "train_projected_mse": 82.91917822096083, "val_projected_mse": 75.8847359421648, "best_epoch": 20}
+{"epoch": 25, "train_projected_mse": 78.85346772935655, "val_projected_mse": 73.8859086383795, "best_epoch": 25}
+{"epoch": 30, "train_projected_mse": 74.5339715745714, "val_projected_mse": 73.31783442696675, "best_epoch": 30}
+{"epoch": 35, "train_projected_mse": 73.48690223693848, "val_projected_mse": 73.65244302970638, "best_epoch": 30}
+{"epoch": 40, "train_projected_mse": 71.10461955600314, "val_projected_mse": 72.00716389697384, "best_epoch": 40}
+{"epoch": 45, "train_projected_mse": 68.35031403435602, "val_projected_mse": 72.97106800985102, "best_epoch": 40}
+{"epoch": 50, "train_projected_mse": 67.18441889021132, "val_projected_mse": 72.18074505012632, "best_epoch": 40}
+{"epoch": 55, "train_projected_mse": 65.1871305041843, "val_projected_mse": 71.62594747036356, "best_epoch": 55}
+{"epoch": 60, "train_projected_mse": 64.6779670715332, "val_projected_mse": 71.44981694383317, "best_epoch": 60}
+{"epoch": 65, "train_projected_mse": 62.7245274649726, "val_projected_mse": 72.4322303106874, "best_epoch": 60}
+{"epoch": 70, "train_projected_mse": 61.84975581698947, "val_projected_mse": 71.96367728642106, "best_epoch": 60}
+{"epoch": 75, "train_projected_mse": 60.26637607150607, "val_projected_mse": 72.30120820162988, "best_epoch": 60}
+{"epoch": 80, "train_projected_mse": 59.941678047180176, "val_projected_mse": 73.18046470332463, "best_epoch": 60}
+{"epoch": 85, "train_projected_mse": 59.7498959435357, "val_projected_mse": 73.14598791871583, "best_epoch": 60}
+{"epoch": 90, "train_projected_mse": 59.23903380499946, "val_projected_mse": 72.89425020707756, "best_epoch": 60}
+{"epoch": 95, "train_projected_mse": 58.50299888186984, "val_projected_mse": 72.73022011967849, "best_epoch": 60}
+{"epoch": 100, "train_projected_mse": 57.26806089613173, "val_projected_mse": 73.49349638899783, "best_epoch": 60}
+{"epoch": 105, "train_projected_mse": 58.076512018839516, "val_projected_mse": 74.68230572402187, "best_epoch": 60}
+{"epoch": 110, "train_projected_mse": 56.72290356953939, "val_projected_mse": 73.85227526986947, "best_epoch": 60}
+{"epoch": 115, "train_projected_mse": 56.61558299594455, "val_projected_mse": 73.62615943005703, "best_epoch": 60}
+{"epoch": 120, "train_projected_mse": 55.04118559095595, "val_projected_mse": 74.15929402988614, "best_epoch": 60}

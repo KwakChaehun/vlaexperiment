@@ -1,0 +1,68 @@
+[
+  {
+    "method": "fresh4",
+    "trials": 12,
+    "successes": 10,
+    "stable_successes": 9,
+    "mean_service_ms": 319.7858306663572,
+    "charged_ms_per_executed_action": 4.360715872723052,
+    "arrival_only_p50_ms": null,
+    "mean_prepare_ms_per_call": 0.0,
+    "all_call_p50_ms": 71.015964000253
+  },
+  {
+    "method": "fresh2",
+    "trials": 12,
+    "successes": 9,
+    "stable_successes": 9,
+    "mean_service_ms": 260.60212733348936,
+    "charged_ms_per_executed_action": 3.312738906781645,
+    "arrival_only_p50_ms": null,
+    "mean_prepare_ms_per_call": 0.0,
+    "all_call_p50_ms": 53.81630400006543
+  },
+  {
+    "method": "fresh1",
+    "trials": 12,
+    "successes": 9,
+    "stable_successes": 8,
+    "mean_service_ms": 236.91041883284925,
+    "charged_ms_per_executed_action": 2.820362128962491,
+    "arrival_only_p50_ms": null,
+    "mean_prepare_ms_per_call": 0.0,
+    "all_call_p50_ms": 45.28462699818192
+  },
+  {
+    "method": "stale",
+    "trials": 12,
+    "successes": 8,
+    "stable_successes": 7,
+    "mean_service_ms": 369.2414733335075,
+    "charged_ms_per_executed_action": 3.461638812501633,
+    "arrival_only_p50_ms": 39.19886699986819,
+    "mean_prepare_ms_per_call": 0.026313012585887918,
+    "all_call_p50_ms": 63.57795250005438
+  },
+  {
+    "method": "direct",
+    "trials": 12,
+    "successes": 9,
+    "stable_successes": 8,
+    "mean_service_ms": 341.2541801665914,
+    "charged_ms_per_executed_action": 3.4586572314181567,
+    "arrival_only_p50_ms": 39.25120400162996,
+    "mean_prepare_ms_per_call": 0.19007810806215275,
+    "all_call_p50_ms": 64.09427749895258
+  },
+  {
+    "method": "corrected",
+    "trials": 12,
+    "successes": 10,
+    "stable_successes": 9,
+    "mean_service_ms": 322.1465820834055,
+    "charged_ms_per_executed_action": 3.553087302390502,
+    "arrival_only_p50_ms": 39.9278155000502,
+    "mean_prepare_ms_per_call": 0.27894845580329486,
+    "all_call_p50_ms": 71.08001350025006
+  }
+]

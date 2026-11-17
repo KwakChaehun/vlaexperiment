@@ -1,0 +1,25 @@
+{"epoch": 0, "val_projected_mse": 69.84998758645436}
+{"epoch": 5, "val_projected_mse": 70.08361434123941, "best_epoch": 0}
+{"epoch": 10, "val_projected_mse": 69.96585540001317, "best_epoch": 0}
+{"epoch": 15, "val_projected_mse": 69.81215053553426, "best_epoch": 15}
+{"epoch": 20, "val_projected_mse": 69.77503191982682, "best_epoch": 20}
+{"epoch": 25, "val_projected_mse": 69.86158403285793, "best_epoch": 20}
+{"epoch": 30, "val_projected_mse": 70.15672559459675, "best_epoch": 20}
+{"epoch": 35, "val_projected_mse": 70.44531425399222, "best_epoch": 20}
+{"epoch": 40, "val_projected_mse": 71.03278968111182, "best_epoch": 20}
+{"epoch": 45, "val_projected_mse": 70.81530033430997, "best_epoch": 20}
+{"epoch": 50, "val_projected_mse": 71.5783300770848, "best_epoch": 20}
+{"epoch": 55, "val_projected_mse": 70.8497095149777, "best_epoch": 20}
+{"epoch": 60, "val_projected_mse": 71.31039723547418, "best_epoch": 20}
+{"epoch": 65, "val_projected_mse": 71.67004493643117, "best_epoch": 20}
+{"epoch": 70, "val_projected_mse": 71.59686280605733, "best_epoch": 20}
+{"epoch": 75, "val_projected_mse": 72.81358599647346, "best_epoch": 20}
+{"epoch": 80, "val_projected_mse": 72.45671055336626, "best_epoch": 20}
+{"epoch": 85, "val_projected_mse": 72.7721181092992, "best_epoch": 20}
+{"epoch": 90, "val_projected_mse": 73.4548925176221, "best_epoch": 20}
+{"epoch": 95, "val_projected_mse": 73.25280442433667, "best_epoch": 20}
+{"epoch": 100, "val_projected_mse": 74.50957957243843, "best_epoch": 20}
+{"epoch": 105, "val_projected_mse": 73.88790920654186, "best_epoch": 20}
+{"epoch": 110, "val_projected_mse": 73.98505743353921, "best_epoch": 20}
+{"epoch": 115, "val_projected_mse": 74.00673613553941, "best_epoch": 20}
+{"epoch": 120, "val_projected_mse": 74.9535854205977, "best_epoch": 20}
