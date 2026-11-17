@@ -1,0 +1,63 @@
+{"repeat": 0, "method": "sparse0", "post_ms": 28.58989800006384, "action_max_abs": 0.0, "groups": {"vision": [17496, 0], "vlm": [3328, 0]}}
+{"repeat": 0, "method": "sparse50", "post_ms": 37.603040000249166, "action_max_abs": 0.003662109375, "groups": {"vision": [17496, 8748], "vlm": [3328, 1664]}}
+{"repeat": 0, "method": "sparse25", "post_ms": 34.79513099955511, "action_max_abs": 0.0018310546875, "groups": {"vision": [17496, 4374], "vlm": [3328, 832]}}
+{"repeat": 0, "method": "sparse100", "post_ms": 39.930549000928295, "action_max_abs": 0.0, "groups": {"vision": [17496, 17496], "vlm": [3328, 3328]}}
+{"repeat": 0, "method": "sparse75", "post_ms": 42.4580729995796, "action_max_abs": 0.003662109375, "groups": {"vision": [17496, 13122], "vlm": [3328, 2496]}}
+{"repeat": 0, "method": "fresh4", "post_ms": 63.03614500029653, "action_max_abs": 0.0, "groups": {}}
+{"repeat": 0, "method": "fresh1", "post_ms": 40.17946500061953, "action_max_abs": 0.4248046875, "groups": {}}
+{"repeat": 1, "method": "sparse75", "post_ms": 39.99930099962512, "action_max_abs": 0.003662109375, "groups": {"vision": [17496, 13122], "vlm": [3328, 2496]}}
+{"repeat": 1, "method": "fresh4", "post_ms": 63.22612599979038, "action_max_abs": 0.0, "groups": {}}
+{"repeat": 1, "method": "fresh1", "post_ms": 40.518767998946714, "action_max_abs": 0.4248046875, "groups": {}}
+{"repeat": 1, "method": "sparse50", "post_ms": 37.88260099827312, "action_max_abs": 0.003662109375, "groups": {"vision": [17496, 8748], "vlm": [3328, 1664]}}
+{"repeat": 1, "method": "sparse0", "post_ms": 28.14734599996882, "action_max_abs": 0.0, "groups": {"vision": [17496, 0], "vlm": [3328, 0]}}
+{"repeat": 1, "method": "sparse100", "post_ms": 39.620304998607025, "action_max_abs": 0.0, "groups": {"vision": [17496, 17496], "vlm": [3328, 3328]}}
+{"repeat": 1, "method": "sparse25", "post_ms": 34.59723400010262, "action_max_abs": 0.0018310546875, "groups": {"vision": [17496, 4374], "vlm": [3328, 832]}}
+{"repeat": 2, "method": "sparse75", "post_ms": 39.34353499971621, "action_max_abs": 0.003662109375, "groups": {"vision": [17496, 13122], "vlm": [3328, 2496]}}
+{"repeat": 2, "method": "sparse100", "post_ms": 39.588816000105, "action_max_abs": 0.0, "groups": {"vision": [17496, 17496], "vlm": [3328, 3328]}}
+{"repeat": 2, "method": "sparse0", "post_ms": 28.285356998821953, "action_max_abs": 0.0, "groups": {"vision": [17496, 0], "vlm": [3328, 0]}}
+{"repeat": 2, "method": "sparse25", "post_ms": 34.46998599974904, "action_max_abs": 0.0018310546875, "groups": {"vision": [17496, 4374], "vlm": [3328, 832]}}
+{"repeat": 2, "method": "sparse50", "post_ms": 37.18174999994517, "action_max_abs": 0.003662109375, "groups": {"vision": [17496, 8748], "vlm": [3328, 1664]}}
+{"repeat": 2, "method": "fresh4", "post_ms": 62.40620599965041, "action_max_abs": 0.0, "groups": {}}
+{"repeat": 2, "method": "fresh1", "post_ms": 39.7596880011406, "action_max_abs": 0.4248046875, "groups": {}}
+{"repeat": 3, "method": "sparse75", "post_ms": 39.34682699946279, "action_max_abs": 0.003662109375, "groups": {"vision": [17496, 13122], "vlm": [3328, 2496]}}
+{"repeat": 3, "method": "sparse100", "post_ms": 39.60272499898565, "action_max_abs": 0.0, "groups": {"vision": [17496, 17496], "vlm": [3328, 3328]}}
+{"repeat": 3, "method": "sparse0", "post_ms": 28.076398000848712, "action_max_abs": 0.0, "groups": {"vision": [17496, 0], "vlm": [3328, 0]}}
+{"repeat": 3, "method": "fresh1", "post_ms": 39.681907001067884, "action_max_abs": 0.4248046875, "groups": {}}
+{"repeat": 3, "method": "sparse50", "post_ms": 37.54160199969192, "action_max_abs": 0.003662109375, "groups": {"vision": [17496, 8748], "vlm": [3328, 1664]}}
+{"repeat": 3, "method": "sparse25", "post_ms": 34.58495499944547, "action_max_abs": 0.0018310546875, "groups": {"vision": [17496, 4374], "vlm": [3328, 832]}}
+{"repeat": 3, "method": "fresh4", "post_ms": 62.25622100100736, "action_max_abs": 0.0, "groups": {}}
+{"repeat": 4, "method": "fresh1", "post_ms": 39.63377100080834, "action_max_abs": 0.4248046875, "groups": {}}
+{"repeat": 4, "method": "sparse0", "post_ms": 28.593349999937345, "action_max_abs": 0.0, "groups": {"vision": [17496, 0], "vlm": [3328, 0]}}
+{"repeat": 4, "method": "fresh4", "post_ms": 62.5662509992253, "action_max_abs": 0.0, "groups": {}}
+{"repeat": 4, "method": "sparse75", "post_ms": 39.453800998671795, "action_max_abs": 0.003662109375, "groups": {"vision": [17496, 13122], "vlm": [3328, 2496]}}
+{"repeat": 4, "method": "sparse50", "post_ms": 37.39162199963175, "action_max_abs": 0.003662109375, "groups": {"vision": [17496, 8748], "vlm": [3328, 1664]}}
+{"repeat": 4, "method": "sparse25", "post_ms": 34.73428999859607, "action_max_abs": 0.0018310546875, "groups": {"vision": [17496, 4374], "vlm": [3328, 832]}}
+{"repeat": 4, "method": "sparse100", "post_ms": 39.7121550013253, "action_max_abs": 0.0, "groups": {"vision": [17496, 17496], "vlm": [3328, 3328]}}
+{"repeat": 5, "method": "fresh1", "post_ms": 40.17131600085122, "action_max_abs": 0.4248046875, "groups": {}}
+{"repeat": 5, "method": "sparse50", "post_ms": 37.58680500141054, "action_max_abs": 0.003662109375, "groups": {"vision": [17496, 8748], "vlm": [3328, 1664]}}
+{"repeat": 5, "method": "sparse0", "post_ms": 28.065580998372752, "action_max_abs": 0.0, "groups": {"vision": [17496, 0], "vlm": [3328, 0]}}
+{"repeat": 5, "method": "sparse25", "post_ms": 34.492855998905725, "action_max_abs": 0.0018310546875, "groups": {"vision": [17496, 4374], "vlm": [3328, 832]}}
+{"repeat": 5, "method": "sparse100", "post_ms": 39.64942600032373, "action_max_abs": 0.0, "groups": {"vision": [17496, 17496], "vlm": [3328, 3328]}}
+{"repeat": 5, "method": "sparse75", "post_ms": 39.58324999985052, "action_max_abs": 0.003662109375, "groups": {"vision": [17496, 13122], "vlm": [3328, 2496]}}
+{"repeat": 5, "method": "fresh4", "post_ms": 62.733046999710496, "action_max_abs": 0.0, "groups": {}}
+{"repeat": 6, "method": "sparse0", "post_ms": 28.33159400142904, "action_max_abs": 0.0, "groups": {"vision": [17496, 0], "vlm": [3328, 0]}}
+{"repeat": 6, "method": "sparse25", "post_ms": 34.544868000011775, "action_max_abs": 0.0018310546875, "groups": {"vision": [17496, 4374], "vlm": [3328, 832]}}
+{"repeat": 6, "method": "fresh4", "post_ms": 62.826134999340866, "action_max_abs": 0.0, "groups": {}}
+{"repeat": 6, "method": "sparse75", "post_ms": 39.275675000681076, "action_max_abs": 0.003662109375, "groups": {"vision": [17496, 13122], "vlm": [3328, 2496]}}
+{"repeat": 6, "method": "sparse50", "post_ms": 37.34339099901263, "action_max_abs": 0.003662109375, "groups": {"vision": [17496, 8748], "vlm": [3328, 1664]}}
+{"repeat": 6, "method": "fresh1", "post_ms": 39.97953699945356, "action_max_abs": 0.4248046875, "groups": {}}
+{"repeat": 6, "method": "sparse100", "post_ms": 40.170226000554976, "action_max_abs": 0.0, "groups": {"vision": [17496, 17496], "vlm": [3328, 3328]}}
+{"repeat": 7, "method": "fresh4", "post_ms": 62.961371999335825, "action_max_abs": 0.0, "groups": {}}
+{"repeat": 7, "method": "sparse75", "post_ms": 39.2985590005992, "action_max_abs": 0.003662109375, "groups": {"vision": [17496, 13122], "vlm": [3328, 2496]}}
+{"repeat": 7, "method": "sparse100", "post_ms": 40.0697000004584, "action_max_abs": 0.0, "groups": {"vision": [17496, 17496], "vlm": [3328, 3328]}}
+{"repeat": 7, "method": "sparse0", "post_ms": 28.307652999501443, "action_max_abs": 0.0, "groups": {"vision": [17496, 0], "vlm": [3328, 0]}}
+{"repeat": 7, "method": "sparse50", "post_ms": 37.427565999678336, "action_max_abs": 0.003662109375, "groups": {"vision": [17496, 8748], "vlm": [3328, 1664]}}
+{"repeat": 7, "method": "fresh1", "post_ms": 39.84165900146763, "action_max_abs": 0.4248046875, "groups": {}}
+{"repeat": 7, "method": "sparse25", "post_ms": 34.75995199914905, "action_max_abs": 0.0018310546875, "groups": {"vision": [17496, 4374], "vlm": [3328, 832]}}
+{"repeat": 8, "method": "sparse25", "post_ms": 34.70935299992561, "action_max_abs": 0.0018310546875, "groups": {"vision": [17496, 4374], "vlm": [3328, 832]}}
+{"repeat": 8, "method": "fresh4", "post_ms": 62.93462199937494, "action_max_abs": 0.0, "groups": {}}
+{"repeat": 8, "method": "sparse100", "post_ms": 39.99175900025875, "action_max_abs": 0.0, "groups": {"vision": [17496, 17496], "vlm": [3328, 3328]}}
+{"repeat": 8, "method": "sparse75", "post_ms": 39.61859799892409, "action_max_abs": 0.003662109375, "groups": {"vision": [17496, 13122], "vlm": [3328, 2496]}}
+{"repeat": 8, "method": "fresh1", "post_ms": 39.82096400068258, "action_max_abs": 0.4248046875, "groups": {}}
+{"repeat": 8, "method": "sparse0", "post_ms": 28.626982000787393, "action_max_abs": 0.0, "groups": {"vision": [17496, 0], "vlm": [3328, 0]}}
+{"repeat": 8, "method": "sparse50", "post_ms": 37.390530998891336, "action_max_abs": 0.003662109375, "groups": {"vision": [17496, 8748], "vlm": [3328, 1664]}}

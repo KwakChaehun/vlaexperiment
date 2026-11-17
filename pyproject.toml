@@ -20,3 +20,7 @@ vla-eval = "vla_eval.cli:main"
 
 [tool.setuptools.packages.find]
 include = ["vla_eval*"]
+
+[tool.pytest.ini_options]
+# Reproducibility reports contain frozen test copies; collect the live suite only.
+testpaths = ["tests"]

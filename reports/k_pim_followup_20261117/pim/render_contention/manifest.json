@@ -1,0 +1,8 @@
+{
+  "scope": "Stage breakdown while the same GPU renders a stationary simulator at 20Hz.\n\nLatency diagnostic only: no success-rate claim, no PIM execution. All actions in\nthe render loop are zero motion. A single separate thread executes VLA requests.\n",
+  "control_hz": 20,
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "render_tick_lateness_p95_ms": 0.15979362415237117,
+  "source_hash": "6555bfab03ff0e821945647ae3c4517b95a19596f53a8f1c8293ee718f36796a",
+  "sparse_reference": "Initial stationary frame cache; stage timing only, not a future-prediction accuracy result"
+}

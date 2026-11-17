@@ -1,0 +1,37 @@
+[
+  {
+    "method": "fresh4",
+    "p50_ms": 62.77959099952568,
+    "max_action_error": 0.0
+  },
+  {
+    "method": "fresh1",
+    "p50_ms": 39.831311501075106,
+    "max_action_error": 0.4248046875
+  },
+  {
+    "method": "sparse0",
+    "p50_ms": 28.296504999161698,
+    "max_action_error": 0.0
+  },
+  {
+    "method": "sparse25",
+    "p50_ms": 34.591094499774044,
+    "max_action_error": 0.0018310546875
+  },
+  {
+    "method": "sparse50",
+    "p50_ms": 37.409593999655044,
+    "max_action_error": 0.003662109375
+  },
+  {
+    "method": "sparse75",
+    "p50_ms": 39.40031399906729,
+    "max_action_error": 0.003662109375
+  },
+  {
+    "method": "sparse100",
+    "p50_ms": 39.680790500824514,
+    "max_action_error": 0.0
+  }
+]

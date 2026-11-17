@@ -1,0 +1,17 @@
+{
+  "scope": "Measured 20Hz closed loop with one asynchronous GPU inference worker.\n\nNo predicted-future free overlap: whole banks are prepared while the simulator is\npaused BEFORE the real-time phase. Preparation time is recorded and added to end\nto end time. During the phase, simulator physics continues with zero-motion holds\nwhen no new action is ready. Graphics and inference share the actual RTX3090.\n",
+  "parity": {
+    "split_latent_max_abs": 0.0,
+    "existing_sampler_action_max_abs": 0.0
+  },
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "control_hz": 20,
+  "source_hashes": {
+    "scripts/run_realtime_feature_probe.py": "1b5aab5bc8e5020b250ed6810bfad5005c815917a6cd86da64535776033e8e27",
+    "vla_eval/speculative_features.py": "511931c7337485c39b5203a32855d8508d7f0c5f0ea5ce5265dabcc8bd61761a",
+    "vla_eval/gr00t16_arrival.py": "1970bacc9636a2c5dd9d7ef5a540eba820135834bff9b5f24af929e49bc05fb4",
+    "vla_eval/gr00t16_pilot.py": "b0333068fb3f37fab28f887e3d62ef6758e458a2cdd94fe733e51f4920e82e25"
+  },
+  "gate": "Fixed untrained thresholds chosen before these real-time trials, not calibrated success probabilities",
+  "predictor": "Privileged current simulator state via past command replay; nominal dynamics, no actual future observations"
+}

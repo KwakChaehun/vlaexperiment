@@ -1,0 +1,23 @@
+{
+  "speculative_k_sweep_20261117": {
+    "completed": 72,
+    "source_hashes_match": true,
+    "paired_state_and_RGB_match": true
+  },
+  "realtime_feature_probe_fixed_20261117": {
+    "completed": 96,
+    "source_hashes_match": true,
+    "paired_state_and_RGB_match": true
+  },
+  "realtime_feature_repeat_20261117": {
+    "completed": 48,
+    "source_hashes_match": true,
+    "paired_state_and_RGB_match": true
+  },
+  "pim_formula_rows": 222,
+  "pytest": "41 passed, 14 subtests passed",
+  "calculator": "JavaScript executed with mock DOM; default fresh4 2x ->47.89ms",
+  "repeat_process_shutdown_note": "All 48 rows and completed status saved and independently verified. Tool returned exit 143 after completion; shutdown cause not established. No missing/censored rows.",
+  "repeated_goal_and_stability_flips": 0,
+  "completed_rollouts": 216
+}

@@ -1,0 +1,41 @@
+{
+  "case": "open_the_top_drawer_and_put_the_bowl_inside:0:gain0.9",
+  "selection": "Illustrative outcome disagreement where available; not randomly sampled",
+  "fps": 5,
+  "control_hz": 20,
+  "frame_stride": 4,
+  "all_matched": true,
+  "trials": [
+    {
+      "method": "fresh4",
+      "case": "open_the_top_drawer_and_put_the_bowl_inside:0:gain0.9",
+      "success": false,
+      "steps": 256,
+      "original_success": false,
+      "original_steps": 256,
+      "endpoint_max_abs": 0.0,
+      "matched": true
+    },
+    {
+      "method": "rolling16_s25",
+      "case": "open_the_top_drawer_and_put_the_bowl_inside:0:gain0.9",
+      "success": true,
+      "steps": 240,
+      "original_success": true,
+      "original_steps": 240,
+      "endpoint_max_abs": 0.0,
+      "matched": true
+    },
+    {
+      "method": "whole_s25",
+      "case": "open_the_top_drawer_and_put_the_bowl_inside:0:gain0.9",
+      "success": true,
+      "steps": 224,
+      "original_success": true,
+      "original_steps": 224,
+      "endpoint_max_abs": 0.0,
+      "matched": true
+    }
+  ],
+  "timing": "Simulation time only; GPU prediction/arrival waits omitted; first successful frame held in comparison"
+}

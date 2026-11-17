@@ -1,0 +1,6 @@
+{
+  "split_latent_max_abs": 0.0,
+  "existing_sampler_action_max_abs": 0.0,
+  "all_update_action_max_abs": 0.0,
+  "cache_MiB": 102.89892578125
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "gain": 1.0,
+    "method": "whole_dense",
+    "reference": "fresh4",
+    "wins": 0,
+    "losses": 0,
+    "n": 1
+  },
+  {
+    "gain": 1.0,
+    "method": "whole_replay",
+    "reference": "fresh4",
+    "wins": 0,
+    "losses": 0,
+    "n": 1
+  }
+]

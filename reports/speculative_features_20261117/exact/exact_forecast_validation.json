@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "whole_dense": {
+      "success_equal": true,
+      "steps_equal": true,
+      "endpoint_equal": true
+    },
+    "fresh4": {
+      "success_equal": true,
+      "steps_equal": true,
+      "endpoint_equal": true
+    },
+    "whole_replay": {
+      "success_equal": true,
+      "steps_equal": true,
+      "endpoint_equal": true
+    }
+  },
+  "all_future_state_and_rgb_equal": true,
+  "forecast_frames": 24
+}

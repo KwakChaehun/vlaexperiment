@@ -1,0 +1,72 @@
+[
+  {
+    "gain": 0.9,
+    "method": "fresh1",
+    "success": 5,
+    "n": 6,
+    "end_success": 5,
+    "post_median_ms": 40.84472999966238,
+    "median_per_trial_post_ms": 40.864513499400346,
+    "mean_initial_plan_s": 0,
+    "mean_all_plans_s": 0.0,
+    "mean_sequential_service_s": 0.8526957861658957,
+    "max_bank_MiB": 0.0,
+    "mean_forecast_position_mm": null
+  },
+  {
+    "gain": 0.9,
+    "method": "fresh4",
+    "success": 4,
+    "n": 6,
+    "end_success": 4,
+    "post_median_ms": 64.4890330004273,
+    "median_per_trial_post_ms": 64.62064449988247,
+    "mean_initial_plan_s": 0,
+    "mean_all_plans_s": 0.0,
+    "mean_sequential_service_s": 1.417166367498491,
+    "max_bank_MiB": 0.0,
+    "mean_forecast_position_mm": null
+  },
+  {
+    "gain": 0.9,
+    "method": "rolling16_s25",
+    "success": 5,
+    "n": 6,
+    "end_success": 5,
+    "post_median_ms": 35.670756000399706,
+    "median_per_trial_post_ms": 35.71760550039471,
+    "mean_initial_plan_s": 2.329472807166894,
+    "mean_all_plans_s": 15.657867121667246,
+    "mean_sequential_service_s": 16.404542782001954,
+    "max_bank_MiB": 410.595703125,
+    "mean_forecast_position_mm": 2.407637446274748
+  },
+  {
+    "gain": 0.9,
+    "method": "whole_replay",
+    "success": 5,
+    "n": 6,
+    "end_success": 5,
+    "post_median_ms": 0.0008124998203129508,
+    "median_per_trial_post_ms": 0.0008230003913922701,
+    "mean_initial_plan_s": 5.734358358166598,
+    "mean_all_plans_s": 5.734358358166598,
+    "mean_sequential_service_s": 5.734382447500745,
+    "max_bank_MiB": 4927.1484375,
+    "mean_forecast_position_mm": 9.057764775885301
+  },
+  {
+    "gain": 0.9,
+    "method": "whole_s25",
+    "success": 5,
+    "n": 6,
+    "end_success": 5,
+    "post_median_ms": 35.72670500034292,
+    "median_per_trial_post_ms": 35.71434325021983,
+    "mean_initial_plan_s": 5.742949603333424,
+    "mean_all_plans_s": 5.742949603333424,
+    "mean_sequential_service_s": 6.452627573666784,
+    "max_bank_MiB": 4927.1484375,
+    "mean_forecast_position_mm": 8.309347625966614
+  }
+]

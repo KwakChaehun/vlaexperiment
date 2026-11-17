@@ -1,0 +1,50 @@
+[
+  {
+    "module": "action_encoder",
+    "cuda_ms": 0.325408011674881
+  },
+  {
+    "module": "dit",
+    "cuda_ms": 7.788479804992676
+  },
+  {
+    "module": "action_decoder",
+    "cuda_ms": 0.04710400104522705
+  },
+  {
+    "module": "action_encoder",
+    "cuda_ms": 0.1443839967250824
+  },
+  {
+    "module": "dit",
+    "cuda_ms": 7.482367992401123
+  },
+  {
+    "module": "action_decoder",
+    "cuda_ms": 0.04608000069856644
+  },
+  {
+    "module": "action_encoder",
+    "cuda_ms": 0.1443839967250824
+  },
+  {
+    "module": "dit",
+    "cuda_ms": 7.4945597648620605
+  },
+  {
+    "module": "action_decoder",
+    "cuda_ms": 0.04608000069856644
+  },
+  {
+    "module": "action_encoder",
+    "cuda_ms": 0.1443839967250824
+  },
+  {
+    "module": "dit",
+    "cuda_ms": 7.468031883239746
+  },
+  {
+    "module": "action_decoder",
+    "cuda_ms": 0.04710400104522705
+  }
+]

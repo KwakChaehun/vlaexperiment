@@ -1,0 +1,38 @@
+[
+  {
+    "method": "rolling16_s25",
+    "group": "vision",
+    "frames": 21,
+    "top25_energy_fraction": 0.8343448516973533,
+    "top50_energy_fraction": 0.9491530638943694,
+    "fraction_for_90pct_energy": 0.3481557689376619,
+    "fraction_for_99pct_energy": 0.7552828401593834
+  },
+  {
+    "method": "rolling16_s25",
+    "group": "vlm",
+    "frames": 21,
+    "top25_energy_fraction": 0.8912773953662032,
+    "top50_energy_fraction": 0.9729419004704271,
+    "fraction_for_90pct_energy": 0.2630202038569226,
+    "fraction_for_99pct_energy": 0.6350262294756629
+  },
+  {
+    "method": "whole_s25",
+    "group": "vision",
+    "frames": 15,
+    "top25_energy_fraction": 0.8408067289693856,
+    "top50_energy_fraction": 0.9647636641690761,
+    "fraction_for_90pct_energy": 0.32317863130620333,
+    "fraction_for_99pct_energy": 0.6624561804602956
+  },
+  {
+    "method": "whole_s25",
+    "group": "vlm",
+    "frames": 15,
+    "top25_energy_fraction": 0.8830322615802288,
+    "top50_energy_fraction": 0.9774945013225078,
+    "fraction_for_90pct_energy": 0.27324539505073386,
+    "fraction_for_99pct_energy": 0.5924217442005629
+  }
+]

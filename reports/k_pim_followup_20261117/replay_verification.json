@@ -1,0 +1,67 @@
+{
+  "case": [
+    "open_the_top_drawer_and_put_the_bowl_inside",
+    5
+  ],
+  "selection": "Joint-success case with largest fresh4-to-whole25 hold-count reduction; illustrative, not random",
+  "frame_stride": 2,
+  "simulation_hz": 20,
+  "preparation_waits_omitted_from_video": true,
+  "actual_control_hold_actions_included": true,
+  "trials": [
+    {
+      "method": "fresh4_k16",
+      "endpoint_max_abs": 0.0,
+      "goal_trace_mismatches": 0,
+      "success": true
+    },
+    {
+      "method": "fresh1_k16",
+      "endpoint_max_abs": 0.0,
+      "goal_trace_mismatches": 0,
+      "success": true
+    },
+    {
+      "method": "whole_s25_k16",
+      "endpoint_max_abs": 0.0,
+      "goal_trace_mismatches": 0,
+      "success": true
+    },
+    {
+      "method": "whole_gate_k16",
+      "endpoint_max_abs": 0.0,
+      "goal_trace_mismatches": 0,
+      "success": true
+    }
+  ],
+  "phase_timings": {
+    "fresh4_k16": {
+      "phase_wall_s": 3.1084242699998867,
+      "startup_s": 0.0,
+      "hold_steps": 4,
+      "success": true,
+      "stable_success": true
+    },
+    "fresh1_k16": {
+      "phase_wall_s": 3.0089071649999823,
+      "startup_s": 0.0,
+      "hold_steps": 3,
+      "success": true,
+      "stable_success": true
+    },
+    "whole_s25_k16": {
+      "phase_wall_s": 2.808488976999797,
+      "startup_s": 3.782804731001306,
+      "hold_steps": 0,
+      "success": true,
+      "stable_success": true
+    },
+    "whole_gate_k16": {
+      "phase_wall_s": 2.858735710999099,
+      "startup_s": 3.7595639170012873,
+      "hold_steps": 0,
+      "success": true,
+      "stable_success": true
+    }
+  }
+}

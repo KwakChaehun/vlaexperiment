@@ -1,0 +1,12 @@
+{
+  "pytest": "41 passed, 14 subtests passed",
+  "main_rollouts": 48,
+  "stress_rollouts": 30,
+  "exact_control_rollouts": 3,
+  "invalid_debug_runs_excluded": true,
+  "main_source_hashes_verified": true,
+  "all_plan_origins_state_and_rgb_matched": true,
+  "exact_future_frames_state_and_rgb_matched": 24,
+  "sparse_cache_immutability_checked": true,
+  "GPU_native_and_all_token_parity_max_abs": 0
+}

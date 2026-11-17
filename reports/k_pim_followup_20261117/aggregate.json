@@ -1,0 +1,1210 @@
+{
+  "k_sweep": [
+    {
+      "method": "fresh1_k16",
+      "n": 12,
+      "success": 7,
+      "end_success": 7,
+      "post_ms": 45.32213550101005,
+      "post_per_action": 2.778040446195007,
+      "pre_model_and_post_per_action": 2.778040446195007,
+      "mean_pre_model_s": 0.0,
+      "mean_startup_s": 0.0
+    },
+    {
+      "method": "fresh1_k4",
+      "n": 12,
+      "success": 7,
+      "end_success": 7,
+      "post_ms": 41.16079099912895,
+      "post_per_action": 10.412245735976754,
+      "pre_model_and_post_per_action": 10.412245735976754,
+      "mean_pre_model_s": 0.0,
+      "mean_startup_s": 0.0
+    },
+    {
+      "method": "fresh4_k16",
+      "n": 12,
+      "success": 8,
+      "end_success": 8,
+      "post_ms": 68.37814749997051,
+      "post_per_action": 4.233291786028086,
+      "pre_model_and_post_per_action": 4.233291786028086,
+      "mean_pre_model_s": 0.0,
+      "mean_startup_s": 0.0
+    },
+    {
+      "method": "fresh4_k4",
+      "n": 12,
+      "success": 7,
+      "end_success": 7,
+      "post_ms": 64.60538250030368,
+      "post_per_action": 16.403941857002085,
+      "pre_model_and_post_per_action": 16.403941857002085,
+      "mean_pre_model_s": 0.0,
+      "mean_startup_s": 0.0
+    },
+    {
+      "method": "whole_s25_k16",
+      "n": 12,
+      "success": 8,
+      "end_success": 8,
+      "post_ms": 39.427640000212705,
+      "post_per_action": 2.47211328602543,
+      "pre_model_and_post_per_action": 13.94444897701419,
+      "mean_pre_model_s": 0.656540246334013,
+      "mean_startup_s": 3.723250788499778
+    },
+    {
+      "method": "whole_s25_k4",
+      "n": 12,
+      "success": 8,
+      "end_success": 8,
+      "post_ms": 35.912716999519034,
+      "post_per_action": 9.006296856944608,
+      "pre_model_and_post_per_action": 51.4890950046559,
+      "mean_pre_model_s": 2.438798591915353,
+      "mean_startup_s": 5.595175743250063
+    }
+  ],
+  "realtime": [
+    {
+      "method": "fresh1_k16",
+      "n": 12,
+      "success": 7,
+      "stable": 6,
+      "compute_p50_ms": 45.23859999881097,
+      "mean_hold_steps": 4.833333333333333,
+      "mean_phase_s": 4.546084076417022,
+      "mean_inclusive_s": 4.546084076417022,
+      "mean_startup_s": 0.0,
+      "worker_ms_per_action": 3.124068986304187,
+      "total_model_ms_per_action": 3.124068986304187,
+      "gate_accepts": 0,
+      "calls": 70,
+      "future_gate_accepts": 0,
+      "future_calls": 58,
+      "tick_p95_mean_ms": 0.17189654853761263,
+      "max_tick_lateness_ms": 0.2567700867075473
+    },
+    {
+      "method": "fresh1_k4",
+      "n": 12,
+      "success": 7,
+      "stable": 7,
+      "compute_p50_ms": 45.05070800041722,
+      "mean_hold_steps": 18.083333333333332,
+      "mean_phase_s": 4.704511959416474,
+      "mean_inclusive_s": 4.704511959416474,
+      "mean_startup_s": 0.0,
+      "worker_ms_per_action": 11.6080729777616,
+      "total_model_ms_per_action": 11.6080729777616,
+      "gate_accepts": 0,
+      "calls": 233,
+      "future_gate_accepts": 0,
+      "future_calls": 221,
+      "tick_p95_mean_ms": 0.17356107716750557,
+      "max_tick_lateness_ms": 0.25047402959899046
+    },
+    {
+      "method": "fresh2_k16",
+      "n": 12,
+      "success": 8,
+      "stable": 6,
+      "compute_p50_ms": 54.613166499621,
+      "mean_hold_steps": 5.583333333333333,
+      "mean_phase_s": 4.528951271916412,
+      "mean_inclusive_s": 4.528951271916412,
+      "mean_startup_s": 0.0,
+      "worker_ms_per_action": 3.630755027526148,
+      "total_model_ms_per_action": 3.630755027526148,
+      "gate_accepts": 0,
+      "calls": 68,
+      "future_gate_accepts": 0,
+      "future_calls": 56,
+      "tick_p95_mean_ms": 0.18362538765662367,
+      "max_tick_lateness_ms": 0.2680941233847989
+    },
+    {
+      "method": "fresh4_k16",
+      "n": 12,
+      "success": 8,
+      "stable": 7,
+      "compute_p50_ms": 71.84752499961178,
+      "mean_hold_steps": 5.916666666666667,
+      "mean_phase_s": 4.600301359666749,
+      "mean_inclusive_s": 4.600301359666749,
+      "mean_startup_s": 0.0,
+      "worker_ms_per_action": 4.993711927604178,
+      "total_model_ms_per_action": 4.993711927604178,
+      "gate_accepts": 0,
+      "calls": 71,
+      "future_gate_accepts": 0,
+      "future_calls": 59,
+      "tick_p95_mean_ms": 0.17070814913798435,
+      "max_tick_lateness_ms": 0.26191513643425424
+    },
+    {
+      "method": "fresh4_k4",
+      "n": 12,
+      "success": 7,
+      "stable": 7,
+      "compute_p50_ms": 71.71208499948989,
+      "mean_hold_steps": 19.5,
+      "mean_phase_s": 4.75843686541657,
+      "mean_inclusive_s": 4.75843686541657,
+      "mean_startup_s": 0.0,
+      "worker_ms_per_action": 18.498545987497767,
+      "total_model_ms_per_action": 18.498545987497767,
+      "gate_accepts": 0,
+      "calls": 234,
+      "future_gate_accepts": 0,
+      "future_calls": 222,
+      "tick_p95_mean_ms": 0.18768733654421035,
+      "max_tick_lateness_ms": 0.2916280063800514
+    },
+    {
+      "method": "whole_gate_k16",
+      "n": 12,
+      "success": 8,
+      "stable": 7,
+      "compute_p50_ms": 39.49683700011519,
+      "mean_hold_steps": 0.16666666666666666,
+      "mean_phase_s": 4.487497635666538,
+      "mean_inclusive_s": 8.214680038416645,
+      "mean_startup_s": 3.7271824027501075,
+      "worker_ms_per_action": 1.6199816879553415,
+      "total_model_ms_per_action": 14.70127185042221,
+      "gate_accepts": 22,
+      "calls": 71,
+      "future_gate_accepts": 10,
+      "future_calls": 59,
+      "tick_p95_mean_ms": 0.17518742987855754,
+      "max_tick_lateness_ms": 0.30191809128155
+    },
+    {
+      "method": "whole_s25_k16",
+      "n": 12,
+      "success": 8,
+      "stable": 8,
+      "compute_p50_ms": 39.21968200120318,
+      "mean_hold_steps": 0.08333333333333333,
+      "mean_phase_s": 4.474972282333208,
+      "mean_inclusive_s": 8.210959193583372,
+      "mean_startup_s": 3.7359869112501656,
+      "worker_ms_per_action": 2.7535600329227283,
+      "total_model_ms_per_action": 15.946537943046703,
+      "gate_accepts": 0,
+      "calls": 71,
+      "future_gate_accepts": 0,
+      "future_calls": 59,
+      "tick_p95_mean_ms": 0.17461613376023402,
+      "max_tick_lateness_ms": 0.25067100978048984
+    },
+    {
+      "method": "whole_s25_k4",
+      "n": 12,
+      "success": 8,
+      "stable": 8,
+      "compute_p50_ms": 39.0128850012843,
+      "mean_hold_steps": 0.16666666666666666,
+      "mean_phase_s": 4.570389886583598,
+      "mean_inclusive_s": 10.161271590916991,
+      "mean_startup_s": 5.590881704333394,
+      "worker_ms_per_action": 9.517826995988688,
+      "total_model_ms_per_action": 53.530795017603204,
+      "gate_accepts": 0,
+      "calls": 277,
+      "future_gate_accepts": 0,
+      "future_calls": 265,
+      "tick_p95_mean_ms": 0.176890226885007,
+      "max_tick_lateness_ms": 0.26329713364248164
+    }
+  ],
+  "paired": [
+    {
+      "experiment": "synchronous",
+      "method": "fresh1_k16",
+      "reference": "fresh4_k16",
+      "wins": 0,
+      "losses": 1,
+      "n": 12,
+      "shared_success_pairs": 0,
+      "shared_success_phase_delta_s": null,
+      "shared_success_inclusive_delta_s": null,
+      "shared": []
+    },
+    {
+      "experiment": "synchronous",
+      "method": "whole_s25_k4",
+      "reference": "fresh4_k16",
+      "wins": 1,
+      "losses": 1,
+      "n": 12,
+      "shared_success_pairs": 0,
+      "shared_success_phase_delta_s": null,
+      "shared_success_inclusive_delta_s": null,
+      "shared": []
+    },
+    {
+      "experiment": "synchronous",
+      "method": "fresh1_k4",
+      "reference": "fresh4_k16",
+      "wins": 0,
+      "losses": 1,
+      "n": 12,
+      "shared_success_pairs": 0,
+      "shared_success_phase_delta_s": null,
+      "shared_success_inclusive_delta_s": null,
+      "shared": []
+    },
+    {
+      "experiment": "synchronous",
+      "method": "whole_s25_k16",
+      "reference": "fresh4_k16",
+      "wins": 0,
+      "losses": 0,
+      "n": 12,
+      "shared_success_pairs": 0,
+      "shared_success_phase_delta_s": null,
+      "shared_success_inclusive_delta_s": null,
+      "shared": []
+    },
+    {
+      "experiment": "synchronous",
+      "method": "fresh4_k4",
+      "reference": "fresh4_k16",
+      "wins": 0,
+      "losses": 1,
+      "n": 12,
+      "shared_success_pairs": 0,
+      "shared_success_phase_delta_s": null,
+      "shared_success_inclusive_delta_s": null,
+      "shared": []
+    },
+    {
+      "experiment": "synchronous",
+      "method": "fresh4_k16",
+      "reference": "fresh1_k16",
+      "wins": 1,
+      "losses": 0,
+      "n": 12,
+      "shared_success_pairs": 0,
+      "shared_success_phase_delta_s": null,
+      "shared_success_inclusive_delta_s": null,
+      "shared": []
+    },
+    {
+      "experiment": "synchronous",
+      "method": "whole_s25_k4",
+      "reference": "fresh1_k16",
+      "wins": 1,
+      "losses": 0,
+      "n": 12,
+      "shared_success_pairs": 0,
+      "shared_success_phase_delta_s": null,
+      "shared_success_inclusive_delta_s": null,
+      "shared": []
+    },
+    {
+      "experiment": "synchronous",
+      "method": "fresh1_k4",
+      "reference": "fresh1_k16",
+      "wins": 0,
+      "losses": 0,
+      "n": 12,
+      "shared_success_pairs": 0,
+      "shared_success_phase_delta_s": null,
+      "shared_success_inclusive_delta_s": null,
+      "shared": []
+    },
+    {
+      "experiment": "synchronous",
+      "method": "whole_s25_k16",
+      "reference": "fresh1_k16",
+      "wins": 1,
+      "losses": 0,
+      "n": 12,
+      "shared_success_pairs": 0,
+      "shared_success_phase_delta_s": null,
+      "shared_success_inclusive_delta_s": null,
+      "shared": []
+    },
+    {
+      "experiment": "synchronous",
+      "method": "fresh4_k4",
+      "reference": "fresh1_k16",
+      "wins": 0,
+      "losses": 0,
+      "n": 12,
+      "shared_success_pairs": 0,
+      "shared_success_phase_delta_s": null,
+      "shared_success_inclusive_delta_s": null,
+      "shared": []
+    },
+    {
+      "experiment": "realtime",
+      "method": "fresh1_k16",
+      "reference": "fresh4_k16",
+      "wins": 0,
+      "losses": 1,
+      "n": 12,
+      "shared_success_pairs": 7,
+      "shared_success_phase_delta_s": -0.10791318799991652,
+      "shared_success_inclusive_delta_s": -0.10791318799991652,
+      "shared": [
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 1,
+          "phase_delta_s": -0.24901436300024216,
+          "inclusive_delta_s": -0.24901436300024216
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 2,
+          "phase_delta_s": -0.10048358599851781,
+          "inclusive_delta_s": -0.10048358599851781
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 3,
+          "phase_delta_s": -0.0007675840006413637,
+          "inclusive_delta_s": -0.0007675840006413637
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 3,
+          "phase_delta_s": -0.20003753499986487,
+          "inclusive_delta_s": -0.20003753499986487
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 5,
+          "phase_delta_s": -0.04995991499890806,
+          "inclusive_delta_s": -0.04995991499890806
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 5,
+          "phase_delta_s": -0.0995171049999044,
+          "inclusive_delta_s": -0.0995171049999044
+        },
+        {
+          "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+          "initial_state": 5,
+          "phase_delta_s": -0.055612228001336916,
+          "inclusive_delta_s": -0.055612228001336916
+        }
+      ]
+    },
+    {
+      "experiment": "realtime",
+      "method": "whole_gate_k16",
+      "reference": "fresh4_k16",
+      "wins": 0,
+      "losses": 0,
+      "n": 12,
+      "shared_success_pairs": 8,
+      "shared_success_phase_delta_s": -0.16922391587536367,
+      "shared_success_inclusive_delta_s": 3.3731933292499434,
+      "shared": [
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 1,
+          "phase_delta_s": 0.0014813939978921553,
+          "inclusive_delta_s": 3.3405459909990896
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 2,
+          "phase_delta_s": -0.09990030999870214,
+          "inclusive_delta_s": 3.1208967480015417
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 2,
+          "phase_delta_s": -0.49995942100031243,
+          "inclusive_delta_s": 3.1876462119998905
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 3,
+          "phase_delta_s": -0.05022023200035619,
+          "inclusive_delta_s": 3.217184413999348
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 3,
+          "phase_delta_s": -0.24952546500026074,
+          "inclusive_delta_s": 3.416380148000826
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 5,
+          "phase_delta_s": -0.04906303499956266,
+          "inclusive_delta_s": 3.142876718999105
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 5,
+          "phase_delta_s": -0.2496885590007878,
+          "inclusive_delta_s": 3.5098753580004995
+        },
+        {
+          "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+          "initial_state": 5,
+          "phase_delta_s": -0.1569156990008196,
+          "inclusive_delta_s": 4.050141043999247
+        }
+      ]
+    },
+    {
+      "experiment": "realtime",
+      "method": "fresh4_k4",
+      "reference": "fresh4_k16",
+      "wins": 0,
+      "losses": 1,
+      "n": 12,
+      "shared_success_pairs": 7,
+      "shared_success_phase_delta_s": 0.25700443271411394,
+      "shared_success_inclusive_delta_s": 0.25700443271411394,
+      "shared": [
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 1,
+          "phase_delta_s": 0.0010399629991297843,
+          "inclusive_delta_s": 0.0010399629991297843
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 2,
+          "phase_delta_s": 0.14959290000115288,
+          "inclusive_delta_s": 0.14959290000115288
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 3,
+          "phase_delta_s": 0.3474857790006354,
+          "inclusive_delta_s": 0.3474857790006354
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 3,
+          "phase_delta_s": 0.45666387699748157,
+          "inclusive_delta_s": 0.45666387699748157
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 5,
+          "phase_delta_s": 0.25023456000053557,
+          "inclusive_delta_s": 0.25023456000053557
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 5,
+          "phase_delta_s": 0.050311422999584465,
+          "inclusive_delta_s": 0.050311422999584465
+        },
+        {
+          "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+          "initial_state": 5,
+          "phase_delta_s": 0.5437025270002778,
+          "inclusive_delta_s": 0.5437025270002778
+        }
+      ]
+    },
+    {
+      "experiment": "realtime",
+      "method": "fresh1_k4",
+      "reference": "fresh4_k16",
+      "wins": 0,
+      "losses": 1,
+      "n": 12,
+      "shared_success_pairs": 7,
+      "shared_success_phase_delta_s": 0.1634401674281045,
+      "shared_success_inclusive_delta_s": 0.1634401674281045,
+      "shared": [
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 1,
+          "phase_delta_s": 0.10197567799878016,
+          "inclusive_delta_s": 0.10197567799878016
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 2,
+          "phase_delta_s": 0.1500736899997719,
+          "inclusive_delta_s": 0.1500736899997719
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 3,
+          "phase_delta_s": 0.14738422599839396,
+          "inclusive_delta_s": 0.14738422599839396
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 3,
+          "phase_delta_s": 0.00033520599936309736,
+          "inclusive_delta_s": 0.00033520599936309736
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 5,
+          "phase_delta_s": 0.049902576000022236,
+          "inclusive_delta_s": 0.049902576000022236
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 5,
+          "phase_delta_s": 0.3002152280005248,
+          "inclusive_delta_s": 0.3002152280005248
+        },
+        {
+          "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+          "initial_state": 5,
+          "phase_delta_s": 0.3941945679998753,
+          "inclusive_delta_s": 0.3941945679998753
+        }
+      ]
+    },
+    {
+      "experiment": "realtime",
+      "method": "whole_s25_k16",
+      "reference": "fresh4_k16",
+      "wins": 0,
+      "losses": 0,
+      "n": 12,
+      "shared_success_pairs": 8,
+      "shared_success_phase_delta_s": -0.1880120077501033,
+      "shared_success_inclusive_delta_s": 3.364411633624968,
+      "shared": [
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 1,
+          "phase_delta_s": -0.048761758000182454,
+          "inclusive_delta_s": 3.2384105439996347
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 2,
+          "phase_delta_s": -0.09996604499792738,
+          "inclusive_delta_s": 3.1231999510018795
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 2,
+          "phase_delta_s": -0.5004852539987041,
+          "inclusive_delta_s": 3.1938196840001183
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 3,
+          "phase_delta_s": -0.049879941001563566,
+          "inclusive_delta_s": 3.204054901998461
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 3,
+          "phase_delta_s": -0.2996392490022117,
+          "inclusive_delta_s": 3.375332289997459
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 5,
+          "phase_delta_s": -0.04893117400024494,
+          "inclusive_delta_s": 3.1616081329993904
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 5,
+          "phase_delta_s": -0.2999352930000896,
+          "inclusive_delta_s": 3.4828694380012166
+        },
+        {
+          "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+          "initial_state": 5,
+          "phase_delta_s": -0.15649734799990256,
+          "inclusive_delta_s": 4.135998127001585
+        }
+      ]
+    },
+    {
+      "experiment": "realtime",
+      "method": "fresh2_k16",
+      "reference": "fresh4_k16",
+      "wins": 0,
+      "losses": 0,
+      "n": 12,
+      "shared_success_pairs": 8,
+      "shared_success_phase_delta_s": -0.10708925212520626,
+      "shared_success_inclusive_delta_s": -0.10708925212520626,
+      "shared": [
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 1,
+          "phase_delta_s": -0.19936388500173052,
+          "inclusive_delta_s": -0.19936388500173052
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 2,
+          "phase_delta_s": -0.00012625099770957604,
+          "inclusive_delta_s": -0.00012625099770957604
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 2,
+          "phase_delta_s": -0.6501136739989306,
+          "inclusive_delta_s": -0.6501136739989306
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 3,
+          "phase_delta_s": 0.0490998919995036,
+          "inclusive_delta_s": 0.0490998919995036
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 3,
+          "phase_delta_s": -0.049970495001616655,
+          "inclusive_delta_s": -0.049970495001616655
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 5,
+          "phase_delta_s": -0.049688610999510274,
+          "inclusive_delta_s": -0.049688610999510274
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 5,
+          "phase_delta_s": 0.10007459400003427,
+          "inclusive_delta_s": 0.10007459400003427
+        },
+        {
+          "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+          "initial_state": 5,
+          "phase_delta_s": -0.05662558700169029,
+          "inclusive_delta_s": -0.05662558700169029
+        }
+      ]
+    },
+    {
+      "experiment": "realtime",
+      "method": "whole_s25_k4",
+      "reference": "fresh4_k16",
+      "wins": 1,
+      "losses": 1,
+      "n": 12,
+      "shared_success_pairs": 7,
+      "shared_success_phase_delta_s": -0.05120519685702415,
+      "shared_success_inclusive_delta_s": 5.207944980285382,
+      "shared": [
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 1,
+          "phase_delta_s": -0.1495836070007499,
+          "inclusive_delta_s": 4.785768193998592
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 2,
+          "phase_delta_s": 0.6995256840000366,
+          "inclusive_delta_s": 5.545464015000107
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 3,
+          "phase_delta_s": 0.14748409000094398,
+          "inclusive_delta_s": 5.100249305000034
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 3,
+          "phase_delta_s": -0.19958248700095282,
+          "inclusive_delta_s": 5.105132284999854
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 5,
+          "phase_delta_s": -0.10002324400011275,
+          "inclusive_delta_s": 4.731602840998676
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 5,
+          "phase_delta_s": -0.6495342559992423,
+          "inclusive_delta_s": 4.756685766000373
+        },
+        {
+          "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+          "initial_state": 5,
+          "phase_delta_s": -0.1067225579990918,
+          "inclusive_delta_s": 6.4307124560000375
+        }
+      ]
+    },
+    {
+      "experiment": "realtime",
+      "method": "fresh4_k16",
+      "reference": "fresh1_k16",
+      "wins": 1,
+      "losses": 0,
+      "n": 12,
+      "shared_success_pairs": 7,
+      "shared_success_phase_delta_s": 0.10791318799991652,
+      "shared_success_inclusive_delta_s": 0.10791318799991652,
+      "shared": [
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 1,
+          "phase_delta_s": 0.24901436300024216,
+          "inclusive_delta_s": 0.24901436300024216
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 2,
+          "phase_delta_s": 0.10048358599851781,
+          "inclusive_delta_s": 0.10048358599851781
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 3,
+          "phase_delta_s": 0.0007675840006413637,
+          "inclusive_delta_s": 0.0007675840006413637
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 3,
+          "phase_delta_s": 0.20003753499986487,
+          "inclusive_delta_s": 0.20003753499986487
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 5,
+          "phase_delta_s": 0.04995991499890806,
+          "inclusive_delta_s": 0.04995991499890806
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 5,
+          "phase_delta_s": 0.0995171049999044,
+          "inclusive_delta_s": 0.0995171049999044
+        },
+        {
+          "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+          "initial_state": 5,
+          "phase_delta_s": 0.055612228001336916,
+          "inclusive_delta_s": 0.055612228001336916
+        }
+      ]
+    },
+    {
+      "experiment": "realtime",
+      "method": "whole_gate_k16",
+      "reference": "fresh1_k16",
+      "wins": 1,
+      "losses": 0,
+      "n": 12,
+      "shared_success_pairs": 7,
+      "shared_success_phase_delta_s": -0.014062798571883053,
+      "shared_success_inclusive_delta_s": 3.507613248285582,
+      "shared": [
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 1,
+          "phase_delta_s": 0.2504957569981343,
+          "inclusive_delta_s": 3.5895603539993317
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 2,
+          "phase_delta_s": 0.0005832759998156689,
+          "inclusive_delta_s": 3.2213803340000595
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 3,
+          "phase_delta_s": -0.04945264799971483,
+          "inclusive_delta_s": 3.2179519979999895
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 3,
+          "phase_delta_s": -0.04948793000039586,
+          "inclusive_delta_s": 3.616417683000691
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 5,
+          "phase_delta_s": 0.0008968799993454013,
+          "inclusive_delta_s": 3.192836633998013
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 5,
+          "phase_delta_s": -0.1501714540008834,
+          "inclusive_delta_s": 3.609392463000404
+        },
+        {
+          "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+          "initial_state": 5,
+          "phase_delta_s": -0.10130347099948267,
+          "inclusive_delta_s": 4.105753272000584
+        }
+      ]
+    },
+    {
+      "experiment": "realtime",
+      "method": "fresh4_k4",
+      "reference": "fresh1_k16",
+      "wins": 0,
+      "losses": 0,
+      "n": 12,
+      "shared_success_pairs": 7,
+      "shared_success_phase_delta_s": 0.36491762071403044,
+      "shared_success_inclusive_delta_s": 0.36491762071403044,
+      "shared": [
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 1,
+          "phase_delta_s": 0.25005432599937194,
+          "inclusive_delta_s": 0.25005432599937194
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 2,
+          "phase_delta_s": 0.2500764859996707,
+          "inclusive_delta_s": 0.2500764859996707
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 3,
+          "phase_delta_s": 0.34825336300127674,
+          "inclusive_delta_s": 0.34825336300127674
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 3,
+          "phase_delta_s": 0.6567014119973464,
+          "inclusive_delta_s": 0.6567014119973464
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 5,
+          "phase_delta_s": 0.30019447499944363,
+          "inclusive_delta_s": 0.30019447499944363
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 5,
+          "phase_delta_s": 0.14982852799948887,
+          "inclusive_delta_s": 0.14982852799948887
+        },
+        {
+          "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+          "initial_state": 5,
+          "phase_delta_s": 0.5993147550016147,
+          "inclusive_delta_s": 0.5993147550016147
+        }
+      ]
+    },
+    {
+      "experiment": "realtime",
+      "method": "fresh1_k4",
+      "reference": "fresh1_k16",
+      "wins": 0,
+      "losses": 0,
+      "n": 12,
+      "shared_success_pairs": 7,
+      "shared_success_phase_delta_s": 0.271353355428021,
+      "shared_success_inclusive_delta_s": 0.271353355428021,
+      "shared": [
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 1,
+          "phase_delta_s": 0.3509900409990223,
+          "inclusive_delta_s": 0.3509900409990223
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 2,
+          "phase_delta_s": 0.2505572759982897,
+          "inclusive_delta_s": 0.2505572759982897
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 3,
+          "phase_delta_s": 0.14815180999903532,
+          "inclusive_delta_s": 0.14815180999903532
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 3,
+          "phase_delta_s": 0.20037274099922797,
+          "inclusive_delta_s": 0.20037274099922797
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 5,
+          "phase_delta_s": 0.0998624909989303,
+          "inclusive_delta_s": 0.0998624909989303
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 5,
+          "phase_delta_s": 0.3997323330004292,
+          "inclusive_delta_s": 0.3997323330004292
+        },
+        {
+          "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+          "initial_state": 5,
+          "phase_delta_s": 0.4498067960012122,
+          "inclusive_delta_s": 0.4498067960012122
+        }
+      ]
+    },
+    {
+      "experiment": "realtime",
+      "method": "whole_s25_k16",
+      "reference": "fresh1_k16",
+      "wins": 1,
+      "losses": 0,
+      "n": 12,
+      "shared_success_pairs": 7,
+      "shared_success_phase_delta_s": -0.035459784571815235,
+      "shared_success_inclusive_delta_s": 3.4966951001427202,
+      "shared": [
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 1,
+          "phase_delta_s": 0.2002526050000597,
+          "inclusive_delta_s": 3.487424906999877
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 2,
+          "phase_delta_s": 0.0005175410005904268,
+          "inclusive_delta_s": 3.2236835370003973
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 3,
+          "phase_delta_s": -0.0491123570009222,
+          "inclusive_delta_s": 3.2048224859991024
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 3,
+          "phase_delta_s": -0.09960171400234685,
+          "inclusive_delta_s": 3.575369824997324
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 5,
+          "phase_delta_s": 0.0010287409986631246,
+          "inclusive_delta_s": 3.2115680479982984
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 5,
+          "phase_delta_s": -0.20041818800018518,
+          "inclusive_delta_s": 3.582386543001121
+        },
+        {
+          "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+          "initial_state": 5,
+          "phase_delta_s": -0.10088511999856564,
+          "inclusive_delta_s": 4.191610355002922
+        }
+      ]
+    },
+    {
+      "experiment": "realtime",
+      "method": "fresh2_k16",
+      "reference": "fresh1_k16",
+      "wins": 1,
+      "losses": 0,
+      "n": 12,
+      "shared_success_pairs": 7,
+      "shared_success_phase_delta_s": 0.0783988532852423,
+      "shared_success_inclusive_delta_s": 0.0783988532852423,
+      "shared": [
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 1,
+          "phase_delta_s": 0.04965047799851163,
+          "inclusive_delta_s": 0.04965047799851163
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 2,
+          "phase_delta_s": 0.10035733500080823,
+          "inclusive_delta_s": 0.10035733500080823
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 3,
+          "phase_delta_s": 0.04986747600014496,
+          "inclusive_delta_s": 0.04986747600014496
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 3,
+          "phase_delta_s": 0.15006703999824822,
+          "inclusive_delta_s": 0.15006703999824822
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 5,
+          "phase_delta_s": 0.00027130399939778727,
+          "inclusive_delta_s": 0.00027130399939778727
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 5,
+          "phase_delta_s": 0.19959169899993867,
+          "inclusive_delta_s": 0.19959169899993867
+        },
+        {
+          "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+          "initial_state": 5,
+          "phase_delta_s": -0.0010133590003533754,
+          "inclusive_delta_s": -0.0010133590003533754
+        }
+      ]
+    },
+    {
+      "experiment": "realtime",
+      "method": "whole_s25_k4",
+      "reference": "fresh1_k16",
+      "wins": 1,
+      "losses": 0,
+      "n": 12,
+      "shared_success_pairs": 7,
+      "shared_success_phase_delta_s": 0.056707991142892364,
+      "shared_success_inclusive_delta_s": 5.315858168285298,
+      "shared": [
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 1,
+          "phase_delta_s": 0.09943075599949225,
+          "inclusive_delta_s": 5.0347825569988345
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 2,
+          "phase_delta_s": 0.8000092699985544,
+          "inclusive_delta_s": 5.645947600998625
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 3,
+          "phase_delta_s": 0.14825167400158534,
+          "inclusive_delta_s": 5.101016889000675
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 3,
+          "phase_delta_s": 0.0004550479989120504,
+          "inclusive_delta_s": 5.305169819999719
+        },
+        {
+          "task": "put_the_cream_cheese_in_the_bowl",
+          "initial_state": 5,
+          "phase_delta_s": -0.05006332900120469,
+          "inclusive_delta_s": 4.781562755997584
+        },
+        {
+          "task": "open_the_top_drawer_and_put_the_bowl_inside",
+          "initial_state": 5,
+          "phase_delta_s": -0.5500171509993379,
+          "inclusive_delta_s": 4.856202871000278
+        },
+        {
+          "task": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+          "initial_state": 5,
+          "phase_delta_s": -0.05111032999775489,
+          "inclusive_delta_s": 6.486324684001374
+        }
+      ]
+    }
+  ],
+  "optimistic_overlap": {
+    "scope": "Optimistic accounting only, NOT concurrent precomputation measurement; identical preparation time, free overlap and no GPU/CPU/render contention or prediction degradation assumed. Same 8 joint-success pairs.",
+    "break_even_shared_lookahead_s": 3.485120155250115,
+    "scenarios": [
+      {
+        "available_lookahead_s": 0.0,
+        "predicted_mean_inclusive_delta_s": 3.364411633624968
+      },
+      {
+        "available_lookahead_s": 0.8,
+        "predicted_mean_inclusive_delta_s": 2.5644116336249683
+      },
+      {
+        "available_lookahead_s": 1.6,
+        "predicted_mean_inclusive_delta_s": 1.764411633624968
+      },
+      {
+        "available_lookahead_s": 3.2,
+        "predicted_mean_inclusive_delta_s": 0.1644116336249679
+      },
+      {
+        "available_lookahead_s": 4.0,
+        "predicted_mean_inclusive_delta_s": -0.15145007337491734
+      },
+      {
+        "available_lookahead_s": 6.4,
+        "predicted_mean_inclusive_delta_s": -0.1880120077501033
+      }
+    ]
+  },
+  "repeat": [
+    {
+      "method": "fresh1_k16",
+      "n": 12,
+      "successes": 7,
+      "stable_successes": 6,
+      "goal_flips": 0,
+      "stable_flips": 0,
+      "mean_hold_steps": 4.833333333333333,
+      "mean_phase_wall_s": 4.546106255333446,
+      "mean_inclusive_wall_s": 4.546106255333446
+    },
+    {
+      "method": "fresh2_k16",
+      "n": 12,
+      "successes": 8,
+      "stable_successes": 6,
+      "goal_flips": 0,
+      "stable_flips": 0,
+      "mean_hold_steps": 5.666666666666667,
+      "mean_phase_wall_s": 4.55870374183299,
+      "mean_inclusive_wall_s": 4.55870374183299
+    },
+    {
+      "method": "fresh4_k16",
+      "n": 12,
+      "successes": 8,
+      "stable_successes": 7,
+      "goal_flips": 0,
+      "stable_flips": 0,
+      "mean_hold_steps": 5.916666666666667,
+      "mean_phase_wall_s": 4.600295199583495,
+      "mean_inclusive_wall_s": 4.600295199583495
+    },
+    {
+      "method": "whole_s25_k16",
+      "n": 12,
+      "successes": 8,
+      "stable_successes": 8,
+      "goal_flips": 0,
+      "stable_flips": 0,
+      "mean_hold_steps": 0,
+      "mean_phase_wall_s": 4.4708735158331665,
+      "mean_inclusive_wall_s": 8.21807964758303
+    }
+  ]
+}

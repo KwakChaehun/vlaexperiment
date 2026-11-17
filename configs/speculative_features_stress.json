@@ -1,0 +1,42 @@
+{
+  "checkpoint": "checkpoints/gr00t_n16_libero",
+  "seed": 20261117,
+  "initial_states": [
+    0,
+    4
+  ],
+  "gains": [
+    0.9
+  ],
+  "methods": [
+    "fresh4",
+    "fresh1",
+    "rolling16_s25",
+    "whole_s25",
+    "whole_replay"
+  ],
+  "tasks": [
+    {
+      "suite": "libero_goal",
+      "name": "put_the_cream_cheese_in_the_bowl",
+      "start": 64,
+      "end": 192
+    },
+    {
+      "suite": "libero_goal",
+      "name": "open_the_top_drawer_and_put_the_bowl_inside",
+      "start": 128,
+      "end": 256
+    },
+    {
+      "suite": "libero_10",
+      "name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "start": 160,
+      "end": 352
+    }
+  ],
+  "scope": "Fixed-time remaining manipulation segments, selected before outcomes; no exact contact-phase detector; no peg insertion task.",
+  "prediction_horizons": "First 16 control steps only, rolling 16, or entire remaining 128/192-step evaluation window. K=4 and H=50 in every arm.",
+  "perturbation": "Exploratory stress condition: actual translational commands scaled by 0.90; nominal predictor gain 1. Selected after 0.98 screen had equal native success across methods.",
+  "timing": "Sequential simulation; measured planning wall time includes past replay and future rendering. Post-arrival latency includes input processing, selection, sparse MLP, dense attention, one flow step and decode. No concurrency claim."
+}

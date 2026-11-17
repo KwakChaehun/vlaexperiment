@@ -1,0 +1,10 @@
+{
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "H": 50,
+  "model": "same GR00T N1.6 LIBERO checkpoint as rollout experiments",
+  "scope": "RTX3090 measurements and explicitly hypothetical action-expert PIM scenarios.\n\nPartition: preprocessing/backbone/state fusion remain on GPU/CPU. The complete\nflow loop (action encoder, DiT, action decoder, latent updates) moves together.\nConditioning+initial latent enter once, final latent exits once. Weights stay on\nthe hypothetical PIM device. No PIM throughput, traffic or speedup is measured.\n",
+  "timing": "Stage wall clocks with CUDA synchronization; means add by construction; module event pass separate",
+  "source_hash": "8da6e2d2ff8f2b609644b59698e7f72f57a1ef88bfc477192cf956cf13af115f",
+  "no_measured_pim": true,
+  "prediction_preparation_excluded_from_post_arrival_breakdown": true
+}

@@ -1,0 +1,8 @@
+{
+  "scripts/run_speculative_k_sweep.py": "da5b9f7bf0ed1caad7a0dd52044639f6b9e5b8a20f2a5426a1c750e124f79411",
+  "vla_eval/speculative_features.py": "511931c7337485c39b5203a32855d8508d7f0c5f0ea5ce5265dabcc8bd61761a",
+  "vla_eval/gr00t16_arrival.py": "1970bacc9636a2c5dd9d7ef5a540eba820135834bff9b5f24af929e49bc05fb4",
+  "vla_eval/gr00t16_pilot.py": "b0333068fb3f37fab28f887e3d62ef6758e458a2cdd94fe733e51f4920e82e25",
+  "scripts/run_gr00t_wrist_pilot.py": "4326254826317c936f7aa1d7bb3dbc4e02d67ec26d91b2dcbb95e8b14fdb7df6",
+  "scripts/run_realtime_feature_probe.py": "1b5aab5bc8e5020b250ed6810bfad5005c815917a6cd86da64535776033e8e27"
+}

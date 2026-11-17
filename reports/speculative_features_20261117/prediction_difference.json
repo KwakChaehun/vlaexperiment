@@ -1,0 +1,11 @@
+{
+  "case": "open_the_top_drawer_and_put_the_bowl_inside:4:gain0.98",
+  "step": 160,
+  "prediction_age_steps": 32,
+  "prediction_position_mm": 5.163173191249371,
+  "prediction_pixel_mae": {
+    "image": 1.4446207284927368,
+    "wrist_image": 3.2361247539520264
+  },
+  "selection": "Largest position mismatch among the saved whole_s25 observation pairs; illustrative, not typical."
+}

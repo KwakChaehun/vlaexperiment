@@ -1,0 +1,66 @@
+[
+  {
+    "gain": 0.9,
+    "method": "fresh1",
+    "reference": "fresh4",
+    "wins": 1,
+    "losses": 0,
+    "n": 6
+  },
+  {
+    "gain": 0.9,
+    "method": "rolling16_s25",
+    "reference": "fresh4",
+    "wins": 1,
+    "losses": 0,
+    "n": 6
+  },
+  {
+    "gain": 0.9,
+    "method": "whole_s25",
+    "reference": "fresh4",
+    "wins": 1,
+    "losses": 0,
+    "n": 6
+  },
+  {
+    "gain": 0.9,
+    "method": "whole_replay",
+    "reference": "fresh4",
+    "wins": 1,
+    "losses": 0,
+    "n": 6
+  },
+  {
+    "gain": 0.9,
+    "method": "fresh4",
+    "reference": "fresh1",
+    "wins": 0,
+    "losses": 1,
+    "n": 6
+  },
+  {
+    "gain": 0.9,
+    "method": "rolling16_s25",
+    "reference": "fresh1",
+    "wins": 0,
+    "losses": 0,
+    "n": 6
+  },
+  {
+    "gain": 0.9,
+    "method": "whole_s25",
+    "reference": "fresh1",
+    "wins": 0,
+    "losses": 0,
+    "n": 6
+  },
+  {
+    "gain": 0.9,
+    "method": "whole_replay",
+    "reference": "fresh1",
+    "wins": 0,
+    "losses": 0,
+    "n": 6
+  }
+]

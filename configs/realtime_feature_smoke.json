@@ -1,0 +1,32 @@
+{
+  "checkpoint": "checkpoints/gr00t_n16_libero",
+  "seed": 20261117,
+  "initial_states": [
+    1
+  ],
+  "methods": [
+    "fresh1_k16",
+    "whole_s25_k16",
+    "whole_gate_k16"
+  ],
+  "tasks": [
+    {
+      "suite": "libero_goal",
+      "name": "put_the_cream_cheese_in_the_bowl",
+      "start": 64,
+      "end": 192
+    }
+  ],
+  "scope": "Measured 20Hz phase with independent GPU thread and real zero-motion hold actions on missed action availability. Whole bank startup pauses sim and is charged separately; no free prediction overlap.",
+  "prediction_horizons": "First 16 control steps only, rolling 16, or entire remaining 128/192-step evaluation window. K=4 and H=50 in every arm.",
+  "perturbation": "Applied translational action commands scaled by 0.98 in real execution only, after shared prefix. Nominal simulator predictor uses gain 1. Rotation/gripper unchanged.",
+  "timing": "Sequential simulation; measured planning wall time includes past replay and future rendering. Post-arrival latency includes input processing, selection, sparse MLP, dense attention, one flow step and decode. No concurrency claim.",
+  "gain": 0.98,
+  "gate_thresholds": {
+    "position_m": 0.002,
+    "angle_rad": 0.02,
+    "gripper_m": 0.002,
+    "external_mae": 2.0,
+    "wrist_mae": 4.0
+  }
+}

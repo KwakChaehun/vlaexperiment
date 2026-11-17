@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-11-17T08:27:48.220741+00:00",
+  "source_hashes": {
+    "scripts/run_speculative_feature_rollouts.py": "f8d8a96e05d85544f95464fca62d440863a6fb2be30d2ac0bb52f582f26fcac7",
+    "vla_eval/speculative_features.py": "511931c7337485c39b5203a32855d8508d7f0c5f0ea5ce5265dabcc8bd61761a",
+    "vla_eval/gr00t16_arrival.py": "1970bacc9636a2c5dd9d7ef5a540eba820135834bff9b5f24af929e49bc05fb4",
+    "vla_eval/gr00t16_pilot.py": "b0333068fb3f37fab28f887e3d62ef6758e458a2cdd94fe733e51f4920e82e25",
+    "scripts/run_gr00t_wrist_pilot.py": "4326254826317c936f7aa1d7bb3dbc4e02d67ec26d91b2dcbb95e8b14fdb7df6"
+  },
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "torch": "2.9.0+cu128",
+  "predictor": "Nominal LIBERO simulator + same VLA, initialized from replay of actual past commands; privileged current state, no future observations",
+  "correction": "Per-layer MLP input residual top-k against predicted frame. Dense attention, embedding, state fusion; one remaining native flow step.",
+  "timing": "Sequential measured planning+replay+render wall cost and post-arrival model cost. No asynchronous execution or PIM.",
+  "H": 50,
+  "K": 4,
+  "N": 4,
+  "full_task_success_claim": false
+}

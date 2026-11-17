@@ -1,0 +1,27 @@
+{
+  "checkpoint": "checkpoints/gr00t_n16_libero",
+  "seed": 20261117,
+  "initial_states": [
+    0
+  ],
+  "gains": [
+    1.0
+  ],
+  "methods": [
+    "fresh4",
+    "whole_dense",
+    "whole_replay"
+  ],
+  "tasks": [
+    {
+      "suite": "libero_goal",
+      "name": "put_the_cream_cheese_in_the_bowl",
+      "start": 64,
+      "end": 192
+    }
+  ],
+  "scope": "Fixed-time remaining manipulation segments, selected before outcomes; no exact contact-phase detector; no peg insertion task.",
+  "prediction_horizons": "First 16 control steps only, rolling 16, or entire remaining 128/192-step evaluation window. K=4 and H=50 in every arm.",
+  "perturbation": "No mismatch: actual and nominal gains both 1. Exact-future regression control, one cream-cheese case.",
+  "timing": "Sequential simulation; measured planning wall time includes past replay and future rendering. Post-arrival latency includes input processing, selection, sparse MLP, dense attention, one flow step and decode. No concurrency claim."
+}

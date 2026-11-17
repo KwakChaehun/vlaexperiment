@@ -1,0 +1,38 @@
+[
+  {
+    "gain": 1.0,
+    "method": "whole_dense",
+    "completed": 1,
+    "successes": 1,
+    "success_at_end": 1,
+    "post_p50_ms": 40.944106000097236,
+    "post_p95_ms": 41.34526800053209,
+    "mean_plan_wall_ms": 4948.973396998554,
+    "mean_service_ms": 5440.765858997111,
+    "mean_prediction_position_mm": 0.0
+  },
+  {
+    "gain": 1.0,
+    "method": "fresh4",
+    "completed": 1,
+    "successes": 1,
+    "success_at_end": 1,
+    "post_p50_ms": 64.17029000022012,
+    "post_p95_ms": 64.49295879929196,
+    "mean_plan_wall_ms": 0.0,
+    "mean_service_ms": 770.2283569997235,
+    "mean_prediction_position_mm": null
+  },
+  {
+    "gain": 1.0,
+    "method": "whole_replay",
+    "completed": 1,
+    "successes": 1,
+    "success_at_end": 1,
+    "post_p50_ms": 0.0008895003702491522,
+    "post_p95_ms": 0.005049099672760343,
+    "mean_plan_wall_ms": 4960.768102999282,
+    "mean_service_ms": 4960.787888001505,
+    "mean_prediction_position_mm": 0.0
+  }
+]

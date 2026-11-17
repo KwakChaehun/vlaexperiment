@@ -1,0 +1,41 @@
+{
+  "case": "put_the_cream_cheese_in_the_bowl:0:gain0.98",
+  "selection": "Illustrative outcome disagreement where available; not randomly sampled",
+  "fps": 5,
+  "control_hz": 20,
+  "frame_stride": 4,
+  "all_matched": true,
+  "trials": [
+    {
+      "method": "fresh4",
+      "case": "put_the_cream_cheese_in_the_bowl:0:gain0.98",
+      "success": true,
+      "steps": 112,
+      "original_success": true,
+      "original_steps": 112,
+      "endpoint_max_abs": 0.0,
+      "matched": true
+    },
+    {
+      "method": "rolling16_s25",
+      "case": "put_the_cream_cheese_in_the_bowl:0:gain0.98",
+      "success": true,
+      "steps": 112,
+      "original_success": true,
+      "original_steps": 112,
+      "endpoint_max_abs": 0.0,
+      "matched": true
+    },
+    {
+      "method": "whole_s25",
+      "case": "put_the_cream_cheese_in_the_bowl:0:gain0.98",
+      "success": true,
+      "steps": 112,
+      "original_success": true,
+      "original_steps": 112,
+      "endpoint_max_abs": 0.0,
+      "matched": true
+    }
+  ],
+  "timing": "Simulation time only; GPU prediction/arrival waits omitted; first successful frame held in comparison"
+}

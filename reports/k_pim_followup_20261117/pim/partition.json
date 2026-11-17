@@ -1,0 +1,135 @@
+{
+  "input_example": {
+    "backbone_features": {
+      "shape": [
+        1,
+        208,
+        2048
+      ],
+      "dtype": "torch.bfloat16",
+      "bytes": 851968
+    },
+    "state_features": {
+      "shape": [
+        1,
+        1,
+        1536
+      ],
+      "dtype": "torch.bfloat16",
+      "bytes": 3072
+    },
+    "initial_latent": {
+      "shape": [
+        1,
+        50,
+        128
+      ],
+      "dtype": "torch.bfloat16",
+      "bytes": 12800
+    },
+    "image_mask": {
+      "shape": [
+        1,
+        208
+      ],
+      "dtype": "torch.bool",
+      "bytes": 208
+    },
+    "attention_mask": {
+      "shape": [
+        1,
+        208
+      ],
+      "dtype": "torch.bool",
+      "bytes": 208
+    },
+    "embodiment_id": {
+      "shape": [
+        1
+      ],
+      "dtype": "torch.int64",
+      "bytes": 8
+    }
+  },
+  "payloads": [
+    {
+      "case": "1274:47",
+      "input_bytes": 868264,
+      "output_bytes": 12800
+    },
+    {
+      "case": "1274:16",
+      "input_bytes": 868264,
+      "output_bytes": 12800
+    },
+    {
+      "case": "1274:23",
+      "input_bytes": 868264,
+      "output_bytes": 12800
+    },
+    {
+      "case": "1274:30",
+      "input_bytes": 868264,
+      "output_bytes": 12800
+    },
+    {
+      "case": "1269:32",
+      "input_bytes": 860068,
+      "output_bytes": 12800
+    },
+    {
+      "case": "1269:123",
+      "input_bytes": 860068,
+      "output_bytes": 12800
+    },
+    {
+      "case": "1269:16",
+      "input_bytes": 860068,
+      "output_bytes": 12800
+    },
+    {
+      "case": "1269:25",
+      "input_bytes": 860068,
+      "output_bytes": 12800
+    },
+    {
+      "case": "1285:56",
+      "input_bytes": 864166,
+      "output_bytes": 12800
+    },
+    {
+      "case": "1285:16",
+      "input_bytes": 864166,
+      "output_bytes": 12800
+    },
+    {
+      "case": "1285:24",
+      "input_bytes": 864166,
+      "output_bytes": 12800
+    },
+    {
+      "case": "1285:32",
+      "input_bytes": 864166,
+      "output_bytes": 12800
+    }
+  ],
+  "weights": {
+    "action_encoder": {
+      "parameters": 232931328,
+      "resident_bytes": 465862656
+    },
+    "dit": {
+      "parameters": 1091722240,
+      "resident_bytes": 2183444480
+    },
+    "action_decoder": {
+      "parameters": 37785600,
+      "resident_bytes": 75571200
+    },
+    "position_embedding": {
+      "parameters": 1572864,
+      "resident_bytes": 3145728
+    }
+  },
+  "caveat": "Resident parameter bytes, not measured DRAM traffic. Category-specific modules include unused embodiment categories. Weights assumed preloaded on PIM; no per-layer GPU round trips."
+}

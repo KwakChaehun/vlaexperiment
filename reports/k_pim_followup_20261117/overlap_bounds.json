@@ -1,0 +1,30 @@
+{
+  "scope": "Optimistic accounting only, NOT concurrent precomputation measurement; identical preparation time, free overlap and no GPU/CPU/render contention or prediction degradation assumed. Same 8 joint-success pairs.",
+  "break_even_shared_lookahead_s": 3.485120155250115,
+  "scenarios": [
+    {
+      "available_lookahead_s": 0.0,
+      "predicted_mean_inclusive_delta_s": 3.364411633624968
+    },
+    {
+      "available_lookahead_s": 0.8,
+      "predicted_mean_inclusive_delta_s": 2.5644116336249683
+    },
+    {
+      "available_lookahead_s": 1.6,
+      "predicted_mean_inclusive_delta_s": 1.764411633624968
+    },
+    {
+      "available_lookahead_s": 3.2,
+      "predicted_mean_inclusive_delta_s": 0.1644116336249679
+    },
+    {
+      "available_lookahead_s": 4.0,
+      "predicted_mean_inclusive_delta_s": -0.15145007337491734
+    },
+    {
+      "available_lookahead_s": 6.4,
+      "predicted_mean_inclusive_delta_s": -0.1880120077501033
+    }
+  ]
+}

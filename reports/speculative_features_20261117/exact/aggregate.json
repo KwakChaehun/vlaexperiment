@@ -1,0 +1,44 @@
+[
+  {
+    "gain": 1.0,
+    "method": "fresh4",
+    "success": 1,
+    "n": 1,
+    "end_success": 1,
+    "post_median_ms": 64.17029000022012,
+    "median_per_trial_post_ms": 64.17029000022012,
+    "mean_initial_plan_s": 0,
+    "mean_all_plans_s": 0.0,
+    "mean_sequential_service_s": 0.7702283569997235,
+    "max_bank_MiB": 0.0,
+    "mean_forecast_position_mm": null
+  },
+  {
+    "gain": 1.0,
+    "method": "whole_dense",
+    "success": 1,
+    "n": 1,
+    "end_success": 1,
+    "post_median_ms": 40.944106000097236,
+    "median_per_trial_post_ms": 40.944106000097236,
+    "mean_initial_plan_s": 4.948973396998554,
+    "mean_all_plans_s": 4.948973396998554,
+    "mean_sequential_service_s": 5.440765858997111,
+    "max_bank_MiB": 3256.765625,
+    "mean_forecast_position_mm": 0.0
+  },
+  {
+    "gain": 1.0,
+    "method": "whole_replay",
+    "success": 1,
+    "n": 1,
+    "end_success": 1,
+    "post_median_ms": 0.0008895003702491522,
+    "median_per_trial_post_ms": 0.0008895003702491522,
+    "mean_initial_plan_s": 4.960768102999282,
+    "mean_all_plans_s": 4.960768102999282,
+    "mean_sequential_service_s": 4.960787888001505,
+    "max_bank_MiB": 3256.765625,
+    "mean_forecast_position_mm": 0.0
+  }
+]
