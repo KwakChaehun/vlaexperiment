@@ -22,10 +22,10 @@
 | [JOINT_WA_RESULTS.md](JOINT_WA_RESULTS.md) | 가중치·activation 결합 양자화(부분) |
 | [HARDWARE_ANALYSIS.md](HARDWARE_ANALYSIS.md) | 하드웨어·PIM 분석(추정) |
 | [RELATED_WORK.md](RELATED_WORK.md) | DeCAL, DyQ-VLA, QbD-VLA 등과의 비교 |
+| [NOTES.md](NOTES.md) | 실험 기록. 보고서가 인용하는 사전 등록 시각("NOTES 21:32" 등)이 여기 있다 |
 
 ## 이 스냅숏에 없는 것
 
-결과 보고서와 그림만 담았다. 다음은 로컬 `results/contact_precision_isaaclab_20261123/`에만 있다(git 제외 폴더).
-- 실험 기록 `NOTES.md`: 보고서가 인용하는 사전 등록 시각이 여기 있다.
+결과 보고서, 그림, 실험 기록만 담았다. 다음은 로컬 `results/contact_precision_isaaclab_20261123/`에만 있다(git 제외 폴더).
 - 원자료와 요약 JSON(`stage*/`, `prop/`, `closed_loop/`), 로그.
 - 분석 스크립트(`scripts/ci23_*.py`)도 아직 커밋하지 않았다.
